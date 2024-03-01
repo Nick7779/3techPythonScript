@@ -1,0 +1,164 @@
+ /** 
+ * 电加热状态. 
+ */ 
+ String HEAT_EX_ELECTRIC_HEATING_STATUS = "heat_ex_electric_heating_status";
+ /** 
+ * 外部风扇1状态. 
+ */ 
+ String HEAT_EX_EXTERNAL_FAN1_STATUS = "heat_ex_external_fan1_status";
+ /** 
+ * 状态. 
+ */ 
+ String HEAT_EX_OPERATION_STATUS = "heat_ex_operation_status";
+ /** 
+ * 内部风扇1状态. 
+ */ 
+ String HEAT_EX_INTERNAL_FAN1_STATUS = "heat_ex_internal_fan1_status";
+ /** 
+ * 室内温度. 
+ */ 
+ String HEAT_EX_INDOOR_TEMPERATURE = "heat_ex_indoor_temperature";
+ /** 
+ * 内部排气温度. 
+ */ 
+ String HEAT_EX_INTERNAL_AIR_DISCHARGE_TEMP = "heat_ex_internal_air_discharge_temp";
+ /** 
+ * 室外温度. 
+ */ 
+ String HEAT_EX_OUTDOOR_TEMP = "heat_ex_outdoor_temp";
+ /** 
+ * 直流电压. 
+ */ 
+ String HEAT_EX_DC_VOLTAGE = "heat_ex_dc_voltage";
+ /** 
+ * 外置风扇1速度. 
+ */ 
+ String HEAT_EX_EXTERNAL_FAN1_SPEED = "heat_ex_external_fan1_speed";
+ /** 
+ * 外置风扇2速度. 
+ */ 
+ String HEAT_EX_EXTERNAL_FAN2_SPEED = "heat_ex_external_fan2_speed";
+ /** 
+ * 外部风机2状态. 
+ */ 
+ String HEAT_EX_EXTERNAL_FAN2_STATUS = "heat_ex_external_fan2_status";
+ /** 
+ * 内部风扇1速度. 
+ */ 
+ String HEAT_EX_INTERNAL_FAN1_SPEED = "heat_ex_internal_fan1_speed";
+ /** 
+ * 内部风扇2速度. 
+ */ 
+ String HEAT_EX_INTERNAL_FAN2_SPEED = "heat_ex_internal_fan2_speed";
+ /** 
+ * 内部风机2状态. 
+ */ 
+ String HEAT_EX_INTERNAL_FAN2_STATUS = "heat_ex_internal_fan2_status";
+ /** 
+ * 回风温度. 
+ */ 
+ String HEAT_EX_RETURN_AIR_TEMP = "heat_ex_return_air_temp";
+ /** 
+ * 外部温度传感器故障. 
+ */ 
+ String HEAT_EX_EXTERNAL_TEMP_SENSOR_FAULT = "heat_ex_external_temp_sensor_fault";
+ /** 
+ * 直流过压报警. 
+ */ 
+ String HEAT_EX_DC_OV_ALARM = "heat_ex_dc_ov_alarm";
+ /** 
+ * 直流欠压报警. 
+ */ 
+ String HEAT_EX_DC_UV_ALARM = "heat_ex_dc_uv_alarm";
+ /** 
+ * 门传感器报警. 
+ */ 
+ String HEAT_EX_DOOR_SENSOR_ALARM = "heat_ex_door_sensor_alarm";
+ /** 
+ * 电加热故障. 
+ */ 
+ String HEAT_EX_ELECTRIC_HEATING_FAILURE = "heat_ex_electric_heating_failure";
+ /** 
+ * 紧急风机故障. 
+ */ 
+ String HEAT_EX_EMERGENCY_FAN_FAILURE = "heat_ex_emergency_fan_failure";
+ /** 
+ * 外部风扇1故障. 
+ */ 
+ String HEAT_EX_EXTERNAL_FAN1_FAULT = "heat_ex_external_fan1_fault";
+ /** 
+ * 内部风扇1故障. 
+ */ 
+ String HEAT_EX_INTERNAL_FAN1_FAULT = "heat_ex_internal_fan1_fault";
+ /** 
+ * 内部出风温度传感器失效. 
+ */ 
+ String HEAT_EX_INTERNAL_AIR_DISCHARGE_TEMP_SENSOR_FAULT = "heat_ex_internal_air_discharge_temp_sensor_fault";
+ /** 
+ * 内部温度传感器故障. 
+ */ 
+ String HEAT_EX_INTERNAL_TEMP_SENSOR_FAULTY = "heat_ex_internal_temp_sensor_faulty";
+ /** 
+ * 内部高温报警. 
+ */ 
+ String HEAT_EX_INTERNAL_HIGH_TEMP_ALARM = "heat_ex_internal_high_temp_alarm";
+ /** 
+ * 内部低温报警. 
+ */ 
+ String HEAT_EX_INTERNAL_LOW_TEMP_ALARM = "heat_ex_internal_low_temp_alarm";
+ /** 
+ * 外部风扇2告警. 
+ */ 
+ String HEAT_EX_EXTERNAL_FAN2_ALARM = "heat_ex_external_fan2_alarm";
+ /** 
+ * 加热器过载报警. 
+ */ 
+ String HEAT_EX_HEATER_OVERLOAD_ALARM = "heat_ex_heater_overload_alarm";
+ /** 
+ * 加热器欠载报警. 
+ */ 
+ String HEAT_EX_HEATER_UNDERLOAD_ALARM = "heat_ex_heater_underload_alarm";
+ /** 
+ * 内部风扇2告警. 
+ */ 
+ String HEAT_EX_INTERNAL_FAN2_ALARM = "heat_ex_internal_fan2_alarm";
+ /** 
+ * 控制开关机. 
+ */ 
+ String HEAT_EX_REMOTE_START_STOP = "heat_ex_remote_start_stop";
+ /** 
+ * 换热器制冷温度. 
+ */ 
+ String HEAT_EX_REFRIGERATING_TEMP = "heat_ex_refrigerating_temp";
+ /** 
+ * 热交换机高温告警. 
+ */ 
+ String HEAT_EX_HIGH_TEMP_ALARM = "heat_ex_high_temp_alarm";
+ /** 
+ * 热交换机低温告警. 
+ */ 
+ String HEAT_EX_LOW_TEMP_ALARM = "heat_ex_low_temp_alarm";
+ /** 
+ * 热交换制冷温度差. 
+ */ 
+ String HEAT_EX_REFRIGERATING_DIFFERENCE = "heat_ex_refrigerating_difference";
+ /** 
+ * 热交换制热温度. 
+ */ 
+ String HEAT_EX_HEATING_TEMP = "heat_ex_heating_temp";
+ /** 
+ * 热交换制热温度差. 
+ */ 
+ String HEAT_EX_HEATING_DIFFERENCE = "heat_ex_heating_difference";
+ /** 
+ * 热交换高温设定值. 
+ */ 
+ String HEAT_EX_HIGH_TEMP = "heat_ex_high_temp";
+ /** 
+ * 热交换低温设定值. 
+ */ 
+ String HEAT_EX_LOW_TEMP = "heat_ex_low_temp";
+ /** 
+ * 热交换机回风温度传感器故障. 
+ */ 
+ String HEAT_EX_RETURN_AIR_TEMP_SENSOR_FAULT = "heat_ex_return_air_temp_sensor_fault";

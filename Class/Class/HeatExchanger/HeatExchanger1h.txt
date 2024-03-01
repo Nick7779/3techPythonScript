@@ -1,0 +1,206 @@
+/** 
+ * 电加热状态.Electric heating status 
+ */ 
+ @ApiModelProperty("电加热状态") 
+ private Long heatExElectricHeatingStatus;
+/** 
+ * 外部风扇1状态.External fan 1 status 
+ */ 
+ @ApiModelProperty("外部风扇1状态") 
+ private Long heatExExternalFan1Status;
+/** 
+ * 状态.Status 
+ */ 
+ @ApiModelProperty("状态") 
+ private Long heatExOperationStatus;
+/** 
+ * 内部风扇1状态.Internal fan 1 status 
+ */ 
+ @ApiModelProperty("内部风扇1状态") 
+ private Long heatExInternalFan1Status;
+/** 
+ * 室内温度.Indoor temperature 
+ */ 
+ @ApiModelProperty("室内温度") 
+ private Double heatExIndoorTemperature;
+/** 
+ * 内部排气温度.Internal exhaust temperature 
+ */ 
+ @ApiModelProperty("内部排气温度") 
+ private Double heatExInternalAirDischargeTemp;
+/** 
+ * 室外温度.Outdoor temperature 
+ */ 
+ @ApiModelProperty("室外温度") 
+ private Double heatExOutdoorTemp;
+/** 
+ * 直流电压.Dc voltage 
+ */ 
+ @ApiModelProperty("直流电压") 
+ private Double heatExDcVoltage;
+/** 
+ * 外置风扇1速度.External fan 1 Speed 
+ */ 
+ @ApiModelProperty("外置风扇1速度") 
+ private Double heatExExternalFan1Speed;
+/** 
+ * 外置风扇2速度.External fan 2 Speed 
+ */ 
+ @ApiModelProperty("外置风扇2速度") 
+ private Double heatExExternalFan2Speed;
+/** 
+ * 外部风机2状态.External fan 2 status 
+ */ 
+ @ApiModelProperty("外部风机2状态") 
+ private Long heatExExternalFan2Status;
+/** 
+ * 内部风扇1速度.Internal fan 1 Speed 
+ */ 
+ @ApiModelProperty("内部风扇1速度") 
+ private Double heatExInternalFan1Speed;
+/** 
+ * 内部风扇2速度.Internal fan 2 Speed 
+ */ 
+ @ApiModelProperty("内部风扇2速度") 
+ private Double heatExInternalFan2Speed;
+/** 
+ * 内部风机2状态.Internal fan 2 status 
+ */ 
+ @ApiModelProperty("内部风机2状态") 
+ private Long heatExInternalFan2Status;
+/** 
+ * 回风温度.Return air temperature 
+ */ 
+ @ApiModelProperty("回风温度") 
+ private Double heatExReturnAirTemp;
+/** 
+ * 外部温度传感器故障.External temperature sensor fault 
+ */ 
+ @ApiModelProperty("外部温度传感器故障") 
+ private Long heatExExternalTempSensorFault;
+/** 
+ * 直流过压报警.Dc overvoltage alarm 
+ */ 
+ @ApiModelProperty("直流过压报警") 
+ private Long heatExDcOvAlarm;
+/** 
+ * 直流欠压报警.Dc undervoltage alarm 
+ */ 
+ @ApiModelProperty("直流欠压报警") 
+ private Long heatExDcUvAlarm;
+/** 
+ * 门传感器报警.Door sensor alarm 
+ */ 
+ @ApiModelProperty("门传感器报警") 
+ private Long heatExDoorSensorAlarm;
+/** 
+ * 电加热故障.Electric heating failure 
+ */ 
+ @ApiModelProperty("电加热故障") 
+ private Long heatExElectricHeatingFailure;
+/** 
+ * 紧急风机故障.Emergency fan failure 
+ */ 
+ @ApiModelProperty("紧急风机故障") 
+ private Long heatExEmergencyFanFailure;
+/** 
+ * 外部风扇1故障.External fan 1  faulty 
+ */ 
+ @ApiModelProperty("外部风扇1故障") 
+ private Long heatExExternalFan1Fault;
+/** 
+ * 内部风扇1故障.Internal fan 1  faulty 
+ */ 
+ @ApiModelProperty("内部风扇1故障") 
+ private Long heatExInternalFan1Fault;
+/** 
+ * 内部出风温度传感器失效.Internal air discharge temperature sensor fault 
+ */ 
+ @ApiModelProperty("内部出风温度传感器失效") 
+ private Long heatExInternalAirDischargeTempSensorFault;
+/** 
+ * 内部温度传感器故障.Internal temperature sensor  faulty 
+ */ 
+ @ApiModelProperty("内部温度传感器故障") 
+ private Long heatExInternalTempSensorFaulty;
+/** 
+ * 内部高温报警.Internal high temperature alarm 
+ */ 
+ @ApiModelProperty("内部高温报警") 
+ private Long heatExInternalHighTempAlarm;
+/** 
+ * 内部低温报警.Internal low temperature alarm 
+ */ 
+ @ApiModelProperty("内部低温报警") 
+ private Long heatExInternalLowTempAlarm;
+/** 
+ * 外部风扇2告警.External fan 2 generates alarm 
+ */ 
+ @ApiModelProperty("外部风扇2告警") 
+ private Long heatExExternalFan2Alarm;
+/** 
+ * 加热器过载报警.Heater overload alarm 
+ */ 
+ @ApiModelProperty("加热器过载报警") 
+ private Long heatExHeaterOverloadAlarm;
+/** 
+ * 加热器欠载报警.Heater underload alarm 
+ */ 
+ @ApiModelProperty("加热器欠载报警") 
+ private Long heatExHeaterUnderloadAlarm;
+/** 
+ * 内部风扇2告警.Internal fan 2 alarm 
+ */ 
+ @ApiModelProperty("内部风扇2告警") 
+ private Long heatExInternalFan2Alarm;
+/** 
+ * 控制开关机.Remote Start Stop	 
+ */ 
+ @ApiModelProperty("控制开关机") 
+ private Long heatExRemoteStartStop;
+/** 
+ * 换热器制冷温度.Heat Exchanger Refrigerating Temp 
+ */ 
+ @ApiModelProperty("换热器制冷温度") 
+ private Long heatExRefrigeratingTemp;
+/** 
+ * 热交换机高温告警.High temp alarm 
+ */ 
+ @ApiModelProperty("热交换机高温告警") 
+ private Long heatExHighTempAlarm;
+/** 
+ * 热交换机低温告警.Low temp alarm 
+ */ 
+ @ApiModelProperty("热交换机低温告警") 
+ private Long heatExLowTempAlarm;
+/** 
+ * 热交换制冷温度差.Heat Exchanger Refrigerating Difference 
+ */ 
+ @ApiModelProperty("热交换制冷温度差") 
+ private Double heatExRefrigeratingDifference;
+/** 
+ * 热交换制热温度.Heat Exchanger Heating Temp 
+ */ 
+ @ApiModelProperty("热交换制热温度") 
+ private Double heatExHeatingTemp;
+/** 
+ * 热交换制热温度差.Heat Exchanger Heating Difference 
+ */ 
+ @ApiModelProperty("热交换制热温度差") 
+ private Double heatExHeatingDifference;
+/** 
+ * 热交换高温设定值.Heat Exchanger High Temp 
+ */ 
+ @ApiModelProperty("热交换高温设定值") 
+ private Double heatExHighTemp;
+/** 
+ * 热交换低温设定值.Heat Exchanger Low Temp 
+ */ 
+ @ApiModelProperty("热交换低温设定值") 
+ private Double heatExLowTemp;
+/** 
+ * 热交换机回风温度传感器故障.Return air temp sensor fault 
+ */ 
+ @ApiModelProperty("热交换机回风温度传感器故障") 
+ private Long heatExReturnAirTempSensorFault;
+private static final long serialVersionUID = 1L;

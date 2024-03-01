@@ -1,0 +1,41 @@
+/** 
+ * 油箱燃料累计损耗.Total fuel consumption 
+ */ 
+ @ApiModelProperty("油箱燃料累计损耗") 
+ private Long fuelTotalConsumption;
+/** 
+ * 油箱当前油位百分比.Current fuel level percentage 
+ */ 
+ @ApiModelProperty("油箱当前油位百分比") 
+ private Long fuelLevelCurrentPercentage;
+/** 
+ * 油箱容量.Capacity 
+ */ 
+ @ApiModelProperty("油箱容量") 
+ private Long fuelTankCapacity;
+/** 
+ * 油箱燃料升数.Fuel litres 
+ */ 
+ @ApiModelProperty("油箱燃料升数") 
+ private Double fuelLitres;
+/** 
+ * 康宇小数油箱油位.Fuel level decimal ky 
+ */ 
+ @ApiModelProperty("康宇小数油箱油位") 
+ private Long fuelLevelDecimalKy;
+/** 
+ * 孚创油箱每日耗油量.Daily fuel consumption FC 
+ */ 
+ @ApiModelProperty("孚创油箱每日耗油量") 
+ private Double fuelDailyConsumptionFc;
+/** 
+ * 孚创油箱实时油耗.Realtime fuel consumption FC 
+ */ 
+ @ApiModelProperty("孚创油箱实时油耗") 
+ private Double fuelRealtimeConsumptionFc;
+/** 
+ * 康宇油箱升数整数油位.Fuel Litre Int Ky 
+ */ 
+ @ApiModelProperty("康宇油箱升数整数油位") 
+ private Long fuelLitreIntKy;
+private static final long serialVersionUID = 1L;

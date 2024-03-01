@@ -1,0 +1,576 @@
+/** 
+ * AC告警详情.AC alarm state 
+ */ 
+ @ApiModelProperty("AC告警详情") 
+ private Long siteAcAlarmState;
+/** 
+ * DC告警详情.DC alarm state 
+ */ 
+ @ApiModelProperty("DC告警详情") 
+ private Long siteDcAlarmState;
+/** 
+ * SC通信故障告警详情.Communication alarm state 1 
+ */ 
+ @ApiModelProperty("SC通信故障告警详情") 
+ private Long siteCommunicationAlarmState1;
+/** 
+ * 站点坐标.GPS 
+ */ 
+ @ApiModelProperty("站点坐标") 
+ private String siteGps;
+/** 
+ * bit 14:AC 2高频.AC 2 high frequency 
+ */ 
+ @ApiModelProperty("bit 14:AC 2高频") 
+ private Long siteAc2HighFreqAlarm;
+/** 
+ * bit 15:AC 2低频.AC 2 low frequency 
+ */ 
+ @ApiModelProperty("bit 15:AC 2低频") 
+ private Long siteAc2LowFreqAlarm;
+/** 
+ * bit 13: AC 2市电故障.AC 2 mains failure 
+ */ 
+ @ApiModelProperty("bit 13: AC 2市电故障") 
+ private Long siteAc2MainsFailure;
+/** 
+ * bit 10:AC 2过电压.AC 2 over voltage 
+ */ 
+ @ApiModelProperty("bit 10:AC 2过电压") 
+ private Long siteAc2OvAlarm;
+/** 
+ * bit 12:交流2相故障.AC 2 phase failure 
+ */ 
+ @ApiModelProperty("bit 12:交流2相故障") 
+ private Long siteAc2PhaseFailure;
+/** 
+ * bit 9:AC 2严重过流.AC 2 severe over current 
+ */ 
+ @ApiModelProperty("bit 9:AC 2严重过流") 
+ private Long siteAc2SevereOverCurrentAlarm;
+/** 
+ * bit 8:AC 2轻微过流.AC 2 slight over current 
+ */ 
+ @ApiModelProperty("bit 8:AC 2轻微过流") 
+ private Long siteAc2SlightOverCurrentAlarm;
+/** 
+ * bit 11:AC 2欠压.AC 2 under voltage 
+ */ 
+ @ApiModelProperty("bit 11:AC 2欠压") 
+ private Long siteAc2UvAlarm;
+/** 
+ * bit 20: AC 控制器 EEPROM 错误.AC Controller EEPROM fault 
+ */ 
+ @ApiModelProperty("bit 20: AC 控制器 EEPROM 错误") 
+ private Long siteAcControllerEepromFault;
+/** 
+ * bit 6:交流高频.AC 1 high frequency 
+ */ 
+ @ApiModelProperty("bit 6:交流高频") 
+ private Long siteAc1HighFreqAlarm;
+/** 
+ * bit 7:交流低频.AC 1 low frequency 
+ */ 
+ @ApiModelProperty("bit 7:交流低频") 
+ private Long siteAc1LowFreqAlarm;
+/** 
+ * bit 5: AC市电故障.AC 1 mains failure 
+ */ 
+ @ApiModelProperty("bit 5: AC市电故障") 
+ private Long siteAc1MainsFailure;
+/** 
+ * bit 2:交流过电压.AC 1 over voltage 
+ */ 
+ @ApiModelProperty("bit 2:交流过电压") 
+ private Long siteAc1OvAlarm;
+/** 
+ * bit 4:交流相故障.AC 1 phase failure 
+ */ 
+ @ApiModelProperty("bit 4:交流相故障") 
+ private Long siteAc1PhaseFailure;
+/** 
+ * bit 19: AC样板故障.AC Sample board fault 
+ */ 
+ @ApiModelProperty("bit 19: AC样板故障") 
+ private Long siteAcSampleBoardFault;
+/** 
+ * bit 1:交流严重过流.AC 1 severe over current 
+ */ 
+ @ApiModelProperty("bit 1:交流严重过流") 
+ private Long siteAc1SevereOverCurrentAlarm;
+/** 
+ * bit 0:交流轻微过流.AC 1 slight over current 
+ */ 
+ @ApiModelProperty("bit 0:交流轻微过流") 
+ private Long siteAc1SlightOverCurrent;
+/** 
+ * bit 16:交流防雷器故障.AC SPD Fault 
+ */ 
+ @ApiModelProperty("bit 16:交流防雷器故障") 
+ private Long siteAcSpdFault;
+/** 
+ * bit 17: AC防雷MCB Fault.AC SPD MCB Fault 
+ */ 
+ @ApiModelProperty("bit 17: AC防雷MCB Fault") 
+ private Long siteAcSpdMcbFault;
+/** 
+ * bit 18: AC Trip.AC Trip 
+ */ 
+ @ApiModelProperty("bit 18: AC Trip") 
+ private Long siteAcTripAlarm;
+/** 
+ * bit 3:交流电压不足.AC 1 under voltage 
+ */ 
+ @ApiModelProperty("bit 3:交流电压不足") 
+ private Long siteAlarmAcUnderV;
+/** 
+ * bit 7:总线安装故障.Bus insulation fault 
+ */ 
+ @ApiModelProperty("bit 7:总线安装故障") 
+ private Long siteBusInsulationFault;
+/** 
+ * bit 1:直流高压.DC high voltage 
+ */ 
+ @ApiModelProperty("bit 1:直流高压") 
+ private Long siteDcHighVoltageAlarm;
+/** 
+ * bit 2:直流低电压.DC low voltage 
+ */ 
+ @ApiModelProperty("bit 2:直流低电压") 
+ private Long siteDcLowVoltageAlarm;
+/** 
+ * bit 0:直流过电压.DC over voltage 
+ */ 
+ @ApiModelProperty("bit 0:直流过电压") 
+ private Long siteDcOvAlarm;
+/** 
+ * bit 3:直流电压不足.DC under voltage 
+ */ 
+ @ApiModelProperty("bit 3:直流电压不足") 
+ private Long siteDcUvAlarm;
+/** 
+ * bit 6:ECO运行.ECO running 
+ */ 
+ @ApiModelProperty("bit 6:ECO运行") 
+ private Long siteEcoRunningAlarm;
+/** 
+ * SC200-1通信故障.SC200-1 communication fault 
+ */ 
+ @ApiModelProperty("SC200-1通信故障") 
+ private Long siteSc200Comm1Fault;
+/** 
+ * SC200-2通信故障.SC200-2 communication fault 
+ */ 
+ @ApiModelProperty("SC200-2通信故障") 
+ private Long siteSc200Comm2Fault;
+/** 
+ * SC200-3通信故障.SC200-3 communication fault 
+ */ 
+ @ApiModelProperty("SC200-3通信故障") 
+ private Long siteSc200Comm3Fault;
+/** 
+ * SC210-1通信故障.SC210-1 communication fault 
+ */ 
+ @ApiModelProperty("SC210-1通信故障") 
+ private Long siteSc210Comm1Fault;
+/** 
+ * SC210-2通信故障.SC210-2 communication fault 
+ */ 
+ @ApiModelProperty("SC210-2通信故障") 
+ private Long siteSc210Comm2Fault;
+/** 
+ * bit 6: SC310-1通信故障.SC310-1 communication fault 
+ */ 
+ @ApiModelProperty("bit 6: SC310-1通信故障") 
+ private Long siteSc310Comm1Fault;
+/** 
+ * SC310-2通信故障.SC310-2 communication fault 
+ */ 
+ @ApiModelProperty("SC310-2通信故障") 
+ private Long siteSc310Comm2Fault;
+/** 
+ * SC310-3通信故障.SC310-3 communication fault 
+ */ 
+ @ApiModelProperty("SC310-3通信故障") 
+ private Long siteSc310Comm3Fault;
+/** 
+ * bit 17: SC320-1通信故障.SC320-1 communication fault 
+ */ 
+ @ApiModelProperty("bit 17: SC320-1通信故障") 
+ private Long siteSc320Comm1Fault;
+/** 
+ * SC320-2通信故障.SC320-2 communication fault 
+ */ 
+ @ApiModelProperty("SC320-2通信故障") 
+ private Long siteSc320Comm2Fault;
+/** 
+ * SC320-3通信故障.SC320-3 communication fault 
+ */ 
+ @ApiModelProperty("SC320-3通信故障") 
+ private Long siteSc320Comm3Fault;
+/** 
+ * SC320-4通信故障.SC320-4 communication fault 
+ */ 
+ @ApiModelProperty("SC320-4通信故障") 
+ private Long siteSc320Comm4Fault;
+/** 
+ * SC320-5通信故障.SC320-5 communication fault 
+ */ 
+ @ApiModelProperty("SC320-5通信故障") 
+ private Long siteSc320Comm5Fault;
+/** 
+ * SC330-1通信故障.SC330-1 communication fault 
+ */ 
+ @ApiModelProperty("SC330-1通信故障") 
+ private Long siteSc330Comm1Fault;
+/** 
+ * SC330-2通信故障.SC330-2 communication fault 
+ */ 
+ @ApiModelProperty("SC330-2通信故障") 
+ private Long siteSc330Comm2Fault;
+/** 
+ * SC330-3通信故障.SC330-3 communication fault 
+ */ 
+ @ApiModelProperty("SC330-3通信故障") 
+ private Long siteSc330Comm3Fault;
+/** 
+ * SC330-4通信故障.SC330-4 communication fault 
+ */ 
+ @ApiModelProperty("SC330-4通信故障") 
+ private Long siteSc330Comm4Fault;
+/** 
+ * SC330-5通信故障.SC330-5 communication fault 
+ */ 
+ @ApiModelProperty("SC330-5通信故障") 
+ private Long siteSc330Comm5Fault;
+/** 
+ * bit 9: SC340-1通信故障.SC340-1 communication fault 
+ */ 
+ @ApiModelProperty("bit 9: SC340-1通信故障") 
+ private Long siteSc340Comm1Fault;
+/** 
+ * SC340-2通信故障.SC340-2 communication fault 
+ */ 
+ @ApiModelProperty("SC340-2通信故障") 
+ private Long siteSc340Comm2Fault;
+/** 
+ * SC340-3通信故障.SC340-3 communication fault 
+ */ 
+ @ApiModelProperty("SC340-3通信故障") 
+ private Long siteSc340Comm3Fault;
+/** 
+ * bit 2: SC501-1通信故障.SC501-1 communication fault 
+ */ 
+ @ApiModelProperty("bit 2: SC501-1通信故障") 
+ private Long siteSc501Comm1Fault;
+/** 
+ * SC501-2通信故障.SC501-2 communication fault 
+ */ 
+ @ApiModelProperty("SC501-2通信故障") 
+ private Long siteSc501Comm2Fault;
+/** 
+ * SC501-3通信故障.SC501-3 communication fault 
+ */ 
+ @ApiModelProperty("SC501-3通信故障") 
+ private Long siteSc501Comm3Fault;
+/** 
+ * SC501-4通信故障.SC501-4 communication fault 
+ */ 
+ @ApiModelProperty("SC501-4通信故障") 
+ private Long siteSc501Comm4Fault;
+/** 
+ * SC900-1通信故障.SC900-1 communication fault 
+ */ 
+ @ApiModelProperty("SC900-1通信故障") 
+ private Long siteSc900Comm1Fault;
+/** 
+ * SC900-2通信故障.SC900-2 communication fault 
+ */ 
+ @ApiModelProperty("SC900-2通信故障") 
+ private Long siteSc900Comm2Fault;
+/** 
+ * SC900-3通信故障.SC900-3 communication fault 
+ */ 
+ @ApiModelProperty("SC900-3通信故障") 
+ private Long siteSc900Comm3Fault;
+/** 
+ * bit 15: SC920-1通信故障.SC920-1 communication fault 
+ */ 
+ @ApiModelProperty("bit 15: SC920-1通信故障") 
+ private Long siteSc920Comm1Fault;
+/** 
+ * bit 16: SC920-2通信故障.SC920-2 communication fault 
+ */ 
+ @ApiModelProperty("bit 16: SC920-2通信故障") 
+ private Long siteSc920Comm2Fault;
+/** 
+ * SC930-1通信故障.SC930-1 communication fault 
+ */ 
+ @ApiModelProperty("SC930-1通信故障") 
+ private Long siteSc930Comm1Fault;
+/** 
+ * SC930-2通信故障.SC930-2 communication fault 
+ */ 
+ @ApiModelProperty("SC930-2通信故障") 
+ private Long siteSc930Comm2Fault;
+/** 
+ * bit 11:系统防雷故障.System SPD fault 
+ */ 
+ @ApiModelProperty("bit 11:系统防雷故障") 
+ private Long siteSystemSpdFault;
+/** 
+ * bit 12:系统总告警.System total alarm 
+ */ 
+ @ApiModelProperty("bit 12:系统总告警") 
+ private Long siteSystemTotalAlarm;
+/** 
+ * 负载总功率.Total load power 
+ */ 
+ @ApiModelProperty("负载总功率") 
+ private Double siteLoadPowerP;
+/** 
+ * 传感器状态.DI input 
+ */ 
+ @ApiModelProperty("传感器状态") 
+ private Double siteDiInput;
+/** 
+ * 交流电欠压告警.AC Under Voltage Alarm 
+ */ 
+ @ApiModelProperty("交流电欠压告警") 
+ private Long siteAc1UvAlarm;
+/** 
+ * 直流分支轻度过流告警状态1.DC Branch Slight Over Current Alarm State 1 
+ */ 
+ @ApiModelProperty("直流分支轻度过流告警状态1") 
+ private Long siteDcBranchSlightOcAlarmState1;
+/** 
+ * 直流分支1轻度过流.DC Branch1 Slight Over Current 
+ */ 
+ @ApiModelProperty("直流分支1轻度过流") 
+ private Long siteDcBranch1SlightOverCurrent;
+/** 
+ * 直流分支2轻度过流.DC Branch2 Slight Over Current 
+ */ 
+ @ApiModelProperty("直流分支2轻度过流") 
+ private Long siteDcBranch2SlightOverCurrent;
+/** 
+ * 直流分支严重过流告警状态1.DC Branch Severe Over Current Alarm State 1 
+ */ 
+ @ApiModelProperty("直流分支严重过流告警状态1") 
+ private Long siteDcBranchSevereOcAlarmState1;
+/** 
+ * 直流分支1严重过流告警.DC Branch 1 Severe Over Current 
+ */ 
+ @ApiModelProperty("直流分支1严重过流告警") 
+ private Long siteDcBranch1SevereOverCurrent;
+/** 
+ * 直流分支2严重过流告警.DC Branch 2 Severe Over Current 
+ */ 
+ @ApiModelProperty("直流分支2严重过流告警") 
+ private Long siteDcBranch2SevereOverCurrent;
+/** 
+ * 混合能源控制器手自动模式切换.hybrid controller mode switch 
+ */ 
+ @ApiModelProperty("混合能源控制器手自动模式切换") 
+ private Long siteHybridControllerModeSwitch;
+/** 
+ * 混合能源控制器切换电池到均充.hybrid controller manual to boost  
+ */ 
+ @ApiModelProperty("混合能源控制器切换电池到均充") 
+ private Long siteHybridControllerManualToBoost;
+/** 
+ * 混合能源控制器切换电池到浮充.hybrid controller manual to float 
+ */ 
+ @ApiModelProperty("混合能源控制器切换电池到浮充") 
+ private Long siteHybridControllerManualToFloat;
+/** 
+ * 混合能源控制器远程手动修改电池浮充电压.manual modify float charge voltage 
+ */ 
+ @ApiModelProperty("混合能源控制器远程手动修改电池浮充电压") 
+ private Double siteManualModifyFloatChargeVoltage;
+/** 
+ * 混合能源控制器远程手动修改电池均充电压.manual modify boost charge voltage 
+ */ 
+ @ApiModelProperty("混合能源控制器远程手动修改电池均充电压") 
+ private Double siteManualModifyBoostChargeVoltage;
+/** 
+ * 混合控制器电池电状态.hybrid battery status 
+ */ 
+ @ApiModelProperty("混合控制器电池电状态") 
+ private Long siteHybridBatteryStatus;
+/** 
+ * 电池电压.Battery bank voltage 
+ */ 
+ @ApiModelProperty("电池电压") 
+ private Double siteBatteryBankVoltage;
+/** 
+ * 电池电流.Battery bank current 
+ */ 
+ @ApiModelProperty("电池电流") 
+ private Double siteBatteryBankCurrent;
+/** 
+ * 电池SOC.Battery soc 
+ */ 
+ @ApiModelProperty("电池SOC") 
+ private Double siteBatterySoc;
+/** 
+ * 锂电池剩余容量.Battery Remaining Capacity 
+ */ 
+ @ApiModelProperty("锂电池剩余容量") 
+ private Double siteBatteryRemainingCapacity;
+/** 
+ * 锂电池总容量.Battery Total Capacity 
+ */ 
+ @ApiModelProperty("锂电池总容量") 
+ private Double siteBatteryTotalCapacity;
+/** 
+ * 整流器输出总电流.Rectifier total output current 
+ */ 
+ @ApiModelProperty("整流器输出总电流") 
+ private Double siteRectifierTotalOutputCurrent;
+/** 
+ * 太阳能输出总电流.Solar total output current 
+ */ 
+ @ApiModelProperty("太阳能输出总电流") 
+ private Double siteSolarTotalOutputCurrent;
+/** 
+ * 太阳能输出电压.Solar output voltage 
+ */ 
+ @ApiModelProperty("太阳能输出电压") 
+ private Double siteSolarTotalOutputVoltage;
+/** 
+ * 太阳能总能量.Total solar energy  
+ */ 
+ @ApiModelProperty("太阳能总能量") 
+ private Double siteSolarTotalEnergy;
+/** 
+ * 电池放电告警.battery discharge 
+ */ 
+ @ApiModelProperty("电池放电告警") 
+ private Long siteBatteryDischarge;
+/** 
+ * 电池告警状态1.Battery alarm state 1 
+ */ 
+ @ApiModelProperty("电池告警状态1") 
+ private Long siteBatteryAlarmState1;
+/** 
+ * 电池组温度.Battery bank temperature 
+ */ 
+ @ApiModelProperty("电池组温度") 
+ private Double siteBatteryTemp;
+/** 
+ * 浮充电压.Float Volt 
+ */ 
+ @ApiModelProperty("浮充电压") 
+ private Double siteFloatVolt;
+/** 
+ * 均充电压.Boost Volt 
+ */ 
+ @ApiModelProperty("均充电压") 
+ private Double siteBoostVolt;
+/** 
+ * PV过压点.PVin OverVolt 
+ */ 
+ @ApiModelProperty("PV过压点") 
+ private Double sitePvOverVoltPoint;
+/** 
+ * PV欠压点.PVin LowVolt 
+ */ 
+ @ApiModelProperty("PV欠压点") 
+ private Double sitePvLowVoltPoint;
+/** 
+ * 手动模式.Manual Mode 
+ */ 
+ @ApiModelProperty("手动模式") 
+ private Long siteManualMode;
+/** 
+ * 2号电池组电流.Battery bank2 current 
+ */ 
+ @ApiModelProperty("2号电池组电流") 
+ private Double siteBatteryBank2Current;
+/** 
+ * 通信告警状态2.Communication alarm state 2 
+ */ 
+ @ApiModelProperty("通信告警状态2") 
+ private Long siteCommunicationAlarmState2;
+/** 
+ * BMS1通讯失败.BMS1 communication fault 
+ */ 
+ @ApiModelProperty("BMS1通讯失败") 
+ private Long siteBms1CommunicationFault;
+/** 
+ * BMS2通讯失败.BMS2 communication fault 
+ */ 
+ @ApiModelProperty("BMS2通讯失败") 
+ private Long siteBms2CommunicationFault;
+/** 
+ * BMS3通讯失败.BMS3 communication fault 
+ */ 
+ @ApiModelProperty("BMS3通讯失败") 
+ private Long siteBms3CommunicationFault;
+/** 
+ * BMS4通讯失败.BMS4 communication fault 
+ */ 
+ @ApiModelProperty("BMS4通讯失败") 
+ private Long siteBms4CommunicationFault;
+/** 
+ * BMS5通讯失败.BMS5 communication fault 
+ */ 
+ @ApiModelProperty("BMS5通讯失败") 
+ private Long siteBms5CommunicationFault;
+/** 
+ * BMS6通讯失败.BMS6 communication fault 
+ */ 
+ @ApiModelProperty("BMS6通讯失败") 
+ private Long siteBms6CommunicationFault;
+/** 
+ * BMS7通讯失败.BMS7 communication fault 
+ */ 
+ @ApiModelProperty("BMS7通讯失败") 
+ private Long siteBms7CommunicationFault;
+/** 
+ * BMS8通讯失败.BMS8 communication fault 
+ */ 
+ @ApiModelProperty("BMS8通讯失败") 
+ private Long siteBms8CommunicationFault;
+/** 
+ * BMS9通讯失败.BMS9 communication fault 
+ */ 
+ @ApiModelProperty("BMS9通讯失败") 
+ private Long siteBms9CommunicationFault;
+/** 
+ * BMS10通讯失败.BMS10 communication fault 
+ */ 
+ @ApiModelProperty("BMS10通讯失败") 
+ private Long siteBms10CommunicationFault;
+/** 
+ * BMS11通讯失败.BMS11 communication fault 
+ */ 
+ @ApiModelProperty("BMS11通讯失败") 
+ private Long siteBms11CommunicationFault;
+/** 
+ * BMS12通讯失败.BMS12 communication fault 
+ */ 
+ @ApiModelProperty("BMS12通讯失败") 
+ private Long siteBms12CommunicationFault;
+/** 
+ * BMS13通讯失败.BMS13 communication fault 
+ */ 
+ @ApiModelProperty("BMS13通讯失败") 
+ private Long siteBms13CommunicationFault;
+/** 
+ * BMS14通讯失败.BMS14 communication fault 
+ */ 
+ @ApiModelProperty("BMS14通讯失败") 
+ private Long siteBms14CommunicationFault;
+/** 
+ * BMS15通讯失败.BMS15 communication fault 
+ */ 
+ @ApiModelProperty("BMS15通讯失败") 
+ private Long siteBms15CommunicationFault;
+/** 
+ * BMS16通讯失败.BMS16 communication fault 
+ */ 
+ @ApiModelProperty("BMS16通讯失败") 
+ private Long siteBms16CommunicationFault;
+private static final long serialVersionUID = 1L;

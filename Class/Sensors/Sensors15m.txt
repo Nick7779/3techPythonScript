@@ -1,0 +1,16 @@
+/** 
+ * 烟雾传感器状态.Smoke sensor  Status 
+ */ 
+ @ApiModelProperty("烟雾传感器状态") 
+ private Long sensorsSmokeSensorStatus;
+/** 
+ * 水传感器状态.Water sensor  Status 
+ */ 
+ @ApiModelProperty("水传感器状态") 
+ private Long sensorsWaterSensorStatus;
+/** 
+ * 门传感器状态.Door sensor  Status 
+ */ 
+ @ApiModelProperty("门传感器状态") 
+ private Long sensorsDoorSensorStatus;
+private static final long serialVersionUID = 1L;

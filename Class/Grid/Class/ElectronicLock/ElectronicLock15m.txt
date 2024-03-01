@@ -1,0 +1,41 @@
+/** 
+ * 电子锁添加卡号.Add card number 
+ */ 
+ @ApiModelProperty("电子锁添加卡号") 
+ private String elecLockAddCardNumber;
+/** 
+ * 电子锁清除所有的卡号.Clear all card numbers 
+ */ 
+ @ApiModelProperty("电子锁清除所有的卡号") 
+ private String elecLockClearAllCardNumber;
+/** 
+ * 电子锁删除卡号.Delete card number 
+ */ 
+ @ApiModelProperty("电子锁删除卡号") 
+ private String elecLockDeleteCardNumber;
+/** 
+ * 电子锁远程开锁.Remotely open lock 
+ */ 
+ @ApiModelProperty("电子锁远程开锁") 
+ private String elecLockRemoteOpen;
+/** 
+ * 电子锁状态.E-Lock status 
+ */ 
+ @ApiModelProperty("电子锁状态") 
+ private Long elecLockStatus;
+/** 
+ * 电子锁开锁卡号高位.Unlock card number high 
+ */ 
+ @ApiModelProperty("电子锁开锁卡号高位") 
+ private String elecLockCardNumberHigh;
+/** 
+ * 电子锁开锁卡号低位.Unlock card number low 
+ */ 
+ @ApiModelProperty("电子锁开锁卡号低位") 
+ private String elecLockCardNumberLow;
+/** 
+ * 电子锁开锁方式.E-lock open mode 
+ */ 
+ @ApiModelProperty("电子锁开锁方式") 
+ private Long elecLockOpenMode;
+private static final long serialVersionUID = 1L;

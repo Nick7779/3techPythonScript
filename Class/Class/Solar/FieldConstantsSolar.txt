@@ -1,0 +1,204 @@
+ /** 
+ * 太阳能丢失状态. 
+ */ 
+ String SOLAR_LOST_STATE = "solar_lost_state";
+ /** 
+ * 太阳能输出电压. 
+ */ 
+ String SOLAR_OUTPUT_VOLTAGE = "solar_output_voltage";
+ /** 
+ * 太阳能输出电流. 
+ */ 
+ String SOLAR_OUTPUT_CURRENT = "solar_output_current";
+ /** 
+ * 太阳能环境温度. 
+ */ 
+ String SOLAR_AMBIENT_TEMPERATURE = "solar_ambient_temperature";
+ /** 
+ * 太阳能电流限制状态. 
+ */ 
+ String SOLAR_CURRENT_LIMITING_STATE = "solar_current_limiting_state";
+ /** 
+ * 太阳能功率. 
+ */ 
+ String SOLAR_POWER = "solar_power";
+ /** 
+ * 太阳能组件开关. 
+ */ 
+ String SOLAR_MODULE_SWITCH = "solar_module_switch";
+ /** 
+ * 太阳能模块数量. 
+ */ 
+ String SOLAR_MODULES_COUNT = "solar_modules_count";
+ /** 
+ * 太阳能工作模块数量. 
+ */ 
+ String SOLAR_WORKING_MODULES_COUNT = "solar_working_modules_count";
+ /** 
+ * 太阳能负载率. 
+ */ 
+ String SOLAR_LOAD_RATE = "solar_load_rate";
+ /** 
+ * 太阳能输入电压. 
+ */ 
+ String SOLAR_INPUT_VOLTAGE = "solar_input_voltage";
+ /** 
+ * 太阳能当前能量. 
+ */ 
+ String SOLAR_CURRENT_ENERGY = "solar_current_energy";
+ /** 
+ * 太阳能发热温度. 
+ */ 
+ String SOLAR_HEATING_TEMPERATURE = "solar_heating_temperature";
+ /** 
+ * 太阳能电流限制值. 
+ */ 
+ String SOLAR_CURRENT_LIMIT_VALUE = "solar_current_limit_value";
+ /** 
+ * 太阳能PV回路故障. 
+ */ 
+ String SOLAR_PV_LOOP_FAULT = "solar_pv_loop_fault";
+ /** 
+ * 太阳能安全码错误. 
+ */ 
+ String SOLAR_SECURITY_CODE_ERROR = "solar_security_code_error";
+ /** 
+ * 单块太阳能累积能量. 
+ */ 
+ String SOLAR_SINGLE_ENERGY = "solar_single_energy";
+ /** 
+ * 所有太阳能模块累计总能量. 
+ */ 
+ String SOLAR_TOTAL_ENERGY_ALL_MODULES = "solar_total_energy_all_modules";
+ /** 
+ * 太阳能模块总电压(SC501). 
+ */ 
+ String SOLAR_TOTAL_OUTPUT_VOLTAGE = "solar_total_output_voltage";
+ /** 
+ * 太阳能模块总电流(SC501). 
+ */ 
+ String SOLAR_TOTAL_OUTPUT_CURRENT = "solar_total_output_current";
+ /** 
+ * 太阳能总告警状态. 
+ */ 
+ String SOLAR_TOTAL_ALARM_STATE = "solar_total_alarm_state";
+ /** 
+ * 单个太阳能模块告警. 
+ */ 
+ String SOLAR_SINGLE_SOLAR_MODULE_ALARM = "solar_single_solar_module_alarm";
+ /** 
+ * 多个太阳能模块告警. 
+ */ 
+ String SOLAR_MULTIPLE_SOLAR_MODULE_ALARM = "solar_multiple_solar_module_alarm";
+ /** 
+ * 太阳能告警选择. 
+ */ 
+ String SOLAR_ALARM_SELECTION = "solar_alarm_selection";
+ /** 
+ * 太阳能模块告警状态. 
+ */ 
+ String SOLAR_MODULE_ALARM_STATE = "solar_module_alarm_state";
+ /** 
+ * 初级校准故障. 
+ */ 
+ String SOLAR_PRIMARY_CALIBRATE_FAULT = "solar_primary_calibrate_fault";
+ /** 
+ * 太阳能控制器-单点无输出. 
+ */ 
+ String SOLAR_CONTROLLER_SINGLE_NO_OUTPUT = "solar_controller_single_no_output";
+ /** 
+ * 太阳能控制器-外部电路短路. 
+ */ 
+ String SOLAR_CONTROLLER_OUTSIDE_CIRCUIT_SHORT = "solar_controller_outside_circuit_short";
+ /** 
+ * 没有位置. 
+ */ 
+ String SOLAR_NO_POSITION = "solar_no_position";
+ /** 
+ * 输出过电流. 
+ */ 
+ String SOLAR_OUTPUT_OVER_CURRENT = "solar_output_over_current";
+ /** 
+ * E2PROM故障. 
+ */ 
+ String SOLAR_E2PROM_FAULT = "solar_e2prom_fault";
+ /** 
+ * CAN通信故障. 
+ */ 
+ String SOLAR_CAN_COMMUNICATION_FAULT = "solar_can_communication_fault";
+ /** 
+ * 第二端通信故障. 
+ */ 
+ String SOLAR_SECOND_SIDE_COMMUNICATION_FAULT = "solar_second_side_communication_fault";
+ /** 
+ * 主侧通信故障. 
+ */ 
+ String SOLAR_PRIMARY_SIDE_COMMUNICATION_FAULT = "solar_primary_side_communication_fault";
+ /** 
+ * 风扇故障. 
+ */ 
+ String SOLAR_FAN_FAULT = "solar_fan_fault";
+ /** 
+ * PFC过电压保护. 
+ */ 
+ String SOLAR_PFC_OVERVOLTAGE_PROTECTION = "solar_pfc_overvoltage_protection";
+ /** 
+ * PFC欠压保护. 
+ */ 
+ String SOLAR_PFC_UNDER_VOLTAGE_PROTECTION = "solar_pfc_under_voltage_protection";
+ /** 
+ * 输入欠压保护. 
+ */ 
+ String SOLAR_INPUT_UNDER_VOLTAGE_PROTECTION = "solar_input_under_voltage_protection";
+ /** 
+ * 输入过电压保护. 
+ */ 
+ String SOLAR_INPUT_OVERVOLTAGE_PROTECTION = "solar_input_overvoltage_protection";
+ /** 
+ * 内部电路短路. 
+ */ 
+ String SOLAR_INTERNAL_CIRCUIT_SHORT = "solar_internal_circuit_short";
+ /** 
+ * 太阳环境温度过高. 
+ */ 
+ String SOLAR_AMBIENT_OVER_TEMPERATURE = "solar_ambient_over_temperature";
+ /** 
+ * 外部过压保护. 
+ */ 
+ String SOLAR_EXTERNAL_OVERVOLTAGE_PROTECTION = "solar_external_overvoltage_protection";
+ /** 
+ * 内部过电压保护. 
+ */ 
+ String SOLAR_INTERNAL_OVERVOLTAGE_PROTECTION = "solar_internal_overvoltage_protection";
+ /** 
+ * 光伏缺电. 
+ */ 
+ String SOLAR_PV_POWER_LACK = "solar_pv_power_lack";
+ /** 
+ * 太阳能模块缺失. 
+ */ 
+ String SOLAR_MODULE_LOST = "solar_module_lost";
+ /** 
+ * 二次热点过温. 
+ */ 
+ String SOLAR_SECONDARY_HOT_POINT_OVER_TEMPERATURE = "solar_secondary_hot_point_over_temperature";
+ /** 
+ * 光伏模块运行状态. 
+ */ 
+ String SOLAR_MODULE_OPERATION_STATUS = "solar_module_operation_status";
+ /** 
+ *  太阳能输入电流. 
+ */ 
+ String SOLAR_INPUT_CURRENT = "solar_input_current";
+ /** 
+ * 太阳能输入失败. 
+ */ 
+ String SOLAR_PV_VIN_FAIL = "solar_pv_vin_fail";
+ /** 
+ * 太阳能输入低. 
+ */ 
+ String SOLAR_PV_VIN_LOW = "solar_pv_vin_low";
+ /** 
+ * 太阳能输入高. 
+ */ 
+ String SOLAR_PV_VIN_HIGH = "solar_pv_vin_high";

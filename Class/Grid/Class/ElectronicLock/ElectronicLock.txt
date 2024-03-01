@@ -1,0 +1,61 @@
+
+    /**
+     * 站点ID.
+     */
+    @Column(name = "site_id", tag = true)
+    private String siteId;
+    /**
+     * 资产ID.
+     */
+    @Column(name = "asset_id", tag = true)
+    private String assetId;
+    /**
+     * 时间.
+     */
+    @Column(name = "time", tag = true)
+    private Instant time;
+ /** 
+ * 电子锁添加卡号.Add card number 
+ */ 
+ @Column(name = "elec_lock_add_card_number") 
+ private String elecLockAddCardNumber;
+ /** 
+ * 电子锁清除所有的卡号.Clear all card numbers 
+ */ 
+ @Column(name = "elec_lock_clear_all_card_number") 
+ private String elecLockClearAllCardNumber;
+ /** 
+ * 电子锁删除卡号.Delete card number 
+ */ 
+ @Column(name = "elec_lock_delete_card_number") 
+ private String elecLockDeleteCardNumber;
+ /** 
+ * 电子锁远程开锁.Remotely open lock 
+ */ 
+ @Column(name = "elec_lock_remote_open") 
+ private String elecLockRemoteOpen;
+ /** 
+ * 电子锁状态.E-Lock status 
+ */ 
+ @Column(name = "elec_lock_status") 
+ private Long elecLockStatus;
+ /** 
+ * 电子锁开锁卡号高位.Unlock card number high 
+ */ 
+ @Column(name = "elec_lock_card_number_high") 
+ private String elecLockCardNumberHigh;
+ /** 
+ * 电子锁开锁卡号低位.Unlock card number low 
+ */ 
+ @Column(name = "elec_lock_card_number_low") 
+ private String elecLockCardNumberLow;
+ /** 
+ * 电子锁开锁方式.E-lock open mode 
+ */ 
+ @Column(name = "elec_lock_open_mode") 
+ private Long elecLockOpenMode;
+
+    public Date getTime() {
+        return Date.from(time);
+    }
+}

@@ -1,0 +1,36 @@
+
+    /**
+     * 站点ID.
+     */
+    @Column(name = "site_id", tag = true)
+    private String siteId;
+    /**
+     * 资产ID.
+     */
+    @Column(name = "asset_id", tag = true)
+    private String assetId;
+    /**
+     * 时间.
+     */
+    @Column(name = "time", tag = true)
+    private Instant time;
+ /** 
+ * 烟雾传感器状态.Smoke sensor  Status 
+ */ 
+ @Column(name = "sensors_smoke_sensor_status") 
+ private Long sensorsSmokeSensorStatus;
+ /** 
+ * 水传感器状态.Water sensor  Status 
+ */ 
+ @Column(name = "sensors_water_sensor_status") 
+ private Long sensorsWaterSensorStatus;
+ /** 
+ * 门传感器状态.Door sensor  Status 
+ */ 
+ @Column(name = "sensors_door_sensor_status") 
+ private Long sensorsDoorSensorStatus;
+
+    public Date getTime() {
+        return Date.from(time);
+    }
+}

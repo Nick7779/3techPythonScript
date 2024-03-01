@@ -1,0 +1,226 @@
+
+    /**
+     * 站点ID.
+     */
+    @Column(name = "site_id", tag = true)
+    private String siteId;
+    /**
+     * 资产ID.
+     */
+    @Column(name = "asset_id", tag = true)
+    private String assetId;
+    /**
+     * 时间.
+     */
+    @Column(name = "time", tag = true)
+    private Instant time;
+ /** 
+ * 电加热状态.Electric heating status 
+ */ 
+ @Column(name = "heat_ex_electric_heating_status") 
+ private Long heatExElectricHeatingStatus;
+ /** 
+ * 外部风扇1状态.External fan 1 status 
+ */ 
+ @Column(name = "heat_ex_external_fan1_status") 
+ private Long heatExExternalFan1Status;
+ /** 
+ * 状态.Status 
+ */ 
+ @Column(name = "heat_ex_operation_status") 
+ private Long heatExOperationStatus;
+ /** 
+ * 内部风扇1状态.Internal fan 1 status 
+ */ 
+ @Column(name = "heat_ex_internal_fan1_status") 
+ private Long heatExInternalFan1Status;
+ /** 
+ * 室内温度.Indoor temperature 
+ */ 
+ @Column(name = "heat_ex_indoor_temperature") 
+ private Double heatExIndoorTemperature;
+ /** 
+ * 内部排气温度.Internal exhaust temperature 
+ */ 
+ @Column(name = "heat_ex_internal_air_discharge_temp") 
+ private Double heatExInternalAirDischargeTemp;
+ /** 
+ * 室外温度.Outdoor temperature 
+ */ 
+ @Column(name = "heat_ex_outdoor_temp") 
+ private Double heatExOutdoorTemp;
+ /** 
+ * 直流电压.Dc voltage 
+ */ 
+ @Column(name = "heat_ex_dc_voltage") 
+ private Double heatExDcVoltage;
+ /** 
+ * 外置风扇1速度.External fan 1 Speed 
+ */ 
+ @Column(name = "heat_ex_external_fan1_speed") 
+ private Double heatExExternalFan1Speed;
+ /** 
+ * 外置风扇2速度.External fan 2 Speed 
+ */ 
+ @Column(name = "heat_ex_external_fan2_speed") 
+ private Double heatExExternalFan2Speed;
+ /** 
+ * 外部风机2状态.External fan 2 status 
+ */ 
+ @Column(name = "heat_ex_external_fan2_status") 
+ private Long heatExExternalFan2Status;
+ /** 
+ * 内部风扇1速度.Internal fan 1 Speed 
+ */ 
+ @Column(name = "heat_ex_internal_fan1_speed") 
+ private Double heatExInternalFan1Speed;
+ /** 
+ * 内部风扇2速度.Internal fan 2 Speed 
+ */ 
+ @Column(name = "heat_ex_internal_fan2_speed") 
+ private Double heatExInternalFan2Speed;
+ /** 
+ * 内部风机2状态.Internal fan 2 status 
+ */ 
+ @Column(name = "heat_ex_internal_fan2_status") 
+ private Long heatExInternalFan2Status;
+ /** 
+ * 回风温度.Return air temperature 
+ */ 
+ @Column(name = "heat_ex_return_air_temp") 
+ private Double heatExReturnAirTemp;
+ /** 
+ * 外部温度传感器故障.External temperature sensor fault 
+ */ 
+ @Column(name = "heat_ex_external_temp_sensor_fault") 
+ private Long heatExExternalTempSensorFault;
+ /** 
+ * 直流过压报警.Dc overvoltage alarm 
+ */ 
+ @Column(name = "heat_ex_dc_ov_alarm") 
+ private Long heatExDcOvAlarm;
+ /** 
+ * 直流欠压报警.Dc undervoltage alarm 
+ */ 
+ @Column(name = "heat_ex_dc_uv_alarm") 
+ private Long heatExDcUvAlarm;
+ /** 
+ * 门传感器报警.Door sensor alarm 
+ */ 
+ @Column(name = "heat_ex_door_sensor_alarm") 
+ private Long heatExDoorSensorAlarm;
+ /** 
+ * 电加热故障.Electric heating failure 
+ */ 
+ @Column(name = "heat_ex_electric_heating_failure") 
+ private Long heatExElectricHeatingFailure;
+ /** 
+ * 紧急风机故障.Emergency fan failure 
+ */ 
+ @Column(name = "heat_ex_emergency_fan_failure") 
+ private Long heatExEmergencyFanFailure;
+ /** 
+ * 外部风扇1故障.External fan 1  faulty 
+ */ 
+ @Column(name = "heat_ex_external_fan1_fault") 
+ private Long heatExExternalFan1Fault;
+ /** 
+ * 内部风扇1故障.Internal fan 1  faulty 
+ */ 
+ @Column(name = "heat_ex_internal_fan1_fault") 
+ private Long heatExInternalFan1Fault;
+ /** 
+ * 内部出风温度传感器失效.Internal air discharge temperature sensor fault 
+ */ 
+ @Column(name = "heat_ex_internal_air_discharge_temp_sensor_fault") 
+ private Long heatExInternalAirDischargeTempSensorFault;
+ /** 
+ * 内部温度传感器故障.Internal temperature sensor  faulty 
+ */ 
+ @Column(name = "heat_ex_internal_temp_sensor_faulty") 
+ private Long heatExInternalTempSensorFaulty;
+ /** 
+ * 内部高温报警.Internal high temperature alarm 
+ */ 
+ @Column(name = "heat_ex_internal_high_temp_alarm") 
+ private Long heatExInternalHighTempAlarm;
+ /** 
+ * 内部低温报警.Internal low temperature alarm 
+ */ 
+ @Column(name = "heat_ex_internal_low_temp_alarm") 
+ private Long heatExInternalLowTempAlarm;
+ /** 
+ * 外部风扇2告警.External fan 2 generates alarm 
+ */ 
+ @Column(name = "heat_ex_external_fan2_alarm") 
+ private Long heatExExternalFan2Alarm;
+ /** 
+ * 加热器过载报警.Heater overload alarm 
+ */ 
+ @Column(name = "heat_ex_heater_overload_alarm") 
+ private Long heatExHeaterOverloadAlarm;
+ /** 
+ * 加热器欠载报警.Heater underload alarm 
+ */ 
+ @Column(name = "heat_ex_heater_underload_alarm") 
+ private Long heatExHeaterUnderloadAlarm;
+ /** 
+ * 内部风扇2告警.Internal fan 2 alarm 
+ */ 
+ @Column(name = "heat_ex_internal_fan2_alarm") 
+ private Long heatExInternalFan2Alarm;
+ /** 
+ * 控制开关机.Remote Start Stop	 
+ */ 
+ @Column(name = "heat_ex_remote_start_stop") 
+ private Long heatExRemoteStartStop;
+ /** 
+ * 换热器制冷温度.Heat Exchanger Refrigerating Temp 
+ */ 
+ @Column(name = "heat_ex_refrigerating_temp") 
+ private Long heatExRefrigeratingTemp;
+ /** 
+ * 热交换机高温告警.High temp alarm 
+ */ 
+ @Column(name = "heat_ex_high_temp_alarm") 
+ private Long heatExHighTempAlarm;
+ /** 
+ * 热交换机低温告警.Low temp alarm 
+ */ 
+ @Column(name = "heat_ex_low_temp_alarm") 
+ private Long heatExLowTempAlarm;
+ /** 
+ * 热交换制冷温度差.Heat Exchanger Refrigerating Difference 
+ */ 
+ @Column(name = "heat_ex_refrigerating_difference") 
+ private Double heatExRefrigeratingDifference;
+ /** 
+ * 热交换制热温度.Heat Exchanger Heating Temp 
+ */ 
+ @Column(name = "heat_ex_heating_temp") 
+ private Double heatExHeatingTemp;
+ /** 
+ * 热交换制热温度差.Heat Exchanger Heating Difference 
+ */ 
+ @Column(name = "heat_ex_heating_difference") 
+ private Double heatExHeatingDifference;
+ /** 
+ * 热交换高温设定值.Heat Exchanger High Temp 
+ */ 
+ @Column(name = "heat_ex_high_temp") 
+ private Double heatExHighTemp;
+ /** 
+ * 热交换低温设定值.Heat Exchanger Low Temp 
+ */ 
+ @Column(name = "heat_ex_low_temp") 
+ private Double heatExLowTemp;
+ /** 
+ * 热交换机回风温度传感器故障.Return air temp sensor fault 
+ */ 
+ @Column(name = "heat_ex_return_air_temp_sensor_fault") 
+ private Long heatExReturnAirTempSensorFault;
+
+    public Date getTime() {
+        return Date.from(time);
+    }
+}

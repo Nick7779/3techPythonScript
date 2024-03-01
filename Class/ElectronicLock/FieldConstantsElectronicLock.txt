@@ -1,0 +1,32 @@
+ /** 
+ * 电子锁添加卡号. 
+ */ 
+ String ELEC_LOCK_ADD_CARD_NUMBER = "elec_lock_add_card_number";
+ /** 
+ * 电子锁清除所有的卡号. 
+ */ 
+ String ELEC_LOCK_CLEAR_ALL_CARD_NUMBER = "elec_lock_clear_all_card_number";
+ /** 
+ * 电子锁删除卡号. 
+ */ 
+ String ELEC_LOCK_DELETE_CARD_NUMBER = "elec_lock_delete_card_number";
+ /** 
+ * 电子锁远程开锁. 
+ */ 
+ String ELEC_LOCK_REMOTE_OPEN = "elec_lock_remote_open";
+ /** 
+ * 电子锁状态. 
+ */ 
+ String ELEC_LOCK_STATUS = "elec_lock_status";
+ /** 
+ * 电子锁开锁卡号高位. 
+ */ 
+ String ELEC_LOCK_CARD_NUMBER_HIGH = "elec_lock_card_number_high";
+ /** 
+ * 电子锁开锁卡号低位. 
+ */ 
+ String ELEC_LOCK_CARD_NUMBER_LOW = "elec_lock_card_number_low";
+ /** 
+ * 电子锁开锁方式. 
+ */ 
+ String ELEC_LOCK_OPEN_MODE = "elec_lock_open_mode";

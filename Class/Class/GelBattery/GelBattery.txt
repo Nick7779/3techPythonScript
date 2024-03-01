@@ -1,0 +1,236 @@
+
+    /**
+     * 站点ID.
+     */
+    @Column(name = "site_id", tag = true)
+    private String siteId;
+    /**
+     * 资产ID.
+     */
+    @Column(name = "asset_id", tag = true)
+    private String assetId;
+    /**
+     * 时间.
+     */
+    @Column(name = "time", tag = true)
+    private Instant time;
+ /** 
+ * 胶体电池浅放电时间.VRLA battery light discharge time 
+ */ 
+ @Column(name = "vrla_light_discharge_time") 
+ private Double vrlaLightDischargeTime;
+ /** 
+ * 胶体电池过放电时间.VRLA battery overdischarge time 
+ */ 
+ @Column(name = "vrla_over_discharge_time") 
+ private Double vrlaOverDischargeTime;
+ /** 
+ * 胶体电池SOC.Gel battery soc 
+ */ 
+ @Column(name = "vrla_soc") 
+ private Double vrlaSoc;
+ /** 
+ * 胶体电池温度.VRLA battery temperature 
+ */ 
+ @Column(name = "vrla_temp") 
+ private Double vrlaTemp;
+ /** 
+ * 胶体电池电流.VRLA battery current 
+ */ 
+ @Column(name = "vrla_current") 
+ private Double vrlaCurrent;
+ /** 
+ * 胶体电池电量.VRLA battery capacity 
+ */ 
+ @Column(name = "vrla_capacity") 
+ private Double vrlaCapacity;
+ /** 
+ * 胶体电池高温1报警值.VRLA battery high temperature 1 alarm value 
+ */ 
+ @Column(name = "vrla_high_temp1_alarm_value") 
+ private Double vrlaHighTemp1AlarmValue;
+ /** 
+ * 胶体电池电压.VRLA battery voltage 
+ */ 
+ @Column(name = "vrla_voltage") 
+ private Double vrlaVoltage;
+ /** 
+ * 胶体电池中间电压.VRLA battery middle voltage 
+ */ 
+ @Column(name = "vrla_middle_voltage") 
+ private Double vrlaMiddleVoltage;
+ /** 
+ * 胶体电池深放电时间.VRLA battery deep discharge time 
+ */ 
+ @Column(name = "vrla_deep_discharge_time") 
+ private Double vrlaDeepDischargeTime;
+ /** 
+ * 胶体电池组数量.VRLA battery number of groups 
+ */ 
+ @Column(name = "vrla_num_of_groups") 
+ private Long vrlaNumOfGroups;
+ /** 
+ * 胶体电池能量.VRLA battery discharge energy 
+ */ 
+ @Column(name = "vrla_discharge_energy") 
+ private Double vrlaDischargeEnergy;
+ /** 
+ * 胶体电池放电时间.VRLA battery discharge time 
+ */ 
+ @Column(name = "vrla_discharge_time") 
+ private Double vrlaDischargeTime;
+ /** 
+ * 胶体电池深放电次数.VRLA battery deep discharge number 
+ */ 
+ @Column(name = "vrla_deep_discharge_num") 
+ private Long vrlaDeepDischargeNum;
+ /** 
+ * 胶体电池过放电次数.VRLA battery overdischarge number 
+ */ 
+ @Column(name = "vrla_over_discharge_num") 
+ private Long vrlaOverDischargeNum;
+ /** 
+ * 胶体电池低温2报警值.VRLA low temperature 2 alarm value 
+ */ 
+ @Column(name = "vrla_low_temp2_alarm_value") 
+ private Double vrlaLowTemp2AlarmValue;
+ /** 
+ * 胶体电池低温1报警值.VRLA battery low temperature 1 alarm value 
+ */ 
+ @Column(name = "vrla_low_temp1_alarm_value") 
+ private Double vrlaLowTemp1AlarmValue;
+ /** 
+ * 胶体电池高温2报警值.VRLA battery high temperature 2 alarm value 
+ */ 
+ @Column(name = "vrla_high_temp2_alarm_value") 
+ private Double vrlaHighTemp2AlarmValue;
+ /** 
+ * 胶体电池浅放电次数.VRLA battery light discharge number 
+ */ 
+ @Column(name = "vrla_light_discharge_num") 
+ private Long vrlaLightDischargeNum;
+ /** 
+ * VRLA 电池状态.VRLA Battery state 
+ */ 
+ @Column(name = "vrla_battery_state") 
+ private Long vrlaBatteryState;
+ /** 
+ * 胶体电池组电压.VRLA battery bank voltage 
+ */ 
+ @Column(name = "vrla_battery_bank_voltage") 
+ private Double vrlaBatteryBankVoltage;
+ /** 
+ * 胶体电池组总电流.VRLA battery total current 
+ */ 
+ @Column(name = "vrla_battery_total_current") 
+ private Double vrlaBatteryTotalCurrent;
+ /** 
+ * VRLA电池阳极保险丝告警状态1.VRLA Battery positive fuse alarm state 1 
+ */ 
+ @Column(name = "vrla_battery_positive_fuse_alarm_state1") 
+ private Long vrlaBatteryPositiveFuseAlarmState1;
+ /** 
+ * VRLA电池1断路器告警.VRLA Battery1 Break 
+ */ 
+ @Column(name = "vrla_battery1_break") 
+ private Long vrlaBattery1Break;
+ /** 
+ * VRLA电池负极保险丝告警状态1.VRLA Battery negative fuse alarm state 1 
+ */ 
+ @Column(name = "vrla_battery_negative_fuse_alarm_state1") 
+ private Long vrlaBatteryNegativeFuseAlarmState1;
+ /** 
+ * VRLA电池1负极断路器告警.VRLA Battery 1 Negative Break 
+ */ 
+ @Column(name = "vrla_battery1_negative_break") 
+ private Long vrlaBattery1NegativeBreak;
+ /** 
+ * VRLA电池告警状态1.VRLA Battery alarm state 1 
+ */ 
+ @Column(name = "vrla_battery_alarm_state1") 
+ private Long vrlaBatteryAlarmState1;
+ /** 
+ * VRLA电池充电过流.VRLA Battery charge over current 
+ */ 
+ @Column(name = "vrla_battery_charge_over_current") 
+ private Long vrlaBatteryChargeOverCurrent;
+ /** 
+ * VRLA电池放电.VRLA Battery Discharge 
+ */ 
+ @Column(name = "vrla_battery_discharge") 
+ private Long vrlaBatteryDischarge;
+ /** 
+ * VRLA电池1中间失衡.VRLA Battery 1 Middle Imbalance 
+ */ 
+ @Column(name = "vrla_battery1_middle_imbalance") 
+ private Long vrlaBattery1MiddleImbalance;
+ /** 
+ * VRLA电池1无法充电.VRLA Battery 1 cannot charge 
+ */ 
+ @Column(name = "vrla_battery1_cannot_charge") 
+ private Long vrlaBattery1CannotCharge;
+ /** 
+ * VRLA电池温度告警状态1.VRLA Battery temperature alarm state 1 
+ */ 
+ @Column(name = "vrla_battery_temp_alarm_state1") 
+ private Long vrlaBatteryTempAlarmState1;
+ /** 
+ * VRLA电池温度1高告警1.VRLA Battery temperature 1 high 1 
+ */ 
+ @Column(name = "vrla_battery_temp1_high1") 
+ private Long vrlaBatteryTemp1High1;
+ /** 
+ * VRLA电池温度2高告警1.VRLA Battery temperature 2 high 1 
+ */ 
+ @Column(name = "vrla_battery_temp2_high1") 
+ private Long vrlaBatteryTemp2High1;
+ /** 
+ * VRLA电池温度1高告警2.VRLA Battery temperature 1 high 2 
+ */ 
+ @Column(name = "vrla_battery_temp1_high2") 
+ private Long vrlaBatteryTemp1High2;
+ /** 
+ * VRLA电池温度2高告警2.VRLA Battery temperature 2 high 2 
+ */ 
+ @Column(name = "vrla_battery_temp2_high2") 
+ private Long vrlaBatteryTemp2High2;
+ /** 
+ * VRLA电池温度1低告警1.VRLA Battery temperature 1 low 1 
+ */ 
+ @Column(name = "vrla_battery_temp1_low1") 
+ private Long vrlaBatteryTemp1Low1;
+ /** 
+ * VRLA电池温度2低告警1.VRLA Battery temperature 2 low 1 
+ */ 
+ @Column(name = "vrla_battery_temp2_low1") 
+ private Long vrlaBatteryTemp2Low1;
+ /** 
+ * VRLA电池温度1低告警2.VRLA Battery temperature 1 low 2 
+ */ 
+ @Column(name = "vrla_battery_temp1_low2") 
+ private Long vrlaBatteryTemp1Low2;
+ /** 
+ * VRLA电池温度2低告警2.VRLA Battery temperature 2 low 2 
+ */ 
+ @Column(name = "vrla_battery_temp2_low2") 
+ private Long vrlaBatteryTemp2Low2;
+ /** 
+ * VRLA电池温度告警状态2.VRLA Battery temperature alarm state 2 
+ */ 
+ @Column(name = "vrla_battery_temp_alarm_state2") 
+ private Long vrlaBatteryTempAlarmState2;
+ /** 
+ * VRLA BTRM 1.VRLA BTRM 1 
+ */ 
+ @Column(name = "vrla_battery_btrm1") 
+ private Long vrlaBatteryBtrm1;
+ /** 
+ * VRLA BTRM 2.VRLA BTRM 2 
+ */ 
+ @Column(name = "vrla_battery_btrm2") 
+ private Long vrlaBatteryBtrm2;
+
+    public Date getTime() {
+        return Date.from(time);
+    }
+}

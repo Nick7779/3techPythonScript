@@ -1,0 +1,96 @@
+
+    /**
+     * 站点ID.
+     */
+    @Column(name = "site_id", tag = true)
+    private String siteId;
+    /**
+     * 资产ID.
+     */
+    @Column(name = "asset_id", tag = true)
+    private String assetId;
+    /**
+     * 时间.
+     */
+    @Column(name = "time", tag = true)
+    private Instant time;
+ /** 
+ * 湿度低.Humidity Low 
+ */ 
+ @Column(name = "temp_humiture_humidity_low_alarm") 
+ private Long tempHumitureHumidityLowAlarm;
+ /** 
+ * 湿度高告警.Humidity High 
+ */ 
+ @Column(name = "temp_humiture_humidity_high_alarm") 
+ private Long tempHumitureHumidityHighAlarm;
+ /** 
+ * 湿度告警状态.Humidity Alarm State 
+ */ 
+ @Column(name = "temp_humiture_humidity_alarm_state") 
+ private Long tempHumitureHumidityAlarmState;
+ /** 
+ * 环境 1 高温 1 报警.Ambient 1 high temp 1 alarm  
+ */ 
+ @Column(name = "temp_humiture_ambient1_high_temp1_alarm") 
+ private Long tempHumitureAmbient1HighTemp1Alarm;
+ /** 
+ * 环境 2 高温 1 报警值.Ambient 2 high temp 1 alarm 
+ */ 
+ @Column(name = "temp_humiture_ambient2_high_temp1_alarm") 
+ private Long tempHumitureAmbient2HighTemp1Alarm;
+ /** 
+ * 环境 3 高温 1 报警值.Ambient 3 high temp 1 alarm  
+ */ 
+ @Column(name = "temp_humiture_ambient3_high_temp1_alarm") 
+ private Long tempHumitureAmbient3HighTemp1Alarm;
+ /** 
+ * 环境 1 高温 2 报警值.Ambient 1 high temp 2 alarm 
+ */ 
+ @Column(name = "temp_humiture_ambient1_high_temp2_alarm") 
+ private Long tempHumitureAmbient1HighTemp2Alarm;
+ /** 
+ * 环境 1 低温 2 报警.Ambient 1 low temp 2 alarm 
+ */ 
+ @Column(name = "temp_humiture_ambient1_low_temp2_alarm") 
+ private Long tempHumitureAmbient1LowTemp2Alarm;
+ /** 
+ * 湿度.Humidity 
+ */ 
+ @Column(name = "temp_humiture_humidity") 
+ private Double tempHumitureHumidity;
+ /** 
+ * 环境温度2.Ambient temp 2 
+ */ 
+ @Column(name = "temp_humiture_temp_ambient2") 
+ private Double tempHumitureTempAmbient2;
+ /** 
+ * 环境温度1.Ambient temp 1 
+ */ 
+ @Column(name = "temp_humiture_temp_ambient1") 
+ private Double tempHumitureTempAmbient1;
+ /** 
+ * 环境 1 低温 1 报警值.Ambient 1 low temp 1 alarm 
+ */ 
+ @Column(name = "temp_humiture_ambient1_low_temp1_alarm") 
+ private Long tempHumitureAmbient1LowTemp1Alarm;
+ /** 
+ * 环境温度告警状态.Ambient temperature alarm state 
+ */ 
+ @Column(name = "temp_humiture_ambient_temp_alarm_state") 
+ private Long tempHumitureAmbientTempAlarmState;
+ /** 
+ * 环境湿度低.Low ambient humidity 
+ */ 
+ @Column(name = "temp_humiture_low_ambient_humidity") 
+ private Double tempHumitureLowAmbientHumidity;
+ /** 
+ * 环境湿度高.Low ambient humidity 
+ */ 
+ @Column(name = "temp_humiture_high_ambient_humidity") 
+ private Long tempHumitureHighAmbientHumidity;
+
+    public Date getTime() {
+        return Date.from(time);
+    }
+}

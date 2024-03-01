@@ -1,0 +1,12 @@
+ /** 
+ * 烟雾传感器状态. 
+ */ 
+ String SENSORS_SMOKE_SENSOR_STATUS = "sensors_smoke_sensor_status";
+ /** 
+ * 水传感器状态. 
+ */ 
+ String SENSORS_WATER_SENSOR_STATUS = "sensors_water_sensor_status";
+ /** 
+ * 门传感器状态. 
+ */ 
+ String SENSORS_DOOR_SENSOR_STATUS = "sensors_door_sensor_status";

@@ -1,0 +1,76 @@
+/** 
+ * 市电状态.Mains Status 
+ */ 
+ @ApiModelProperty("市电状态") 
+ private Long inverterMainsStatus;
+/** 
+ * 逆变器电池状态.Battery Status 
+ */ 
+ @ApiModelProperty("逆变器电池状态") 
+ private Long inverterBatteryStatus;
+/** 
+ * 逆变器告警状态.Inverter Alarm State 
+ */ 
+ @ApiModelProperty("逆变器告警状态") 
+ private Long inverterAlarmState;
+/** 
+ * 逆变器运行状态.Inverter Operation Status 
+ */ 
+ @ApiModelProperty("逆变器运行状态") 
+ private Long inverterOperationStatus;
+/** 
+ * 逆变器旁通状态.Inverter Bypass Status 
+ */ 
+ @ApiModelProperty("逆变器旁通状态") 
+ private Long inverterBypassStatus;
+/** 
+ * 逆变器负载状态.Inverter Load Status 
+ */ 
+ @ApiModelProperty("逆变器负载状态") 
+ private Long inverterLoadStatus;
+/** 
+ * 逆变器直流逆变供电.Inverter DC Inversion Status 
+ */ 
+ @ApiModelProperty("逆变器直流逆变供电") 
+ private Long inverterDcInversionStatus;
+/** 
+ * 逆变器UPS状态.Inverter UPS Status 
+ */ 
+ @ApiModelProperty("逆变器UPS状态") 
+ private Long inverterUpsStatus;
+/** 
+ * 逆变器市电输入电压.Inverter Mains Input Voltage 
+ */ 
+ @ApiModelProperty("逆变器市电输入电压") 
+ private Double inverterMainsInputVoltage;
+/** 
+ * 逆变器分流电压.Inverter Bypass Voltage 
+ */ 
+ @ApiModelProperty("逆变器分流电压") 
+ private Double inverterBypassVoltage;
+/** 
+ * 逆变器输入频率.Inverter Input Frequency 
+ */ 
+ @ApiModelProperty("逆变器输入频率") 
+ private Double inverterInputFreq;
+/** 
+ * 逆变器直流电压.Inverter DC Voltage 
+ */ 
+ @ApiModelProperty("逆变器直流电压") 
+ private Double inverterDcVoltage;
+/** 
+ * 逆变器输出电压.Inverter Output Voltage 
+ */ 
+ @ApiModelProperty("逆变器输出电压") 
+ private Double inverterOutputVoltage;
+/** 
+ * 逆变器输出频率.Inverter Output Frequency 
+ */ 
+ @ApiModelProperty("逆变器输出频率") 
+ private Double inverterOutputFreq;
+/** 
+ * 逆变器带载率.Inverter Load Percentage 
+ */ 
+ @ApiModelProperty("逆变器带载率") 
+ private Long inverterLoadPercentage;
+private static final long serialVersionUID = 1L;

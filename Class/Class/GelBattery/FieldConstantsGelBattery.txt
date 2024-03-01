@@ -1,0 +1,172 @@
+ /** 
+ * 胶体电池浅放电时间. 
+ */ 
+ String VRLA_LIGHT_DISCHARGE_TIME = "vrla_light_discharge_time";
+ /** 
+ * 胶体电池过放电时间. 
+ */ 
+ String VRLA_OVER_DISCHARGE_TIME = "vrla_over_discharge_time";
+ /** 
+ * 胶体电池SOC. 
+ */ 
+ String VRLA_SOC = "vrla_soc";
+ /** 
+ * 胶体电池温度. 
+ */ 
+ String VRLA_TEMP = "vrla_temp";
+ /** 
+ * 胶体电池电流. 
+ */ 
+ String VRLA_CURRENT = "vrla_current";
+ /** 
+ * 胶体电池电量. 
+ */ 
+ String VRLA_CAPACITY = "vrla_capacity";
+ /** 
+ * 胶体电池高温1报警值. 
+ */ 
+ String VRLA_HIGH_TEMP1_ALARM_VALUE = "vrla_high_temp1_alarm_value";
+ /** 
+ * 胶体电池电压. 
+ */ 
+ String VRLA_VOLTAGE = "vrla_voltage";
+ /** 
+ * 胶体电池中间电压. 
+ */ 
+ String VRLA_MIDDLE_VOLTAGE = "vrla_middle_voltage";
+ /** 
+ * 胶体电池深放电时间. 
+ */ 
+ String VRLA_DEEP_DISCHARGE_TIME = "vrla_deep_discharge_time";
+ /** 
+ * 胶体电池组数量. 
+ */ 
+ String VRLA_NUM_OF_GROUPS = "vrla_num_of_groups";
+ /** 
+ * 胶体电池能量. 
+ */ 
+ String VRLA_DISCHARGE_ENERGY = "vrla_discharge_energy";
+ /** 
+ * 胶体电池放电时间. 
+ */ 
+ String VRLA_DISCHARGE_TIME = "vrla_discharge_time";
+ /** 
+ * 胶体电池深放电次数. 
+ */ 
+ String VRLA_DEEP_DISCHARGE_NUM = "vrla_deep_discharge_num";
+ /** 
+ * 胶体电池过放电次数. 
+ */ 
+ String VRLA_OVER_DISCHARGE_NUM = "vrla_over_discharge_num";
+ /** 
+ * 胶体电池低温2报警值. 
+ */ 
+ String VRLA_LOW_TEMP2_ALARM_VALUE = "vrla_low_temp2_alarm_value";
+ /** 
+ * 胶体电池低温1报警值. 
+ */ 
+ String VRLA_LOW_TEMP1_ALARM_VALUE = "vrla_low_temp1_alarm_value";
+ /** 
+ * 胶体电池高温2报警值. 
+ */ 
+ String VRLA_HIGH_TEMP2_ALARM_VALUE = "vrla_high_temp2_alarm_value";
+ /** 
+ * 胶体电池浅放电次数. 
+ */ 
+ String VRLA_LIGHT_DISCHARGE_NUM = "vrla_light_discharge_num";
+ /** 
+ * VRLA 电池状态. 
+ */ 
+ String VRLA_BATTERY_STATE = "vrla_battery_state";
+ /** 
+ * 胶体电池组电压. 
+ */ 
+ String VRLA_BATTERY_BANK_VOLTAGE = "vrla_battery_bank_voltage";
+ /** 
+ * 胶体电池组总电流. 
+ */ 
+ String VRLA_BATTERY_TOTAL_CURRENT = "vrla_battery_total_current";
+ /** 
+ * VRLA电池阳极保险丝告警状态1. 
+ */ 
+ String VRLA_BATTERY_POSITIVE_FUSE_ALARM_STATE1 = "vrla_battery_positive_fuse_alarm_state1";
+ /** 
+ * VRLA电池1断路器告警. 
+ */ 
+ String VRLA_BATTERY1_BREAK = "vrla_battery1_break";
+ /** 
+ * VRLA电池负极保险丝告警状态1. 
+ */ 
+ String VRLA_BATTERY_NEGATIVE_FUSE_ALARM_STATE1 = "vrla_battery_negative_fuse_alarm_state1";
+ /** 
+ * VRLA电池1负极断路器告警. 
+ */ 
+ String VRLA_BATTERY1_NEGATIVE_BREAK = "vrla_battery1_negative_break";
+ /** 
+ * VRLA电池告警状态1. 
+ */ 
+ String VRLA_BATTERY_ALARM_STATE1 = "vrla_battery_alarm_state1";
+ /** 
+ * VRLA电池充电过流. 
+ */ 
+ String VRLA_BATTERY_CHARGE_OVER_CURRENT = "vrla_battery_charge_over_current";
+ /** 
+ * VRLA电池放电. 
+ */ 
+ String VRLA_BATTERY_DISCHARGE = "vrla_battery_discharge";
+ /** 
+ * VRLA电池1中间失衡. 
+ */ 
+ String VRLA_BATTERY1_MIDDLE_IMBALANCE = "vrla_battery1_middle_imbalance";
+ /** 
+ * VRLA电池1无法充电. 
+ */ 
+ String VRLA_BATTERY1_CANNOT_CHARGE = "vrla_battery1_cannot_charge";
+ /** 
+ * VRLA电池温度告警状态1. 
+ */ 
+ String VRLA_BATTERY_TEMP_ALARM_STATE1 = "vrla_battery_temp_alarm_state1";
+ /** 
+ * VRLA电池温度1高告警1. 
+ */ 
+ String VRLA_BATTERY_TEMP1_HIGH1 = "vrla_battery_temp1_high1";
+ /** 
+ * VRLA电池温度2高告警1. 
+ */ 
+ String VRLA_BATTERY_TEMP2_HIGH1 = "vrla_battery_temp2_high1";
+ /** 
+ * VRLA电池温度1高告警2. 
+ */ 
+ String VRLA_BATTERY_TEMP1_HIGH2 = "vrla_battery_temp1_high2";
+ /** 
+ * VRLA电池温度2高告警2. 
+ */ 
+ String VRLA_BATTERY_TEMP2_HIGH2 = "vrla_battery_temp2_high2";
+ /** 
+ * VRLA电池温度1低告警1. 
+ */ 
+ String VRLA_BATTERY_TEMP1_LOW1 = "vrla_battery_temp1_low1";
+ /** 
+ * VRLA电池温度2低告警1. 
+ */ 
+ String VRLA_BATTERY_TEMP2_LOW1 = "vrla_battery_temp2_low1";
+ /** 
+ * VRLA电池温度1低告警2. 
+ */ 
+ String VRLA_BATTERY_TEMP1_LOW2 = "vrla_battery_temp1_low2";
+ /** 
+ * VRLA电池温度2低告警2. 
+ */ 
+ String VRLA_BATTERY_TEMP2_LOW2 = "vrla_battery_temp2_low2";
+ /** 
+ * VRLA电池温度告警状态2. 
+ */ 
+ String VRLA_BATTERY_TEMP_ALARM_STATE2 = "vrla_battery_temp_alarm_state2";
+ /** 
+ * VRLA BTRM 1. 
+ */ 
+ String VRLA_BATTERY_BTRM1 = "vrla_battery_btrm1";
+ /** 
+ * VRLA BTRM 2. 
+ */ 
+ String VRLA_BATTERY_BTRM2 = "vrla_battery_btrm2";

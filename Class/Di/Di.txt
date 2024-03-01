@@ -1,0 +1,261 @@
+
+    /**
+     * 站点ID.
+     */
+    @Column(name = "site_id", tag = true)
+    private String siteId;
+    /**
+     * 资产ID.
+     */
+    @Column(name = "asset_id", tag = true)
+    private String assetId;
+    /**
+     * 时间.
+     */
+    @Column(name = "time", tag = true)
+    private Instant time;
+ /** 
+ * DI.DI 
+ */ 
+ @Column(name = "dido_di") 
+ private Long didoDi;
+ /** 
+ * DO0.DO0 
+ */ 
+ @Column(name = "dido_do0") 
+ private Long didoDo0;
+ /** 
+ * DO1.DO1 
+ */ 
+ @Column(name = "dido_do1") 
+ private Long didoDo1;
+ /** 
+ * DO2.DO2 
+ */ 
+ @Column(name = "dido_do2") 
+ private Long didoDo2;
+ /** 
+ * DO3.DO3 
+ */ 
+ @Column(name = "dido_do3") 
+ private Long didoDo3;
+ /** 
+ * DO4.DO4 
+ */ 
+ @Column(name = "dido_do4") 
+ private Long didoDo4;
+ /** 
+ * DO5.DO5 
+ */ 
+ @Column(name = "dido_do5") 
+ private Long didoDo5;
+ /** 
+ * DO6.DO6 
+ */ 
+ @Column(name = "dido_do6") 
+ private Long didoDo6;
+ /** 
+ * DO7.DO7 
+ */ 
+ @Column(name = "dido_do7") 
+ private Long didoDo7;
+ /** 
+ * SC501 DI state 1-16.SC501 DI state 1-16 
+ */ 
+ @Column(name = "dido_di_state_all") 
+ private Long didoDiStateAll;
+ /** 
+ * DI 1 Alarm.DI 1 Alarm 
+ */ 
+ @Column(name = "dido_di1_alarm") 
+ private Long didoDi1Alarm;
+ /** 
+ * DI 2 Alarm.DI 2 Alarm 
+ */ 
+ @Column(name = "dido_di2_alarm") 
+ private Long didoDi2Alarm;
+ /** 
+ * DI 3 Alarm.DI 3 Alarm 
+ */ 
+ @Column(name = "dido_di3_alarm") 
+ private Long didoDi3Alarm;
+ /** 
+ * DI 4 Alarm.DI 4 Alarm 
+ */ 
+ @Column(name = "dido_di4_alarm") 
+ private Long didoDi4Alarm;
+ /** 
+ * DI 5 Alarm.DI 5 Alarm 
+ */ 
+ @Column(name = "dido_di5_alarm") 
+ private Long didoDi5Alarm;
+ /** 
+ * DI 6 Alarm.DI 6 Alarm 
+ */ 
+ @Column(name = "dido_di6_alarm") 
+ private Long didoDi6Alarm;
+ /** 
+ * Ex1-DI1 Alarm.Ex1-DI1 Alarm 
+ */ 
+ @Column(name = "dido_ex1_di1_alarm") 
+ private Long didoEx1Di1Alarm;
+ /** 
+ * Ex1-DI2 Alarm.Ex1-DI2 Alarm 
+ */ 
+ @Column(name = "dido_ex1_di2_alarm") 
+ private Long didoEx1Di2Alarm;
+ /** 
+ * Ex1-DI3 Alarm.Ex1-DI3 Alarm 
+ */ 
+ @Column(name = "dido_ex1_di3_alarm") 
+ private Long didoEx1Di3Alarm;
+ /** 
+ * Ex1-DI4 Alarm.Ex1-DI4 Alarm 
+ */ 
+ @Column(name = "dido_ex1_di4_alarm") 
+ private Long didoEx1Di4Alarm;
+ /** 
+ * Ex1-DI5 Alarm.Ex1-DI5 Alarm 
+ */ 
+ @Column(name = "dido_ex1_di5_alarm") 
+ private Long didoEx1Di5Alarm;
+ /** 
+ * Ex1-DI6 Alarm.Ex1-DI6 Alarm 
+ */ 
+ @Column(name = "dido_ex1_di6_alarm") 
+ private Long didoEx1Di6Alarm;
+ /** 
+ * Ex1-DI7 Alarm.Ex1-DI7 Alarm 
+ */ 
+ @Column(name = "dido_ex1_di7_alarm") 
+ private Long didoEx1Di7Alarm;
+ /** 
+ * Ex1-DI8 Alarm.Ex1-DI8 Alarm 
+ */ 
+ @Column(name = "dido_ex1_di8_alarm") 
+ private Long didoEx1Di8Alarm;
+ /** 
+ * DI1.DI1 
+ */ 
+ @Column(name = "dido_di1") 
+ private Long didoDi1;
+ /** 
+ * DI2.DI2 
+ */ 
+ @Column(name = "dido_di2") 
+ private Long didoDi2;
+ /** 
+ * DI3.DI3 
+ */ 
+ @Column(name = "dido_di3") 
+ private Long didoDi3;
+ /** 
+ * DI4.DI4 
+ */ 
+ @Column(name = "dido_di4") 
+ private Long didoDi4;
+ /** 
+ * DI5.DI5 
+ */ 
+ @Column(name = "dido_di5") 
+ private Long didoDi5;
+ /** 
+ * DI6.DI6 
+ */ 
+ @Column(name = "dido_di6") 
+ private Long didoDi6;
+ /** 
+ * DI7.DI7 
+ */ 
+ @Column(name = "dido_di7") 
+ private Long didoDi7;
+ /** 
+ * DI8.DI8 
+ */ 
+ @Column(name = "dido_di8") 
+ private Long didoDi8;
+ /** 
+ * DI9.DI9 
+ */ 
+ @Column(name = "dido_di9") 
+ private Long didoDi9;
+ /** 
+ * DI10.DI10 
+ */ 
+ @Column(name = "dido_di10") 
+ private Long didoDi10;
+ /** 
+ * DI11.DI11 
+ */ 
+ @Column(name = "dido_di11") 
+ private Long didoDi11;
+ /** 
+ * DI12.DI12 
+ */ 
+ @Column(name = "dido_di12") 
+ private Long didoDi12;
+ /** 
+ * DI13.DI13 
+ */ 
+ @Column(name = "dido_di13") 
+ private Long didoDi13;
+ /** 
+ * DI14.DI14 
+ */ 
+ @Column(name = "dido_di14") 
+ private Long didoDi14;
+ /** 
+ * DI15.DI15 
+ */ 
+ @Column(name = "dido_di15") 
+ private Long didoDi15;
+ /** 
+ * DI0.DI0 
+ */ 
+ @Column(name = "dido_di0") 
+ private Long didoDi0;
+ /** 
+ * DI1 Alarm.DI1 Alarm 
+ */ 
+ @Column(name = "dido_di1_alarm_mc2600") 
+ private Long didoDi1AlarmMc2600;
+ /** 
+ * DI2 Alarm.DI2 Alarm 
+ */ 
+ @Column(name = "dido_di2_alarm_mc2600") 
+ private Long didoDi2AlarmMc2600;
+ /** 
+ * DI3 Alarm.DI3 Alarm 
+ */ 
+ @Column(name = "dido_di3_alarm_mc2600") 
+ private Long didoDi3AlarmMc2600;
+ /** 
+ * DI4 Alarm.DI4 Alarm 
+ */ 
+ @Column(name = "dido_di4_alarm_mc2600") 
+ private Long didoDi4AlarmMc2600;
+ /** 
+ * DI5 Alarm.DI5 Alarm 
+ */ 
+ @Column(name = "dido_di5_alarm_mc2600") 
+ private Long didoDi5AlarmMc2600;
+ /** 
+ * DI6 Alarm.DI6 Alarm 
+ */ 
+ @Column(name = "dido_di6_alarm_mc2600") 
+ private Long didoDi6AlarmMc2600;
+ /** 
+ * DI7 Alarm.DI7 Alarm 
+ */ 
+ @Column(name = "dido_di7_alarm_mc2600") 
+ private Long didoDi7AlarmMc2600;
+ /** 
+ * DI8 Alarm.DI8 Alarm 
+ */ 
+ @Column(name = "dido_di8_alarm_mc2600") 
+ private Long didoDi8AlarmMc2600;
+
+    public Date getTime() {
+        return Date.from(time);
+    }
+}

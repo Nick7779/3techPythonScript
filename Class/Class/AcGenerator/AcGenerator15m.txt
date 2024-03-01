@@ -1,0 +1,841 @@
+/** 
+ * 发电机冷却液温度.Generator coolant temp 
+ */ 
+ @ApiModelProperty("发电机冷却液温度") 
+ private Double gensetEngineCoolantTemp;
+/** 
+ * 发电机控制模式.Generator control mode 
+ */ 
+ @ApiModelProperty("发电机控制模式") 
+ private Long gensetControllerModeSwitch;
+/** 
+ * 发电机控制模式状态.Generator control mode status 
+ */ 
+ @ApiModelProperty("发电机控制模式状态") 
+ private Long gensetControllerModeStatus;
+/** 
+ * 发电机远程开启/关闭.The generator is turned on and off remotely 
+ */ 
+ @ApiModelProperty("发电机远程开启/关闭") 
+ private String gensetRemoteOnAndOff;
+/** 
+ * 发电机发动机运行状态.Operating state of the generator engine 
+ */ 
+ @ApiModelProperty("发电机发动机运行状态") 
+ private Long gensetEngineOperationStatus;
+/** 
+ * 发电机L1有功功率.L1 active power of generator 
+ */ 
+ @ApiModelProperty("发电机L1有功功率") 
+ private Double gensetL1ActivePower;
+/** 
+ * 发电机L2有功功率.L2 active power of generator 
+ */ 
+ @ApiModelProperty("发电机L2有功功率") 
+ private Double gensetL2ActivePower;
+/** 
+ * 发电机L3有功功率.L3 active power of generator 
+ */ 
+ @ApiModelProperty("发电机L3有功功率") 
+ private Double gensetL3ActivePower;
+/** 
+ * 发电机总有功功率.Total active power of generator 
+ */ 
+ @ApiModelProperty("发电机总有功功率") 
+ private Double gensetTotalActivePower;
+/** 
+ * 发电机组功率.Generating set power 
+ */ 
+ @ApiModelProperty("发电机组功率") 
+ private Double gensetGroupPower;
+/** 
+ * 发电机油压.Generator oil pressure 
+ */ 
+ @ApiModelProperty("发电机油压") 
+ private Double gensetOilPressure;
+/** 
+ * 发电机单个机组能量.Generator unit energy 
+ */ 
+ @ApiModelProperty("发电机单个机组能量") 
+ private Double gensetEnergy;
+/** 
+ * 发电机的频率.Generator freq 
+ */ 
+ @ApiModelProperty("发电机的频率") 
+ private Double gensetFreq;
+/** 
+ * 发电机L1电流.L1 current of generator 
+ */ 
+ @ApiModelProperty("发电机L1电流") 
+ private Double gensetL1Current;
+/** 
+ * 发电机L2电流.Generator L2 current 
+ */ 
+ @ApiModelProperty("发电机L2电流") 
+ private Double gensetL2Current;
+/** 
+ * 发电机L3电流.Generator L3 current 
+ */ 
+ @ApiModelProperty("发电机L3电流") 
+ private Double gensetL3Current;
+/** 
+ * 发电机电机转速.Generator speed 
+ */ 
+ @ApiModelProperty("发电机电机转速") 
+ private Long gensetEngineSpeed;
+/** 
+ * 发电机紧急停止次数.Number of generator emergency stops 
+ */ 
+ @ApiModelProperty("发电机紧急停止次数") 
+ private Long gensetNumOfStops;
+/** 
+ * 发电机启动次数.Generator start-up times 
+ */ 
+ @ApiModelProperty("发电机启动次数") 
+ private Long gensetNumOfStarts;
+/** 
+ * 发电机总功率.Total generator power 
+ */ 
+ @ApiModelProperty("发电机总功率") 
+ private Double gensetTotalPower;
+/** 
+ * 发电机运行时间.Generator running time 
+ */ 
+ @ApiModelProperty("发电机运行时间") 
+ private Double gensetRuntime;
+/** 
+ * 发电机功率因数L1.Generator power factor L1 
+ */ 
+ @ApiModelProperty("发电机功率因数L1") 
+ private Double gensetPfL1;
+/** 
+ * 发电机功率因数L2.Generator power factor L2 
+ */ 
+ @ApiModelProperty("发电机功率因数L2") 
+ private Double gensetPfL2;
+/** 
+ * 发电机功率因数L3.Generator power factor L3 
+ */ 
+ @ApiModelProperty("发电机功率因数L3") 
+ private Double gensetPfL3;
+/** 
+ * 发电机交流电机充电电压.Charging alternator voltage 
+ */ 
+ @ApiModelProperty("发电机交流电机充电电压") 
+ private Double gensetChargingAlternatorVoltage;
+/** 
+ * 发电机启动电池电压.Generator start battery voltage 
+ */ 
+ @ApiModelProperty("发电机启动电池电压") 
+ private Double gensetStarterBatteryVoltage;
+/** 
+ * 发电机L1功率.Generator L1 power 
+ */ 
+ @ApiModelProperty("发电机L1功率") 
+ private Double gensetL1Power;
+/** 
+ * 发电机L2功率.Generator L2 power 
+ */ 
+ @ApiModelProperty("发电机L2功率") 
+ private Double gensetL2Power;
+/** 
+ * 发电机L3功率.Generator L3 power 
+ */ 
+ @ApiModelProperty("发电机L3功率") 
+ private Double gensetL3Power;
+/** 
+ * 发电机L1-N电压.Generator L1-N voltage 
+ */ 
+ @ApiModelProperty("发电机L1-N电压") 
+ private Double gensetL1VoltageN;
+/** 
+ * 发电机L1-L2电压.Generator L1-L2 voltage 
+ */ 
+ @ApiModelProperty("发电机L1-L2电压") 
+ private Double gensetL1L2Voltage;
+/** 
+ * 发电机L3-L1电压.Generator L3-L1 voltage 
+ */ 
+ @ApiModelProperty("发电机L3-L1电压") 
+ private Double gensetL3L1Voltage;
+/** 
+ * 发电机L2-L3电压.Generator L2-L3 voltage 
+ */ 
+ @ApiModelProperty("发电机L2-L3电压") 
+ private Double gensetL2L3Voltage;
+/** 
+ * 发电机L2-N电压.Generator L2-N voltage 
+ */ 
+ @ApiModelProperty("发电机L2-N电压") 
+ private Double gensetL2VoltageN;
+/** 
+ * 发电机L3-N电压.Generator L3-N voltage 
+ */ 
+ @ApiModelProperty("发电机L3-N电压") 
+ private Double gensetL3VoltageN;
+/** 
+ * 远程复位.Remote reset 
+ */ 
+ @ApiModelProperty("远程复位") 
+ private Long gensetRemoteReset;
+/** 
+ * 油位.fuel level 
+ */ 
+ @ApiModelProperty("油位") 
+ private Long gensetFuelLevel;
+/** 
+ * 总油耗.total fuel consumption 
+ */ 
+ @ApiModelProperty("总油耗") 
+ private Long gensetTotalFuelConsumption;
+/** 
+ * 合分闸状态.breaker state 
+ */ 
+ @ApiModelProperty("合分闸状态") 
+ private Long gensetBreakerState;
+/** 
+ * 油箱总容量.fuel tank volume 
+ */ 
+ @ApiModelProperty("油箱总容量") 
+ private Long gensetFuelTankVolume;
+/** 
+ * 深海发电机自动模式状态.Deepsea generator automatic mode status 
+ */ 
+ @ApiModelProperty("深海发电机自动模式状态") 
+ private Long gensetAutoLedStatusDse;
+/** 
+ * 深海发电机测试模式状态.Deepsea generator test mode status 
+ */ 
+ @ApiModelProperty("深海发电机测试模式状态") 
+ private Long gensetTestLedStatusDse;
+/** 
+ * 深海发电机停止模式状态.Deepsea generator stop mode state 
+ */ 
+ @ApiModelProperty("深海发电机停止模式状态") 
+ private Long gensetStopLedStatusDse;
+/** 
+ * 深海发电机手动模式状态.Deepsea generator manual mode status 
+ */ 
+ @ApiModelProperty("深海发电机手动模式状态") 
+ private Long gensetManualLedStatusDse;
+/** 
+ * 众智机组的分钟时间.Crowd Wise Generator Minutes 
+ */ 
+ @ApiModelProperty("众智机组的分钟时间") 
+ private Long gensetRuntimeMinutesZz;
+/** 
+ * 紧急停机告警.Emergency Stop Level 1 
+ */ 
+ @ApiModelProperty("紧急停机告警") 
+ private Long gensetEmergencyStopLevel1;
+/** 
+ * 紧急停机关机.Emergency Stop 
+ */ 
+ @ApiModelProperty("紧急停机关机") 
+ private Long gensetEmergencyStop;
+/** 
+ * 紧急停机传感器故障.Emergency Stop Sensor failure 
+ */ 
+ @ApiModelProperty("紧急停机传感器故障") 
+ private Long gensetEmergencyStopSensorFailure;
+/** 
+ * 远程启动关机告警.Remote Start/Stop 
+ */ 
+ @ApiModelProperty("远程启动关机告警") 
+ private Double gensetRemoteStartStop;
+/** 
+ * 远程开关机传感器故障.Remote Start/Stop Sensor failure 
+ */ 
+ @ApiModelProperty("远程开关机传感器故障") 
+ private Long gensetRemoteStartStopSensorFailure;
+/** 
+ * 低油压告警.Low Oil Pressure Warning 
+ */ 
+ @ApiModelProperty("低油压告警") 
+ private Long gensetLowOilPressureWarning;
+/** 
+ * 低油压停机告警.Low Oil Pressure Shutdown 
+ */ 
+ @ApiModelProperty("低油压停机告警") 
+ private Long gensetLowOilPressureShutdown;
+/** 
+ * 油位传感器故障.Oil Pressure Sensor failure 
+ */ 
+ @ApiModelProperty("油位传感器故障") 
+ private Double gensetOilPressureSensorFailure;
+/** 
+ * 冷却液温度告警.Coolant Temp Warning 
+ */ 
+ @ApiModelProperty("冷却液温度告警") 
+ private Long gensetCoolantTempWarning;
+/** 
+ * 冷却液温度停机告警.Coolant Temp Shutdown 
+ */ 
+ @ApiModelProperty("冷却液温度停机告警") 
+ private Long gensetCoolantTempShutdown;
+/** 
+ * 冷却液温蒂传感器故障.Coolant Temp Sensor failure 
+ */ 
+ @ApiModelProperty("冷却液温蒂传感器故障") 
+ private Long gensetCoolantTempSensorFailure;
+/** 
+ * 油位告警.Low Fuel Level Warning 
+ */ 
+ @ApiModelProperty("油位告警") 
+ private Long gensetLowFuelLevelWarning;
+/** 
+ * 油位停机.Low Fuel Level Shutdown 
+ */ 
+ @ApiModelProperty("油位停机") 
+ private Long gensetLowFuelLevelShutdown;
+/** 
+ * 油位传感器故障.Fuel Level Sensor failure 
+ */ 
+ @ApiModelProperty("油位传感器故障") 
+ private Long gensetFuelLevelSensorFailure;
+/** 
+ * 转速过低停机.Underspeed Shutdown 
+ */ 
+ @ApiModelProperty("转速过低停机") 
+ private Long gensetUnderspeedSd;
+/** 
+ * 启动失败.Sd Start Fail 
+ */ 
+ @ApiModelProperty("启动失败") 
+ private Long gensetSdStartFail;
+/** 
+ * L1L2发电电压告警.Generator Voltage L1-L2 Warning 
+ */ 
+ @ApiModelProperty("L1L2发电电压告警") 
+ private Long gensetVoltageL1l2Warning;
+/** 
+ * L2L3发电电压告警.Generator Voltage L2-L3 Warning 
+ */ 
+ @ApiModelProperty("L2L3发电电压告警") 
+ private Long gensetVoltageL2l3Warning;
+/** 
+ * L3L1发电电压告警.Generator Voltage L3-L1 Warning 
+ */ 
+ @ApiModelProperty("L3L1发电电压告警") 
+ private Long gensetVoltageL3l1Warning;
+/** 
+ * L3L1发电电压停机.Generator Voltage L3-L1 Shutdown 
+ */ 
+ @ApiModelProperty("L3L1发电电压停机") 
+ private Long gensetVoltageL3l1Sd;
+/** 
+ * BOC发电电压不平衡ph-ph告警.BOC Voltage Unbalance ph-ph Warning 
+ */ 
+ @ApiModelProperty("BOC发电电压不平衡ph-ph告警") 
+ private Long gensetBocVoltageUnbalancePhphWarning;
+/** 
+ * BOC发电电压不平衡ph-ph Level 2停机告警.BOC Voltage Unbalance ph-ph Shutdown 
+ */ 
+ @ApiModelProperty("BOC发电电压不平衡ph-ph Level 2停机告警") 
+ private Long gensetBocVoltageUnbalancePhphSd;
+/** 
+ * BOC发电电压不平衡ph-n告警.BOC Voltage Unbalance ph-n Warning 
+ */ 
+ @ApiModelProperty("BOC发电电压不平衡ph-n告警") 
+ private Long gensetBocVoltageUnbalancePhnWarning;
+/** 
+ * BOC发电电压不平衡ph-n Level 2停机告警.BOC发电电压 Unbalance ph-n Shutdown 
+ */ 
+ @ApiModelProperty("BOC发电电压不平衡ph-n Level 2停机告警") 
+ private Long gensetBocVoltageUnbalancePhnSd;
+/** 
+ * 发电频率告警.Generator Freq warning 
+ */ 
+ @ApiModelProperty("发电频率告警") 
+ private Long gensetFreqWarning;
+/** 
+ * 发电频率停机.Generator Freq SD 
+ */ 
+ @ApiModelProperty("发电频率停机") 
+ private Long gensetFreqSd;
+/** 
+ * L1L2发电过压告警.Generator L1L2 Overvoltage Warning 
+ */ 
+ @ApiModelProperty("L1L2发电过压告警") 
+ private Long gensetL1l2OvWarning;
+/** 
+ * L1L2发电过压停机.Generator L1L2 Overvoltage Shutdown 
+ */ 
+ @ApiModelProperty("L1L2发电过压停机") 
+ private Long gensetL1l2OvSd;
+/** 
+ * L2L3发电过压告警.Generator L2L3 Overvoltage Warning 
+ */ 
+ @ApiModelProperty("L2L3发电过压告警") 
+ private Long gensetL2l3OvWarning;
+/** 
+ * L2L3发电过压停机.Generator L2L3 Overvoltage Shutdown 
+ */ 
+ @ApiModelProperty("L2L3发电过压停机") 
+ private Long gensetL2l3OvSd;
+/** 
+ * L1发电欠压告警.Generator L1 Undervoltage Warning 
+ */ 
+ @ApiModelProperty("L1发电欠压告警") 
+ private Long gensetL1UvWarning;
+/** 
+ * L1发电欠压停机.Generator L1 Undervoltage Shutdown 
+ */ 
+ @ApiModelProperty("L1发电欠压停机") 
+ private Long gensetL1UvSd;
+/** 
+ * L2发电欠压告警.Generator L2 Undervoltage Warning 
+ */ 
+ @ApiModelProperty("L2发电欠压告警") 
+ private Long gensetL2UvWarning;
+/** 
+ * L2发电欠压停机.Generator L2 Undervoltage Shutdown 
+ */ 
+ @ApiModelProperty("L2发电欠压停机") 
+ private Long gensetL2UvSd;
+/** 
+ * 电池欠压告警.Starter Battery Undervoltage Warning 
+ */ 
+ @ApiModelProperty("电池欠压告警") 
+ private Long gensetStarterBatteryUvWarning;
+/** 
+ * 电池欠压停机.Starter Battery Undervoltage Shutdown 
+ */ 
+ @ApiModelProperty("电池欠压停机") 
+ private Long gensetStarterBatteryUvSd;
+/** 
+ * 电池过压告警.Starter Battery Overvoltage Warning 
+ */ 
+ @ApiModelProperty("电池过压告警") 
+ private Long gensetStarterBatteryOvWarning;
+/** 
+ * 电池过压停机.Starter Battery Overvoltage Shutdown 
+ */ 
+ @ApiModelProperty("电池过压停机") 
+ private Long gensetStarterBatteryOvSd;
+/** 
+ * zz远程启动.Zz Remote boot 
+ */ 
+ @ApiModelProperty("zz远程启动") 
+ private Long gensetRemoteStartZz;
+/** 
+ * zz远程停机.Zz Remote stop 
+ */ 
+ @ApiModelProperty("zz远程停机") 
+ private Long gensetRemoteStopZz;
+/** 
+ * zz远程自动.Zz Remote automatic 
+ */ 
+ @ApiModelProperty("zz远程自动") 
+ private Long gensetRemoteAutoZz;
+/** 
+ * zz远程手动.Zz Remote manually 
+ */ 
+ @ApiModelProperty("zz远程手动") 
+ private Long gensetRemoteManualZz;
+/** 
+ * Wrn充电发电机故障.Wrn Charging Alternator Fail 
+ */ 
+ @ApiModelProperty("Wrn充电发电机故障") 
+ private Long gensetWrnChargingAlternatorFail;
+/** 
+ * Sd充电发电机故障.Sd Charging Alternator Fail 
+ */ 
+ @ApiModelProperty("Sd充电发电机故障") 
+ private Long gensetSdChargingAlternatorFail;
+/** 
+ * Wrn停止失败.Wrn Stop Fail 
+ */ 
+ @ApiModelProperty("Wrn停止失败") 
+ private Long gensetWrnStopFail;
+/** 
+ * 超速停机.Sd Overspeed 
+ */ 
+ @ApiModelProperty("超速停机") 
+ private Long gensetSdOverspeed;
+/** 
+ * 转速测量故障停机.Sd RPM Measurement Fail 
+ */ 
+ @ApiModelProperty("转速测量故障停机") 
+ private Long gensetSdRpmMeasurementFail;
+/** 
+ * 电池耗尽停机 .Sd Battery Flat 
+ */ 
+ @ApiModelProperty("电池耗尽停机 ") 
+ private Long gensetSdBatteryFlat;
+/** 
+ * 充电发电机故障.Charge alternator failure_dse 
+ */ 
+ @ApiModelProperty("充电发电机故障") 
+ private Long gensetChargeAlternatorFailureDse;
+/** 
+ * 停机失败.Fail to stop_dse 
+ */ 
+ @ApiModelProperty("停机失败") 
+ private Long gensetFailToStopDse;
+/** 
+ * 发电合闸失败.Generator fail to close_dse 
+ */ 
+ @ApiModelProperty("发电合闸失败") 
+ private Long gensetFailToCloseDse;
+/** 
+ * 市电合闸失败.Mains fail to close_dse 
+ */ 
+ @ApiModelProperty("市电合闸失败") 
+ private Long gensetMainsFailToCloseDse;
+/** 
+ * 油压传感器故障.Oil pressure sender fault_dse 
+ */ 
+ @ApiModelProperty("油压传感器故障") 
+ private Long gensetOilPressureSenderFaultDse;
+/** 
+ * 磁感应丢失.Loss of magnetic pick up_dse 
+ */ 
+ @ApiModelProperty("磁感应丢失") 
+ private Long gensetLossOfMagneticPickUpDse;
+/** 
+ * 磁感应开路.Magnetic pick up open circuit_dse 
+ */ 
+ @ApiModelProperty("磁感应开路") 
+ private Long gensetMagneticPickUpOpenCircuitDse;
+/** 
+ * 发电机过流.Generator high current_dse 
+ */ 
+ @ApiModelProperty("发电机过流") 
+ private Long gensetHighCurrentDse;
+/** 
+ * CAN ECU警告.CAN ECU Warning_dse 
+ */ 
+ @ApiModelProperty("CAN ECU警告") 
+ private Long gensetCanEcuWarningDse;
+/** 
+ * CAN ECU关机.CAN ECU Shutdown_dse 
+ */ 
+ @ApiModelProperty("CAN ECU关机") 
+ private Long gensetCanEcuShutdownDse;
+/** 
+ * CAN ECU数据通讯失败.CAN ECU Data fail_dse 
+ */ 
+ @ApiModelProperty("CAN ECU数据通讯失败") 
+ private Long gensetCanEcuDataFailDse;
+/** 
+ * 低油位开关.Low oil level di input_dse 
+ */ 
+ @ApiModelProperty("低油位开关") 
+ private Long gensetLowOilLevelDiInputDse;
+/** 
+ * 高温开关.High temp di input_dse 
+ */ 
+ @ApiModelProperty("高温开关") 
+ private Long gensetHighTempDiInputDse;
+/** 
+ * 低燃油位开关量.Low fuel level di input dse 
+ */ 
+ @ApiModelProperty("低燃油位开关量") 
+ private Long gensetLowFuelLevelDiInputDse;
+/** 
+ * 扩展单元看门狗报警.Expansion unit watchdog alarm_dse 
+ */ 
+ @ApiModelProperty("扩展单元看门狗报警") 
+ private Long gensetExpansionUnitWatchdogAlarmDse;
+/** 
+ * 超载报警.overload alarm_dse 
+ */ 
+ @ApiModelProperty("超载报警") 
+ private Long gensetOverloadAlarmDse;
+/** 
+ * 三相电流不平衡报警.Negative phase sequence current alarm_dse 
+ */ 
+ @ApiModelProperty("三相电流不平衡报警") 
+ private Long gensetNegativePhaseSequenceCurrentAlarmDse;
+/** 
+ * 接地故障跳闸报警器.Earth fault trip alarm_dse 
+ */ 
+ @ApiModelProperty("接地故障跳闸报警器") 
+ private Long gensetEarthFaultTripAlarmDse;
+/** 
+ * 发电机相位旋转报警器.Generator phase rotation alarm_dse 
+ */ 
+ @ApiModelProperty("发电机相位旋转报警器") 
+ private Long gensetPhaseRotationAlarmDse;
+/** 
+ * 自动电压检测故障.Auto Voltage Sense Fail_dse 
+ */ 
+ @ApiModelProperty("自动电压检测故障") 
+ private Long gensetAutoVoltageSenseFailDse;
+/** 
+ * 带载频率报警.Loading freq alarm_dse 
+ */ 
+ @ApiModelProperty("带载频率报警") 
+ private Long gensetLoadingFreqAlarmDse;
+/** 
+ * 带载电压报警.Loading voltage alarm_dse 
+ */ 
+ @ApiModelProperty("带载电压报警") 
+ private Long gensetLoadingVoltageAlarmDse;
+/** 
+ * 发电机短路.Generator Short Circuit_dse 
+ */ 
+ @ApiModelProperty("发电机短路") 
+ private Long gensetShortCircuitDse;
+/** 
+ * 市电过流.Mains High Current_dse 
+ */ 
+ @ApiModelProperty("市电过流") 
+ private Long gensetMainsHighCurrentDse;
+/** 
+ * 市电接地故障.Mains Earth Fault_dse 
+ */ 
+ @ApiModelProperty("市电接地故障") 
+ private Long gensetMainsEarthFaultDse;
+/** 
+ * 市电短路.Mains Short Circuit_dse 
+ */ 
+ @ApiModelProperty("市电短路") 
+ private Long gensetMainsShortCircuitDse;
+/** 
+ * ECU保护.ECU protect_dse 
+ */ 
+ @ApiModelProperty("ECU保护") 
+ private Long gensetEcuProtectDse;
+/** 
+ * 超速报警停机.Overspeed Alarm Shutdown_zz 
+ */ 
+ @ApiModelProperty("超速报警停机") 
+ private Long gensetOverspeedAlarmShutdownZz;
+/** 
+ * 速度信号丢失报警.Loss of Speed Signal Alarm_zz 
+ */ 
+ @ApiModelProperty("速度信号丢失报警") 
+ private Long gensetLossOfSpeedSignalAlarmZz;
+/** 
+ * 发电过频停机报警.Gen Over Freq Shutdown Alarm_zz 
+ */ 
+ @ApiModelProperty("发电过频停机报警") 
+ private Long gensetOverFreqSdAlarmZz;
+/** 
+ * 发电欠频停机告警.Gen Under Freq Shutdown_zz 
+ */ 
+ @ApiModelProperty("发电欠频停机告警") 
+ private Long gensetUnderFreqSdZz;
+/** 
+ * 发电过流停机告警.Gen Over Current Shutdown_zz 
+ */ 
+ @ApiModelProperty("发电过流停机告警") 
+ private Long gensetOverCurrentShutdownZz;
+/** 
+ * 逆功率停机告警.Reverse Power Alarm Shutdown_zz 
+ */ 
+ @ApiModelProperty("逆功率停机告警") 
+ private Long gensetReversePowerAlarmShutdownZz;
+/** 
+ * 过功率停机告警.Over Power Alarm Shutdown_zz 
+ */ 
+ @ApiModelProperty("过功率停机告警") 
+ private Long gensetOverPowerAlarmShutdownZz;
+/** 
+ * 高温输入停机告警.High Temp Input Alarm Shutdown_zz 
+ */ 
+ @ApiModelProperty("高温输入停机告警") 
+ private Long gensetHighTempInputAlarmShutdownZz;
+/** 
+ * 市电相序滞后/超前.Mains voltage phase lag/lead 
+ */ 
+ @ApiModelProperty("市电相序滞后/超前") 
+ private Long gensetMainsVoltagePhaseLagorlead;
+/** 
+ * 市电相序顺序.Mains phase rotation 
+ */ 
+ @ApiModelProperty("市电相序顺序") 
+ private Long gensetMainsPhaseRotation;
+/** 
+ * 市电电流滞后/超前.Mains current lag/lead 
+ */ 
+ @ApiModelProperty("市电电流滞后/超前") 
+ private Long gensetMainsCurrentLagorlead;
+/** 
+ * 市电L1相电流.Mains L1 current 
+ */ 
+ @ApiModelProperty("市电L1相电流") 
+ private Double gensetMainsL1Current;
+/** 
+ * 市电L2相电流.Mains L2 current 
+ */ 
+ @ApiModelProperty("市电L2相电流") 
+ private Double gensetMainsL2Current;
+/** 
+ * 市电L3相电流.Mains L3 current 
+ */ 
+ @ApiModelProperty("市电L3相电流") 
+ private Double gensetMainsL3Current;
+/** 
+ * 市电接地电流.Mains earth current 
+ */ 
+ @ApiModelProperty("市电接地电流") 
+ private Double gensetMainsEarthCurrent;
+/** 
+ * 市电L1相有功功率.Mains L1 active power 
+ */ 
+ @ApiModelProperty("市电L1相有功功率") 
+ private Double gensetMainsL1ActivePower;
+/** 
+ * 市电L2相有功功率.Mains L2 active power 
+ */ 
+ @ApiModelProperty("市电L2相有功功率") 
+ private Double gensetMainsL2ActivePower;
+/** 
+ * 市电L3相有功功率.Mains L3 active power 
+ */ 
+ @ApiModelProperty("市电L3相有功功率") 
+ private Double gensetMainsL3ActivePower;
+/** 
+ * 市电总有功功率.Mains total active power 
+ */ 
+ @ApiModelProperty("市电总有功功率") 
+ private Double gensetMainsTotalActivePower;
+/** 
+ * 市电L1相视在功率.Mains L1 apparent power 
+ */ 
+ @ApiModelProperty("市电L1相视在功率") 
+ private Double gensetMainsL1ApparentPower;
+/** 
+ * 市电L2相视在功率.Mains L2 apparent power 
+ */ 
+ @ApiModelProperty("市电L2相视在功率") 
+ private Double gensetMainsL2ApparentPower;
+/** 
+ * 市电L3相视在功率.Mains L3 apparent power 
+ */ 
+ @ApiModelProperty("市电L3相视在功率") 
+ private Double gensetMainsL3ApparentPower;
+/** 
+ * 市电总视在功率.Mains total apparent power 
+ */ 
+ @ApiModelProperty("市电总视在功率") 
+ private Double gensetMainsTotalApparentPower;
+/** 
+ * 市电L1相无功功率.Mains L1 Reactive Power 
+ */ 
+ @ApiModelProperty("市电L1相无功功率") 
+ private Double gensetMainsL1ReactivePower;
+/** 
+ * 市电L2相无功功率.Mains L2 Reactive Power 
+ */ 
+ @ApiModelProperty("市电L2相无功功率") 
+ private Double gensetMainsL2ReactivePower;
+/** 
+ * 市电L3相无功功率.Mains L3 Reactive Power 
+ */ 
+ @ApiModelProperty("市电L3相无功功率") 
+ private Double gensetMainsL3ReactivePower;
+/** 
+ * 市电总无功功率.Mains total reactive power 
+ */ 
+ @ApiModelProperty("市电总无功功率") 
+ private Double gensetMainsTotalReactivePower;
+/** 
+ * 市电L1相功率因素.Mains power factor L1 
+ */ 
+ @ApiModelProperty("市电L1相功率因素") 
+ private Double gensetMainsPowerFactorL1;
+/** 
+ * 市电L2相功率因素.Mains power factor L2 
+ */ 
+ @ApiModelProperty("市电L2相功率因素") 
+ private Double gensetMainsPowerFactorL2;
+/** 
+ * 市电L3相功率因素.Mains power factor L3 
+ */ 
+ @ApiModelProperty("市电L3相功率因素") 
+ private Double gensetMainsPowerFactorL3;
+/** 
+ * 市电平均功率因素.Mains average power factor 
+ */ 
+ @ApiModelProperty("市电平均功率因素") 
+ private Double gensetMainsAveragePowerFactor;
+/** 
+ * 市电灯状态.MAINS LED status 
+ */ 
+ @ApiModelProperty("市电灯状态") 
+ private Long gensetMainsLedStatus;
+/** 
+ * 市电断路器灯状态.MAINS BREAKER LED status 
+ */ 
+ @ApiModelProperty("市电断路器灯状态") 
+ private Long gensetMainsBreakerLedStatus;
+/** 
+ * 冷却时间设定值.Cooling Time Setting 
+ */ 
+ @ApiModelProperty("冷却时间设定值") 
+ private Long gensetCoolingTimeSetting;
+/** 
+ * 电池电压低设定值.Starter Battery Low Voltage Setting 
+ */ 
+ @ApiModelProperty("电池电压低设定值") 
+ private Long gensetStarterBatteryLowVoltageSetting;
+/** 
+ * 电池电压高设定值.Starter Battery High Voltage Setting 
+ */ 
+ @ApiModelProperty("电池电压高设定值") 
+ private Long gensetStarterBatteryHighVoltageSetting;
+/** 
+ * 发电机过压停机设定值.Generator Overvoltage Shut Down Setting 
+ */ 
+ @ApiModelProperty("发电机过压停机设定值") 
+ private Long gensetOvShutDownSetting;
+/** 
+ * 发电机过压警告设定值.Generator Overvoltage Warning Setting 
+ */ 
+ @ApiModelProperty("发电机过压警告设定值") 
+ private Long gensetOvWarningSetting;
+/** 
+ * 发电机欠压警告设定值.Generator Undervoltage Warning Setting 
+ */ 
+ @ApiModelProperty("发电机欠压警告设定值") 
+ private Long gensetUvWarningSetting;
+/** 
+ * 发电机欠压分闸冷却设定值.Generator Undervoltage Breaker Off Cooling Setting 
+ */ 
+ @ApiModelProperty("发电机欠压分闸冷却设定值") 
+ private Long gensetUvBreakerOffCoolingSetting;
+/** 
+ * 发电机频率过高警告设定值.Generator Overfreq Warning Setting 
+ */ 
+ @ApiModelProperty("发电机频率过高警告设定值") 
+ private Long gensetOverfreqWarningSetting;
+/** 
+ * 市电L1-N相电压.Mains L1-N voltage 
+ */ 
+ @ApiModelProperty("市电L1-N相电压") 
+ private Double gensetMainsL1VoltageN;
+/** 
+ * 市电L2-N相电压.Mains L2-N voltage 
+ */ 
+ @ApiModelProperty("市电L2-N相电压") 
+ private Double gensetMainsL2VoltageN;
+/** 
+ * 市电L3-N相电压.Mains L3-N voltage 
+ */ 
+ @ApiModelProperty("市电L3-N相电压") 
+ private Double gensetMainsL3VoltageN;
+/** 
+ * 市电L1-L2线电压.Mains L1-L2 voltage 
+ */ 
+ @ApiModelProperty("市电L1-L2线电压") 
+ private Double gensetMainsL1L2Voltage;
+/** 
+ * 市电L2-L3线电压.Mains L2-L3 voltage 
+ */ 
+ @ApiModelProperty("市电L2-L3线电压") 
+ private Double gensetMainsL2L3Voltage;
+/** 
+ * 市电L3-L1线电压.Mains L3-L1 voltage 
+ */ 
+ @ApiModelProperty("市电L3-L1线电压") 
+ private Double gensetMainsL3L1Voltage;
+/** 
+ * 发电机负载率.Generator full power percentage 
+ */ 
+ @ApiModelProperty("发电机负载率") 
+ private Long gensetFullPowerPercentage;
+private static final long serialVersionUID = 1L;

@@ -1,0 +1,60 @@
+ /** 
+ * 湿度低. 
+ */ 
+ String TEMP_HUMITURE_HUMIDITY_LOW_ALARM = "temp_humiture_humidity_low_alarm";
+ /** 
+ * 湿度高告警. 
+ */ 
+ String TEMP_HUMITURE_HUMIDITY_HIGH_ALARM = "temp_humiture_humidity_high_alarm";
+ /** 
+ * 湿度告警状态. 
+ */ 
+ String TEMP_HUMITURE_HUMIDITY_ALARM_STATE = "temp_humiture_humidity_alarm_state";
+ /** 
+ * 环境 1 高温 1 报警. 
+ */ 
+ String TEMP_HUMITURE_AMBIENT1_HIGH_TEMP1_ALARM = "temp_humiture_ambient1_high_temp1_alarm";
+ /** 
+ * 环境 2 高温 1 报警值. 
+ */ 
+ String TEMP_HUMITURE_AMBIENT2_HIGH_TEMP1_ALARM = "temp_humiture_ambient2_high_temp1_alarm";
+ /** 
+ * 环境 3 高温 1 报警值. 
+ */ 
+ String TEMP_HUMITURE_AMBIENT3_HIGH_TEMP1_ALARM = "temp_humiture_ambient3_high_temp1_alarm";
+ /** 
+ * 环境 1 高温 2 报警值. 
+ */ 
+ String TEMP_HUMITURE_AMBIENT1_HIGH_TEMP2_ALARM = "temp_humiture_ambient1_high_temp2_alarm";
+ /** 
+ * 环境 1 低温 2 报警. 
+ */ 
+ String TEMP_HUMITURE_AMBIENT1_LOW_TEMP2_ALARM = "temp_humiture_ambient1_low_temp2_alarm";
+ /** 
+ * 湿度. 
+ */ 
+ String TEMP_HUMITURE_HUMIDITY = "temp_humiture_humidity";
+ /** 
+ * 环境温度2. 
+ */ 
+ String TEMP_HUMITURE_TEMP_AMBIENT2 = "temp_humiture_temp_ambient2";
+ /** 
+ * 环境温度1. 
+ */ 
+ String TEMP_HUMITURE_TEMP_AMBIENT1 = "temp_humiture_temp_ambient1";
+ /** 
+ * 环境 1 低温 1 报警值. 
+ */ 
+ String TEMP_HUMITURE_AMBIENT1_LOW_TEMP1_ALARM = "temp_humiture_ambient1_low_temp1_alarm";
+ /** 
+ * 环境温度告警状态. 
+ */ 
+ String TEMP_HUMITURE_AMBIENT_TEMP_ALARM_STATE = "temp_humiture_ambient_temp_alarm_state";
+ /** 
+ * 环境湿度低. 
+ */ 
+ String TEMP_HUMITURE_LOW_AMBIENT_HUMIDITY = "temp_humiture_low_ambient_humidity";
+ /** 
+ * 环境湿度高. 
+ */ 
+ String TEMP_HUMITURE_HIGH_AMBIENT_HUMIDITY = "temp_humiture_high_ambient_humidity";

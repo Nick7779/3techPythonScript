@@ -1,0 +1,96 @@
+
+    /**
+     * 站点ID.
+     */
+    @Column(name = "site_id", tag = true)
+    private String siteId;
+    /**
+     * 资产ID.
+     */
+    @Column(name = "asset_id", tag = true)
+    private String assetId;
+    /**
+     * 时间.
+     */
+    @Column(name = "time", tag = true)
+    private Instant time;
+ /** 
+ * 市电状态.Mains Status 
+ */ 
+ @Column(name = "inverter_mains_status") 
+ private Long inverterMainsStatus;
+ /** 
+ * 逆变器电池状态.Battery Status 
+ */ 
+ @Column(name = "inverter_battery_status") 
+ private Long inverterBatteryStatus;
+ /** 
+ * 逆变器告警状态.Inverter Alarm State 
+ */ 
+ @Column(name = "inverter_alarm_state") 
+ private Long inverterAlarmState;
+ /** 
+ * 逆变器运行状态.Inverter Operation Status 
+ */ 
+ @Column(name = "inverter_operation_status") 
+ private Long inverterOperationStatus;
+ /** 
+ * 逆变器旁通状态.Inverter Bypass Status 
+ */ 
+ @Column(name = "inverter_bypass_status") 
+ private Long inverterBypassStatus;
+ /** 
+ * 逆变器负载状态.Inverter Load Status 
+ */ 
+ @Column(name = "inverter_load_status") 
+ private Long inverterLoadStatus;
+ /** 
+ * 逆变器直流逆变供电.Inverter DC Inversion Status 
+ */ 
+ @Column(name = "inverter_dc_inversion_status") 
+ private Long inverterDcInversionStatus;
+ /** 
+ * 逆变器UPS状态.Inverter UPS Status 
+ */ 
+ @Column(name = "inverter_ups_status") 
+ private Long inverterUpsStatus;
+ /** 
+ * 逆变器市电输入电压.Inverter Mains Input Voltage 
+ */ 
+ @Column(name = "inverter_mains_input_voltage") 
+ private Double inverterMainsInputVoltage;
+ /** 
+ * 逆变器分流电压.Inverter Bypass Voltage 
+ */ 
+ @Column(name = "inverter_bypass_voltage") 
+ private Double inverterBypassVoltage;
+ /** 
+ * 逆变器输入频率.Inverter Input Frequency 
+ */ 
+ @Column(name = "inverter_input_freq") 
+ private Double inverterInputFreq;
+ /** 
+ * 逆变器直流电压.Inverter DC Voltage 
+ */ 
+ @Column(name = "inverter_dc_voltage") 
+ private Double inverterDcVoltage;
+ /** 
+ * 逆变器输出电压.Inverter Output Voltage 
+ */ 
+ @Column(name = "inverter_output_voltage") 
+ private Double inverterOutputVoltage;
+ /** 
+ * 逆变器输出频率.Inverter Output Frequency 
+ */ 
+ @Column(name = "inverter_output_freq") 
+ private Double inverterOutputFreq;
+ /** 
+ * 逆变器带载率.Inverter Load Percentage 
+ */ 
+ @Column(name = "inverter_load_percentage") 
+ private Long inverterLoadPercentage;
+
+    public Date getTime() {
+        return Date.from(time);
+    }
+}

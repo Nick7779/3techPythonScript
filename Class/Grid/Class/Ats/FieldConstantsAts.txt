@@ -1,0 +1,176 @@
+ /** 
+ * S2 C相电压. 
+ */ 
+ String ATS_S2_PHASE_VOLTAGE_C = "ats_s2_phase_voltage_c";
+ /** 
+ * S2断路器闭合. 
+ */ 
+ String ATS_S2_CIRCUIT_BREAKER_CLOSED = "ats_s2_circuit_breaker_closed";
+ /** 
+ * S2 BC线电压. 
+ */ 
+ String ATS_S2_LINE_VOLTAGE_BC = "ats_s2_line_voltage_bc";
+ /** 
+ * S2 B相电压. 
+ */ 
+ String ATS_S2_PHASE_VOLTAGE_B = "ats_s2_phase_voltage_b";
+ /** 
+ * S2 AC线电压. 
+ */ 
+ String ATS_S2_LINE_VOLTAGE_AC = "ats_s2_line_voltage_ac";
+ /** 
+ * S2 AB线电压. 
+ */ 
+ String ATS_S2_LINE_VOLTAGE_AB = "ats_s2_line_voltage_ab";
+ /** 
+ * S2 A相电压. 
+ */ 
+ String ATS_S2_PHASE_VOLTAGE_A = "ats_s2_phase_voltage_a";
+ /** 
+ * S1/S2负荷C无功功率. 
+ */ 
+ String ATS_REACTIVE_POWER_LOAD_C = "ats_reactive_power_load_c";
+ /** 
+ * S1/S2负载C功率因数. 
+ */ 
+ String ATS_POWER_FACTOR_LOAD_C = "ats_power_factor_load_c";
+ /** 
+ * S1/S2负载C相电流. 
+ */ 
+ String ATS_PHASE_CURRENT_LOAD_C = "ats_phase_current_load_c";
+ /** 
+ * S1/S2负载C视功率. 
+ */ 
+ String ATS_APPARENT_POWER_LOAD_C = "ats_apparent_power_load_c";
+ /** 
+ * S1/S2负载C有功功率. 
+ */ 
+ String ATS_ACTIVE_POWER_LOAD_C = "ats_active_power_load_c";
+ /** 
+ * S1/S2负荷B无功功率. 
+ */ 
+ String ATS_REACTIVE_POWER_LOAD_B = "ats_reactive_power_load_b";
+ /** 
+ * S1/S2负载B功率因数. 
+ */ 
+ String ATS_POWER_FACTOR_LOAD_B = "ats_power_factor_load_b";
+ /** 
+ * S1/S2负载B相电流. 
+ */ 
+ String ATS_PHASE_CURRENT_LOAD_B = "ats_phase_current_load_b";
+ /** 
+ * S1/S2负载B视功率. 
+ */ 
+ String ATS_APPARENT_POWER_LOAD_B = "ats_apparent_power_load_b";
+ /** 
+ * S1/S2负载B有功功率. 
+ */ 
+ String ATS_ACTIVE_POWER_LOAD_B = "ats_active_power_load_b";
+ /** 
+ * S1/S2负荷A无功功率. 
+ */ 
+ String ATS_REACTIVE_POWER_LOAD_A = "ats_reactive_power_load_a";
+ /** 
+ * S1/S2负载A功率因数. 
+ */ 
+ String ATS_POWER_FACTOR_LOAD_A = "ats_power_factor_load_a";
+ /** 
+ * S1/S2负载A相电流. 
+ */ 
+ String ATS_PHASE_CURRENT_LOAD_A = "ats_phase_current_load_a";
+ /** 
+ * S1/S2负载A视功率. 
+ */ 
+ String ATS_APPARENT_POWER_LOAD_A = "ats_apparent_power_load_a";
+ /** 
+ * S1/S2负载A有功功率. 
+ */ 
+ String ATS_ACTIVE_POWER_LOAD_A = "ats_active_power_load_a";
+ /** 
+ * S1正常. 
+ */ 
+ String ATS_NORMAL_S1 = "ats_normal_s1";
+ /** 
+ * S2正常. 
+ */ 
+ String ATS_NORMAL_S2 = "ats_normal_s2";
+ /** 
+ * S1能量. 
+ */ 
+ String ATS_S1_ENERGY = "ats_s1_energy";
+ /** 
+ * S1频率. 
+ */ 
+ String ATS_S1_FREQ = "ats_s1_freq";
+ /** 
+ * S1 C相电压. 
+ */ 
+ String ATS_S1_PHASE_VOLTAGE_C = "ats_s1_phase_voltage_c";
+ /** 
+ * S1断路器闭合. 
+ */ 
+ String ATS_S1_CIRCUIT_BREAKER_CLOSED = "ats_s1_circuit_breaker_closed";
+ /** 
+ * S1 BC线电压. 
+ */ 
+ String ATS_S1_LINE_VOLTAGE_BC = "ats_s1_line_voltage_bc";
+ /** 
+ * S1 B相电压. 
+ */ 
+ String ATS_S1_PHASE_VOLTAGE_B = "ats_s1_phase_voltage_b";
+ /** 
+ * S1 AC线电压. 
+ */ 
+ String ATS_S1_LINE_VOLTAGE_AC = "ats_s1_line_voltage_ac";
+ /** 
+ * S1 AB线电压. 
+ */ 
+ String ATS_S1_LINE_VOLTAGE_AB = "ats_s1_line_voltage_ab";
+ /** 
+ * S1 A相电压. 
+ */ 
+ String ATS_S1_PHASE_VOLTAGE_A = "ats_s1_phase_voltage_a";
+ /** 
+ * 继电器. 
+ */ 
+ String ATS_RELAY = "ats_relay";
+ /** 
+ * ATS故障灯. 
+ */ 
+ String ATS_FAULT_LAMP = "ats_fault_lamp";
+ /** 
+ * 电池电压. 
+ */ 
+ String ATS_BATTERY_VOLTAGE = "ats_battery_voltage";
+ /** 
+ * 自动灯. 
+ */ 
+ String ATS_AUTOMATIC_LAMP = "ats_automatic_lamp";
+ /** 
+ * 停止灯. 
+ */ 
+ String ATS_STOP_LAMP = "ats_stop_lamp";
+ /** 
+ * 遥控模式. 
+ */ 
+ String ATS_REMOTE_CONTROL_MODE = "ats_remote_control_mode";
+ /** 
+ * Alarms. 
+ */ 
+ String ATS_ALARMS = "ats_alarms";
+ /** 
+ * ATS 故障. 
+ */ 
+ String ATS_FAULT = "ats_fault";
+ /** 
+ * S2频率. 
+ */ 
+ String ATS_S2_FREQ = "ats_s2_freq";
+ /** 
+ * 开关值. 
+ */ 
+ String ATS_SWITCHING_VALUE = "ats_switching_value";
+ /** 
+ * S2能量. 
+ */ 
+ String ATS_S2_ENERGY = "ats_s2_energy";

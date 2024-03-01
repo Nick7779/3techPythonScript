@@ -1,0 +1,241 @@
+/** 
+ * DI.DI 
+ */ 
+ @ApiModelProperty("DI") 
+ private Long didoDi;
+/** 
+ * DO0.DO0 
+ */ 
+ @ApiModelProperty("DO0") 
+ private Long didoDo0;
+/** 
+ * DO1.DO1 
+ */ 
+ @ApiModelProperty("DO1") 
+ private Long didoDo1;
+/** 
+ * DO2.DO2 
+ */ 
+ @ApiModelProperty("DO2") 
+ private Long didoDo2;
+/** 
+ * DO3.DO3 
+ */ 
+ @ApiModelProperty("DO3") 
+ private Long didoDo3;
+/** 
+ * DO4.DO4 
+ */ 
+ @ApiModelProperty("DO4") 
+ private Long didoDo4;
+/** 
+ * DO5.DO5 
+ */ 
+ @ApiModelProperty("DO5") 
+ private Long didoDo5;
+/** 
+ * DO6.DO6 
+ */ 
+ @ApiModelProperty("DO6") 
+ private Long didoDo6;
+/** 
+ * DO7.DO7 
+ */ 
+ @ApiModelProperty("DO7") 
+ private Long didoDo7;
+/** 
+ * SC501 DI state 1-16.SC501 DI state 1-16 
+ */ 
+ @ApiModelProperty("SC501 DI state 1-16") 
+ private Long didoDiStateAll;
+/** 
+ * DI 1 Alarm.DI 1 Alarm 
+ */ 
+ @ApiModelProperty("DI 1 Alarm") 
+ private Long didoDi1Alarm;
+/** 
+ * DI 2 Alarm.DI 2 Alarm 
+ */ 
+ @ApiModelProperty("DI 2 Alarm") 
+ private Long didoDi2Alarm;
+/** 
+ * DI 3 Alarm.DI 3 Alarm 
+ */ 
+ @ApiModelProperty("DI 3 Alarm") 
+ private Long didoDi3Alarm;
+/** 
+ * DI 4 Alarm.DI 4 Alarm 
+ */ 
+ @ApiModelProperty("DI 4 Alarm") 
+ private Long didoDi4Alarm;
+/** 
+ * DI 5 Alarm.DI 5 Alarm 
+ */ 
+ @ApiModelProperty("DI 5 Alarm") 
+ private Long didoDi5Alarm;
+/** 
+ * DI 6 Alarm.DI 6 Alarm 
+ */ 
+ @ApiModelProperty("DI 6 Alarm") 
+ private Long didoDi6Alarm;
+/** 
+ * Ex1-DI1 Alarm.Ex1-DI1 Alarm 
+ */ 
+ @ApiModelProperty("Ex1-DI1 Alarm") 
+ private Long didoEx1Di1Alarm;
+/** 
+ * Ex1-DI2 Alarm.Ex1-DI2 Alarm 
+ */ 
+ @ApiModelProperty("Ex1-DI2 Alarm") 
+ private Long didoEx1Di2Alarm;
+/** 
+ * Ex1-DI3 Alarm.Ex1-DI3 Alarm 
+ */ 
+ @ApiModelProperty("Ex1-DI3 Alarm") 
+ private Long didoEx1Di3Alarm;
+/** 
+ * Ex1-DI4 Alarm.Ex1-DI4 Alarm 
+ */ 
+ @ApiModelProperty("Ex1-DI4 Alarm") 
+ private Long didoEx1Di4Alarm;
+/** 
+ * Ex1-DI5 Alarm.Ex1-DI5 Alarm 
+ */ 
+ @ApiModelProperty("Ex1-DI5 Alarm") 
+ private Long didoEx1Di5Alarm;
+/** 
+ * Ex1-DI6 Alarm.Ex1-DI6 Alarm 
+ */ 
+ @ApiModelProperty("Ex1-DI6 Alarm") 
+ private Long didoEx1Di6Alarm;
+/** 
+ * Ex1-DI7 Alarm.Ex1-DI7 Alarm 
+ */ 
+ @ApiModelProperty("Ex1-DI7 Alarm") 
+ private Long didoEx1Di7Alarm;
+/** 
+ * Ex1-DI8 Alarm.Ex1-DI8 Alarm 
+ */ 
+ @ApiModelProperty("Ex1-DI8 Alarm") 
+ private Long didoEx1Di8Alarm;
+/** 
+ * DI1.DI1 
+ */ 
+ @ApiModelProperty("DI1") 
+ private Long didoDi1;
+/** 
+ * DI2.DI2 
+ */ 
+ @ApiModelProperty("DI2") 
+ private Long didoDi2;
+/** 
+ * DI3.DI3 
+ */ 
+ @ApiModelProperty("DI3") 
+ private Long didoDi3;
+/** 
+ * DI4.DI4 
+ */ 
+ @ApiModelProperty("DI4") 
+ private Long didoDi4;
+/** 
+ * DI5.DI5 
+ */ 
+ @ApiModelProperty("DI5") 
+ private Long didoDi5;
+/** 
+ * DI6.DI6 
+ */ 
+ @ApiModelProperty("DI6") 
+ private Long didoDi6;
+/** 
+ * DI7.DI7 
+ */ 
+ @ApiModelProperty("DI7") 
+ private Long didoDi7;
+/** 
+ * DI8.DI8 
+ */ 
+ @ApiModelProperty("DI8") 
+ private Long didoDi8;
+/** 
+ * DI9.DI9 
+ */ 
+ @ApiModelProperty("DI9") 
+ private Long didoDi9;
+/** 
+ * DI10.DI10 
+ */ 
+ @ApiModelProperty("DI10") 
+ private Long didoDi10;
+/** 
+ * DI11.DI11 
+ */ 
+ @ApiModelProperty("DI11") 
+ private Long didoDi11;
+/** 
+ * DI12.DI12 
+ */ 
+ @ApiModelProperty("DI12") 
+ private Long didoDi12;
+/** 
+ * DI13.DI13 
+ */ 
+ @ApiModelProperty("DI13") 
+ private Long didoDi13;
+/** 
+ * DI14.DI14 
+ */ 
+ @ApiModelProperty("DI14") 
+ private Long didoDi14;
+/** 
+ * DI15.DI15 
+ */ 
+ @ApiModelProperty("DI15") 
+ private Long didoDi15;
+/** 
+ * DI0.DI0 
+ */ 
+ @ApiModelProperty("DI0") 
+ private Long didoDi0;
+/** 
+ * DI1 Alarm.DI1 Alarm 
+ */ 
+ @ApiModelProperty("DI1 Alarm") 
+ private Long didoDi1AlarmMc2600;
+/** 
+ * DI2 Alarm.DI2 Alarm 
+ */ 
+ @ApiModelProperty("DI2 Alarm") 
+ private Long didoDi2AlarmMc2600;
+/** 
+ * DI3 Alarm.DI3 Alarm 
+ */ 
+ @ApiModelProperty("DI3 Alarm") 
+ private Long didoDi3AlarmMc2600;
+/** 
+ * DI4 Alarm.DI4 Alarm 
+ */ 
+ @ApiModelProperty("DI4 Alarm") 
+ private Long didoDi4AlarmMc2600;
+/** 
+ * DI5 Alarm.DI5 Alarm 
+ */ 
+ @ApiModelProperty("DI5 Alarm") 
+ private Long didoDi5AlarmMc2600;
+/** 
+ * DI6 Alarm.DI6 Alarm 
+ */ 
+ @ApiModelProperty("DI6 Alarm") 
+ private Long didoDi6AlarmMc2600;
+/** 
+ * DI7 Alarm.DI7 Alarm 
+ */ 
+ @ApiModelProperty("DI7 Alarm") 
+ private Long didoDi7AlarmMc2600;
+/** 
+ * DI8 Alarm.DI8 Alarm 
+ */ 
+ @ApiModelProperty("DI8 Alarm") 
+ private Long didoDi8AlarmMc2600;
+private static final long serialVersionUID = 1L;

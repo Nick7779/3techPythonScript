@@ -1,0 +1,32 @@
+ /** 
+ * 油箱燃料累计损耗. 
+ */ 
+ String FUEL_TOTAL_CONSUMPTION = "fuel_total_consumption";
+ /** 
+ * 油箱当前油位百分比. 
+ */ 
+ String FUEL_LEVEL_CURRENT_PERCENTAGE = "fuel_level_current_percentage";
+ /** 
+ * 油箱容量. 
+ */ 
+ String FUEL_TANK_CAPACITY = "fuel_tank_capacity";
+ /** 
+ * 油箱燃料升数. 
+ */ 
+ String FUEL_LITRES = "fuel_litres";
+ /** 
+ * 康宇小数油箱油位. 
+ */ 
+ String FUEL_LEVEL_DECIMAL_KY = "fuel_level_decimal_ky";
+ /** 
+ * 孚创油箱每日耗油量. 
+ */ 
+ String FUEL_DAILY_CONSUMPTION_FC = "fuel_daily_consumption_fc";
+ /** 
+ * 孚创油箱实时油耗. 
+ */ 
+ String FUEL_REALTIME_CONSUMPTION_FC = "fuel_realtime_consumption_fc";
+ /** 
+ * 康宇油箱升数整数油位. 
+ */ 
+ String FUEL_LITRE_INT_KY = "fuel_litre_int_ky";

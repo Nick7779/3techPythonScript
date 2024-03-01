@@ -1,0 +1,291 @@
+
+    /**
+     * 站点ID.
+     */
+    @Column(name = "site_id", tag = true)
+    private String siteId;
+    /**
+     * 资产ID.
+     */
+    @Column(name = "asset_id", tag = true)
+    private String assetId;
+    /**
+     * 时间.
+     */
+    @Column(name = "time", tag = true)
+    private Instant time;
+ /** 
+ * 整流器模块数量.Rectifier number of modules 
+ */ 
+ @Column(name = "rectifier_number_of_modules") 
+ private Long rectifierNumberOfModules;
+ /** 
+ * 整流器电流.Rectifier output current 
+ */ 
+ @Column(name = "rectifier_output_current") 
+ private Double rectifierOutputCurrent;
+ /** 
+ * 整流器外部温度.Rectifier ambient temperature 
+ */ 
+ @Column(name = "rectifier_ambient_temp") 
+ private Double rectifierAmbientTemp;
+ /** 
+ * 整流器发热温度.Rectifier second hot point temperature  
+ */ 
+ @Column(name = "rectifier_second_hot_point_temp") 
+ private Double rectifierSecondHotPointTemp;
+ /** 
+ * 整流器电流限制.Rectifier output current limit 
+ */ 
+ @Column(name = "rectifier_output_current_limit") 
+ private Double rectifierOutputCurrentLimit;
+ /** 
+ * 整流器电流限制状态.Rectifier current limiting state 
+ */ 
+ @Column(name = "rectifier_current_limiting_state") 
+ private Long rectifierCurrentLimitingState;
+ /** 
+ * 整流器状态.Rectifier state 
+ */ 
+ @Column(name = "rectifier_state") 
+ private Long rectifierState;
+ /** 
+ * 整流器工作模块数量.Rectifier number of working modules 
+ */ 
+ @Column(name = "rectifier_number_of_working_modules") 
+ private Long rectifierNumberOfWorkingModules;
+ /** 
+ * 整流器负载率.Rectifier load rate 
+ */ 
+ @Column(name = "rectifier_load_rate") 
+ private Double rectifierLoadRate;
+ /** 
+ * 整流器输出电压.Rectifier output voltage 
+ */ 
+ @Column(name = "rectifier_output_voltage") 
+ private Double rectifierOutputVoltage;
+ /** 
+ * 整流器模块告警状态.Rectifier module alarm state1 
+ */ 
+ @Column(name = "rectifier_module_alarm_state1") 
+ private Long rectifierModuleAlarmState1;
+ /** 
+ * 整流器PFC过电压保护.Rectifier pFC overvoltage protection 
+ */ 
+ @Column(name = "rectifier_pfc_ov_protection") 
+ private Long rectifierPfcOvProtection;
+ /** 
+ * 整流器交流缺相.Rectifier ac phase loss 
+ */ 
+ @Column(name = "rectifier_ac_phase_loss") 
+ private Long rectifierAcPhaseLoss;
+ /** 
+ * 整流器交流欠压保护.Rectifier ac undervoltage protection 
+ */ 
+ @Column(name = "rectifier_ac_uv_protection") 
+ private Long rectifierAcUvProtection;
+ /** 
+ * 整流器内部短路.Rectifier internal short circuit 
+ */ 
+ @Column(name = "rectifier_internal_short_circuit") 
+ private Long rectifierInternalShortCircuit;
+ /** 
+ * 整流器主侧短路.Rectifier primary side short circuit 
+ */ 
+ @Column(name = "rectifier_primary_side_short_circuit") 
+ private Long rectifierPrimarySideShortCircuit;
+ /** 
+ * 整流器PFC短路.Rectifier pFC short circuit 
+ */ 
+ @Column(name = "rectifier_pfc_short_circuit") 
+ private Long rectifierPfcShortCircuit;
+ /** 
+ * 整流器共流轻微故障.Rectifier Current Sharing Slightly Fault 
+ */ 
+ @Column(name = "rectifier_current_sharing_slightly_fault") 
+ private Long rectifierCurrentSharingSlightlyFault;
+ /** 
+ * 整流器电流采样故障.Rectifier current sampling fault 
+ */ 
+ @Column(name = "rectifier_current_sampling_fault") 
+ private Long rectifierCurrentSamplingFault;
+ /** 
+ * 整流器CAN通信故障.Rectifier cAN communication failure 
+ */ 
+ @Column(name = "rectifier_can_communication_failure") 
+ private Long rectifierCanCommunicationFailure;
+ /** 
+ * 整流器内部过电压保护.Rectifier internal overvoltage protection 
+ */ 
+ @Column(name = "rectifier_internal_ov_protection") 
+ private Long rectifierInternalOvProtection;
+ /** 
+ * 整流器交流过压保护.Rectifier ac overvoltage protection 
+ */ 
+ @Column(name = "rectifier_ac_ov_protection") 
+ private Long rectifierAcOvProtection;
+ /** 
+ * 整流器输出欠压保护.Rectifier output undervoltage protection 
+ */ 
+ @Column(name = "rectifier_output_uv_protection") 
+ private Long rectifierOutputUvProtection;
+ /** 
+ * 整流器PFC欠压保护.Rectifier pFC undervoltage protection 
+ */ 
+ @Column(name = "rectifier_pfc_uv_protection") 
+ private Long rectifierPfcUvProtection;
+ /** 
+ * 整流器外部过电压保护.Rectifier external overvoltage protection 
+ */ 
+ @Column(name = "rectifier_external_ov_protection") 
+ private Long rectifierExternalOvProtection;
+ /** 
+ * 整流器多无输出告警.Multiple Rectifier No Output Alarm 
+ */ 
+ @Column(name = "rectifier_multiple_no_output_alarm") 
+ private Long rectifierMultipleNoOutputAlarm;
+ /** 
+ * 整流器外部短路.Rectifier external short circuit 
+ */ 
+ @Column(name = "rectifier_external_short_circuit") 
+ private Long rectifierExternalShortCircuit;
+ /** 
+ * 整流器故障定位.Rectifier Identify Fault 
+ */ 
+ @Column(name = "rectifier_identify_fault") 
+ private Long rectifierIdentifyFault;
+ /** 
+ * 整流器丢失.Rectifier lost 
+ */ 
+ @Column(name = "rectifier_lost") 
+ private Long rectifierLost;
+ /** 
+ * 整流器共流严重故障.Rectifier Current Sharing Severe Fault 
+ */ 
+ @Column(name = "rectifier_current_sharing_severe_fault") 
+ private Long rectifierCurrentSharingSevereFault;
+ /** 
+ * 整流器无位置.Rectifier No Position 
+ */ 
+ @Column(name = "rectifier_no_position") 
+ private Long rectifierNoPosition;
+ /** 
+ * 整流器输出过流.Rectifier output over current 
+ */ 
+ @Column(name = "rectifier_output_over_current") 
+ private Long rectifierOutputOverCurrent;
+ /** 
+ * 整流器E2PROM故障.Rectifier E2PROM Fault 
+ */ 
+ @Column(name = "rectifier_e2prom_fault") 
+ private Long rectifierE2promFault;
+ /** 
+ * 整流器主侧通信故障.Rectifier Primary Side Communication Fault 
+ */ 
+ @Column(name = "rectifier_primary_side_communication_fault") 
+ private Long rectifierPrimarySideCommunicationFault;
+ /** 
+ * 整流器风扇故障.Rectifier fan failure 
+ */ 
+ @Column(name = "rectifier_fan_failure") 
+ private Long rectifierFanFailure;
+ /** 
+ * 整流器电阻断开.Rectifier Resistor Break 
+ */ 
+ @Column(name = "rectifier_resistor_break") 
+ private Long rectifierResistorBreak;
+ /** 
+ * 整流器输出熔断器断开.Rectifier Output Fuse Break 
+ */ 
+ @Column(name = "rectifier_output_fuse_break") 
+ private Long rectifierOutputFuseBreak;
+ /** 
+ * 整流器环境温度过高.Rectifier Ambient Over Temp 
+ */ 
+ @Column(name = "rectifier_ambient_over_temp") 
+ private Long rectifierAmbientOverTemp;
+ /** 
+ * 整流器前级温度过高.Rectifier high temperature of front stage 
+ */ 
+ @Column(name = "rectifier_high_temperature_of_front_stage") 
+ private Double rectifierHighTemperatureOfFrontStage;
+ /** 
+ * 整流器主热点过温.Rectifier Primary Hot Point Over Temp 
+ */ 
+ @Column(name = "rectifier_primary_hot_point_over_temp") 
+ private Long rectifierPrimaryHotPointOverTemp;
+ /** 
+ * 整流器次级热点过温.Rectifier Secondary Hot Point Over Temp 
+ */ 
+ @Column(name = "rectifier_secondary_hot_point_over_temp") 
+ private Long rectifierSecondaryHotPointOverTemp;
+ /** 
+ * 整流器交流不平衡.Rectifier AC Imbalanced 
+ */ 
+ @Column(name = "rectifier_ac_imbalanced") 
+ private Long rectifierAcImbalanced;
+ /** 
+ * 整流器单无输出告警.Single Rectifier No Output Alarm 
+ */ 
+ @Column(name = "rectifier_single_no_output_alarm") 
+ private Long rectifierSingleNoOutputAlarm;
+ /** 
+ * 整流器PFC不平衡.Rectifier PFC Imbalanced 
+ */ 
+ @Column(name = "rectifier_pfc_imbalanced") 
+ private Long rectifierPfcImbalanced;
+ /** 
+ * 整流器第二侧通信故障	.Rectifier Second Side Communication Fault 
+ */ 
+ @Column(name = "rectifier_second_side_communication_fault") 
+ private Long rectifierSecondSideCommunicationFault;
+ /** 
+ * 整流1工况(FC).condition (FC) 
+ */ 
+ @Column(name = "rectifier_condition_fc") 
+ private Long rectifierConditionFc;
+ /** 
+ * 整流器输出总电流.Rectifier total output current 
+ */ 
+ @Column(name = "rectifier_total_output_current") 
+ private Double rectifierTotalOutputCurrent;
+ /** 
+ * AC DC整流器总告警状态.AC DC rectifier total alarm state 
+ */ 
+ @Column(name = "rectifier_ac_dc_total_alarm_state") 
+ private Long rectifierAcDcTotalAlarmState;
+ /** 
+ * 整流器单模块告警.Rectifier Single Module Alarm 
+ */ 
+ @Column(name = "rectifier_single_module_alarm") 
+ private Long rectifierSingleModuleAlarm;
+ /** 
+ * 整流器多模块告警.Rectifier Multiple Modules Alarm 
+ */ 
+ @Column(name = "rectifier_multiple_modules_alarm") 
+ private Long rectifierMultipleModulesAlarm;
+ /** 
+ * 整流器功率.Rectifier Power 
+ */ 
+ @Column(name = "rectifier_power") 
+ private Double rectifierPower;
+ /** 
+ * 整流器输入电压.Rectifier Input Voltage 
+ */ 
+ @Column(name = "rectifier_input_voltage") 
+ private Double rectifierInputVoltage;
+ /** 
+ * 整流器模块告警状态2.Rectifier module alarm state2 
+ */ 
+ @Column(name = "rectifier_module_alarm_state2") 
+ private Long rectifierModuleAlarmState2;
+ /** 
+ * 整流器输入电流.Rectifier Input Current 
+ */ 
+ @Column(name = "rectifier_input_current") 
+ private Double rectifierInputCurrent;
+
+    public Date getTime() {
+        return Date.from(time);
+    }
+}

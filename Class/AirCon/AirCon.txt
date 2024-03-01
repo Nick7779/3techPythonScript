@@ -1,0 +1,421 @@
+
+    /**
+     * 站点ID.
+     */
+    @Column(name = "site_id", tag = true)
+    private String siteId;
+    /**
+     * 资产ID.
+     */
+    @Column(name = "asset_id", tag = true)
+    private String assetId;
+    /**
+     * 时间.
+     */
+    @Column(name = "time", tag = true)
+    private Instant time;
+ /** 
+ * 机器工作状态.working status 
+ */ 
+ @Column(name = "air_con_working_status") 
+ private Long airConWorkingStatus;
+ /** 
+ * 内部风扇状态.internal fan status 
+ */ 
+ @Column(name = "air_con_internal_fan_status") 
+ private Long airConInternalFanStatus;
+ /** 
+ * 外部风扇状态.external fan status 
+ */ 
+ @Column(name = "air_con_external_fan_status") 
+ private Long airConExternalFanStatus;
+ /** 
+ * 压缩机状态.compressor status  
+ */ 
+ @Column(name = "air_con_compressor_status") 
+ private Long airConCompressorStatus;
+ /** 
+ * 机柜回风温度.return air temp 
+ */ 
+ @Column(name = "air_con_return_air_temp") 
+ private Double airConReturnAirTemp;
+ /** 
+ * 水泵状态.pump status 
+ */ 
+ @Column(name = "air_con_pump_status") 
+ private Long airConPumpStatus;
+ /** 
+ * 环境温度.ambient temp 
+ */ 
+ @Column(name = "air_con_ambient_temp") 
+ private Double airConAmbientTemp;
+ /** 
+ * 冷凝器温度.condenser temp 
+ */ 
+ @Column(name = "air_con_condenser_temp") 
+ private Double airConCondenserTemp;
+ /** 
+ * 蒸发器温度数值.evaporator temp 
+ */ 
+ @Column(name = "air_con_evaporator_temp") 
+ private Double airConEvaporatorTemp;
+ /** 
+ * 内部风扇速.internal fan speed 
+ */ 
+ @Column(name = "air_con_internal_fan_speed") 
+ private Double airConInternalFanSpeed;
+ /** 
+ * 外部风扇速.external fan speed 
+ */ 
+ @Column(name = "air_con_external_fan_speed") 
+ private Double airConExternalFanSpeed;
+ /** 
+ * 交流输入电压.ac input voltage 
+ */ 
+ @Column(name = "air_con_ac_input_voltage") 
+ private Double airConAcInputVoltage;
+ /** 
+ * 直流输入电压.dc input voltage 
+ */ 
+ @Column(name = "air_con_dc_input_voltage") 
+ private Double airConDcInputVoltage;
+ /** 
+ * 交流工作电流.ac operating current 
+ */ 
+ @Column(name = "air_con_ac_operating_current") 
+ private Double airConAcOperatingCurrent;
+ /** 
+ * 机器运行时间.machine running hours 
+ */ 
+ @Column(name = "air_con_machine_running_hours") 
+ private Double airConMachineRunningHours;
+ /** 
+ * 压缩机运行时间.compressor running hours 
+ */ 
+ @Column(name = "air_con_compressor_running_hours") 
+ private Double airConCompressorRunningHours;
+ /** 
+ * 内风机运行时间.internal fan running hours 
+ */ 
+ @Column(name = "air_con_internal_fan_running_hours") 
+ private Double airConInternalFanRunningHours;
+ /** 
+ * 压缩机动作次数.number of compressor actions 
+ */ 
+ @Column(name = "air_con_number_of_compressor_actions") 
+ private Long airConNumberOfCompressorActions;
+ /** 
+ * 直流工作电流.dc operating current 
+ */ 
+ @Column(name = "air_con_dc_operating_current") 
+ private Double airConDcOperatingCurrent;
+ /** 
+ * 直流功率.dc power 
+ */ 
+ @Column(name = "air_con_dc_power") 
+ private Double airConDcPower;
+ /** 
+ * 交流功率.ac power 
+ */ 
+ @Column(name = "air_con_ac_power") 
+ private Double airConAcPower;
+ /** 
+ * 制冷量.refrigerating capacity 
+ */ 
+ @Column(name = "air_con_refrigerating_capacity") 
+ private Double airConRefrigeratingCapacity;
+ /** 
+ * 内风机故障.Internal Fan Fault 
+ */ 
+ @Column(name = "air_con_internal_fan_fault") 
+ private Long airConInternalFanFault;
+ /** 
+ * 外风机故障.External Fan Fault 
+ */ 
+ @Column(name = "air_con_external_fan_fault") 
+ private Long airConExternalFanFault;
+ /** 
+ * 压缩机故障.Compressor Fault 
+ */ 
+ @Column(name = "air_con_compressor_fault") 
+ private Long airConCompressorFault;
+ /** 
+ * 高压报警.High Pressure Alarm 
+ */ 
+ @Column(name = "air_con_high_pressure") 
+ private Long airConHighPressure;
+ /** 
+ * 交流断电告警.AC Power Disconnection Alarm 
+ */ 
+ @Column(name = "air_con_ac_power_disconnection") 
+ private Long airConAcPowerDisconnection;
+ /** 
+ * 蒸发器温度传感器故障.Evaporator Temp Sensor Fault 
+ */ 
+ @Column(name = "air_con_evaporator_temp_sensor_fault") 
+ private Long airConEvaporatorTempSensorFault;
+ /** 
+ * 冷凝器温度传感器故障.Condenser Temp Sensor Fault 
+ */ 
+ @Column(name = "air_con_condenser_temp_sensor_fault") 
+ private Long airConCondenserTempSensorFault;
+ /** 
+ * 环境温度传感器故障.Ambient Temp Sensor Fault 
+ */ 
+ @Column(name = "air_con_ambient_temp_sensor_fault") 
+ private Long airConAmbientTempSensorFault;
+ /** 
+ * 蒸发器冻结报警.Evaporator freezing alarm 
+ */ 
+ @Column(name = "air_con_evaporator_freeze_up") 
+ private Long airConEvaporatorFreezeUp;
+ /** 
+ * 频繁高压力告警.Frequent High Pressure Alarm 
+ */ 
+ @Column(name = "air_con_frequent_high_pressure") 
+ private Long airConFrequentHighPressure;
+ /** 
+ * 冷却状态.state of cooling 
+ */ 
+ @Column(name = "air_con_state_of_cooling") 
+ private Long airConStateOfCooling;
+ /** 
+ * 柜内高温限定值.Air Con High temp setting 
+ */ 
+ @Column(name = "air_con_high_temp_setting") 
+ private Double airConHighTempSetting;
+ /** 
+ * 压缩机启动温度设定.Compressor starting temp setting 
+ */ 
+ @Column(name = "air_con_compressor_starting_temp_setting") 
+ private Double airConCompressorStartingTempSetting;
+ /** 
+ * 送风温度.Air supply temp 
+ */ 
+ @Column(name = "air_con_supply_air_temp") 
+ private Double airConSupplyAirTemp;
+ /** 
+ * 灵敏度温度设定值.sensitivity temperature setting value 
+ */ 
+ @Column(name = "air_con_sensitivity_temp_setting_value") 
+ private Double airConSensitivityTempSettingValue;
+ /** 
+ * 温度设定.temperature setting 
+ */ 
+ @Column(name = "air_con_temp_setting") 
+ private Double airConTempSetting;
+ /** 
+ * 控制开关机.Air Con Remote Start Stop 
+ */ 
+ @Column(name = "air_con_remote_start_stop") 
+ private Long airConRemoteStartStop;
+ /** 
+ * 空调过压告警设定值.DC overvoltage alarm setting 
+ */ 
+ @Column(name = "air_con_dc_ov_alarm_setting") 
+ private Double airConDcOvAlarmSetting;
+ /** 
+ * 空调欠压告警设定值.DC undervoltage alarm setting 
+ */ 
+ @Column(name = "air_con_dc_uv_alarm_setting") 
+ private Double airConDcUvAlarmSetting;
+ /** 
+ * 空调关机电压设定值.DC power off voltage setting 
+ */ 
+ @Column(name = "air_con_dc_power_off_voltage_setting") 
+ private Double airConDcPowerOffVoltageSetting;
+ /** 
+ * 交流过压设定值.AC overvoltage setting 
+ */ 
+ @Column(name = "air_con_ac_ov_setting") 
+ private Double airConAcOvSetting;
+ /** 
+ * 交流欠压设定值.AC undervoltage setting 
+ */ 
+ @Column(name = "air_con_ac_uv_setting") 
+ private Double airConAcUvSetting;
+ /** 
+ * 压缩机温度差设定值.Compressor Temperature Difference 
+ */ 
+ @Column(name = "air_con_compressor_temp_difference") 
+ private Double airConCompressorTempDifference;
+ /** 
+ * 空调低温设定值.Air-con Low Temperature 
+ */ 
+ @Column(name = "air_con_low_temp_setting") 
+ private Double airConLowTempSetting;
+ /** 
+ * 加热器启动温度.Air-con Heater Startup Temp 
+ */ 
+ @Column(name = "air_con_heater_startup_temp_setting") 
+ private Double airConHeaterStartupTempSetting;
+ /** 
+ * 加热器温差值.Air-con Heater Temp Difference 
+ */ 
+ @Column(name = "air_con_heater_temp_difference") 
+ private Double airConHeaterTempDifference;
+ /** 
+ * 空调高温告警.Air-con High Temperature Alarm 
+ */ 
+ @Column(name = "air_con_high_temp") 
+ private Long airConHighTemp;
+ /** 
+ * 空调低温告警.Air-con Low Temperature Alarm 
+ */ 
+ @Column(name = "air_con_low_temp") 
+ private Long airConLowTemp;
+ /** 
+ * 空调过压告警.DC Over Voltage Alarm 
+ */ 
+ @Column(name = "air_con_dc_ov_alarm") 
+ private Long airConDcOvAlarm;
+ /** 
+ * 空调低压告警.DC Under Voltage Alarm 
+ */ 
+ @Column(name = "air_con_dc_uv_alarm") 
+ private Long airConDcUvAlarm;
+ /** 
+ * 空调交流过压告警. AC Over Voltage Alarm 
+ */ 
+ @Column(name = "air_con_ac_ov_alarm") 
+ private Long airConAcOvAlarm;
+ /** 
+ * 空调交流欠压告警. AC Under Voltage Alarm 
+ */ 
+ @Column(name = "air_con_ac_uv_alarm") 
+ private Long airConAcUvAlarm;
+ /** 
+ * 空调自校验状态.self-check status 
+ */ 
+ @Column(name = "air_con_self_check_status") 
+ private Long airConSelfCheckStatus;
+ /** 
+ * 回风温度传感器故障.Return air temp sensor fault 
+ */ 
+ @Column(name = "air_con_return_air_temp_sensor_fault") 
+ private Long airConReturnAirTempSensorFault;
+ /** 
+ * 空调内风机2号状态.Internal fan2 status 
+ */ 
+ @Column(name = "air_con_internal_fan2_status") 
+ private Long airConInternalFan2Status;
+ /** 
+ * 空调外风机2号状态.External fan2 status 
+ */ 
+ @Column(name = "air_con_external_fan2_status") 
+ private Long airConExternalFan2Status;
+ /** 
+ * 空调内风机2号转速.internal fan2 speed 
+ */ 
+ @Column(name = "air_con_internal_fan2_speed") 
+ private Long airConInternalFan2Speed;
+ /** 
+ * 空调外风机2号转速.external fan2 speed 
+ */ 
+ @Column(name = "air_con_external_fan2_speed") 
+ private Long airConExternalFan2Speed;
+ /** 
+ * 空调内部温度.Internal temperature 
+ */ 
+ @Column(name = "air_con_internal_temp") 
+ private Double airConInternalTemp;
+ /** 
+ * 空调外部温度.External temperature 
+ */ 
+ @Column(name = "air_con_external_temp") 
+ private Double airConExternalTemp;
+ /** 
+ * 空调加热器Delta温度.Delta temperature of heater 
+ */ 
+ @Column(name = "air_con_delta_temp_of_heater") 
+ private Double airConDeltaTempOfHeater;
+ /** 
+ * 空调内部温度校验.calibration_of_indoor_temperature 
+ */ 
+ @Column(name = "air_con_calibration_of_indoor_temp") 
+ private Double airConCalibrationOfIndoorTemp;
+ /** 
+ * 空调冷凝器温度校验.calibration_of_condenser_temperature 
+ */ 
+ @Column(name = "air_con_calibration_of_condenser_temp") 
+ private Double airConCalibrationOfCondenserTemp;
+ /** 
+ * 空调加热器电流校验.calibration of heater current 
+ */ 
+ @Column(name = "air_con_calibration_of_heater_current") 
+ private Double airConCalibrationOfHeaterCurrent;
+ /** 
+ * 空调直流电压校验.calibration of DC voltage 
+ */ 
+ @Column(name = "air_con_calibration_of_dc_voltage") 
+ private Double airConCalibrationOfDcVoltage;
+ /** 
+ * 空调内风机2号故障.Internal fan2 fault 
+ */ 
+ @Column(name = "air_con_internal_fan2_fault") 
+ private Long airConInternalFan2Fault;
+ /** 
+ * 空调外风机2号故障.External fan2 fault 
+ */ 
+ @Column(name = "air_con_external_fan2_fault") 
+ private Long airConExternalFan2Fault;
+ /** 
+ * 空调压缩机驱动通讯故障.Compress Driver Communication Fault 
+ */ 
+ @Column(name = "air_con_compressor_driver_communicate_fault") 
+ private Long airConCompressorDriverCommunicateFault;
+ /** 
+ * 空调加热器故障.heater alarm 
+ */ 
+ @Column(name = "air_con_heater_alarm") 
+ private Long airConHeaterAlarm;
+ /** 
+ * 空调加热器过流告警.Heater Over Current Alarm 
+ */ 
+ @Column(name = "air_con_heater_over_current_alarm") 
+ private Long airConHeaterOverCurrentAlarm;
+ /** 
+ * 空调加热器无电流告警.Heater Non-current Alarm 
+ */ 
+ @Column(name = "air_con_heater_non_current_alarm") 
+ private Long airConHeaterNonCurrentAlarm;
+ /** 
+ * 空调内部温度传感器告警.internal temp sensor alarm 
+ */ 
+ @Column(name = "air_con_internal_temp_sensor_alarm") 
+ private Long airConInternalTempSensorAlarm;
+ /** 
+ * 空调外部输入告警.External Input Alarm 
+ */ 
+ @Column(name = "air_con_external_input_alarm") 
+ private Long airConExternalInputAlarm;
+ /** 
+ * 空调加热器过载告警.Heater overload alarm 
+ */ 
+ @Column(name = "air_con_heater_overload_alarm") 
+ private Long airConHeaterOverloadAlarm;
+ /** 
+ * 空调加热器欠载告警.Heater underload alarm 
+ */ 
+ @Column(name = "air_con_heater_underload_alarm") 
+ private Long airConHeaterUnderloadAlarm;
+ /** 
+ * 空调门禁告警.Air Con Door alarm 
+ */ 
+ @Column(name = "air_con_door_alarm") 
+ private Long airConDoorAlarm;
+ /** 
+ * 空调水浸告警.Air Con Water alarm 
+ */ 
+ @Column(name = "air_con_water_alarm") 
+ private Long airConWaterAlarm;
+ /** 
+ * 空调烟雾告警.Air Con Smoke alarm 
+ */ 
+ @Column(name = "air_con_smoke_alarm") 
+ private Long airConSmokeAlarm;
+
+    public Date getTime() {
+        return Date.from(time);
+    }
+}

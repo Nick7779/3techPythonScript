@@ -1,0 +1,60 @@
+ /** 
+ * 市电状态. 
+ */ 
+ String INVERTER_MAINS_STATUS = "inverter_mains_status";
+ /** 
+ * 逆变器电池状态. 
+ */ 
+ String INVERTER_BATTERY_STATUS = "inverter_battery_status";
+ /** 
+ * 逆变器告警状态. 
+ */ 
+ String INVERTER_ALARM_STATE = "inverter_alarm_state";
+ /** 
+ * 逆变器运行状态. 
+ */ 
+ String INVERTER_OPERATION_STATUS = "inverter_operation_status";
+ /** 
+ * 逆变器旁通状态. 
+ */ 
+ String INVERTER_BYPASS_STATUS = "inverter_bypass_status";
+ /** 
+ * 逆变器负载状态. 
+ */ 
+ String INVERTER_LOAD_STATUS = "inverter_load_status";
+ /** 
+ * 逆变器直流逆变供电. 
+ */ 
+ String INVERTER_DC_INVERSION_STATUS = "inverter_dc_inversion_status";
+ /** 
+ * 逆变器UPS状态. 
+ */ 
+ String INVERTER_UPS_STATUS = "inverter_ups_status";
+ /** 
+ * 逆变器市电输入电压. 
+ */ 
+ String INVERTER_MAINS_INPUT_VOLTAGE = "inverter_mains_input_voltage";
+ /** 
+ * 逆变器分流电压. 
+ */ 
+ String INVERTER_BYPASS_VOLTAGE = "inverter_bypass_voltage";
+ /** 
+ * 逆变器输入频率. 
+ */ 
+ String INVERTER_INPUT_FREQ = "inverter_input_freq";
+ /** 
+ * 逆变器直流电压. 
+ */ 
+ String INVERTER_DC_VOLTAGE = "inverter_dc_voltage";
+ /** 
+ * 逆变器输出电压. 
+ */ 
+ String INVERTER_OUTPUT_VOLTAGE = "inverter_output_voltage";
+ /** 
+ * 逆变器输出频率. 
+ */ 
+ String INVERTER_OUTPUT_FREQ = "inverter_output_freq";
+ /** 
+ * 逆变器带载率. 
+ */ 
+ String INVERTER_LOAD_PERCENTAGE = "inverter_load_percentage";

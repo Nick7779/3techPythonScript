@@ -1,0 +1,216 @@
+/** 
+ * 胶体电池浅放电时间.VRLA battery light discharge time 
+ */ 
+ @ApiModelProperty("胶体电池浅放电时间") 
+ private Double vrlaLightDischargeTime;
+/** 
+ * 胶体电池过放电时间.VRLA battery overdischarge time 
+ */ 
+ @ApiModelProperty("胶体电池过放电时间") 
+ private Double vrlaOverDischargeTime;
+/** 
+ * 胶体电池SOC.Gel battery soc 
+ */ 
+ @ApiModelProperty("胶体电池SOC") 
+ private Double vrlaSoc;
+/** 
+ * 胶体电池温度.VRLA battery temperature 
+ */ 
+ @ApiModelProperty("胶体电池温度") 
+ private Double vrlaTemp;
+/** 
+ * 胶体电池电流.VRLA battery current 
+ */ 
+ @ApiModelProperty("胶体电池电流") 
+ private Double vrlaCurrent;
+/** 
+ * 胶体电池电量.VRLA battery capacity 
+ */ 
+ @ApiModelProperty("胶体电池电量") 
+ private Double vrlaCapacity;
+/** 
+ * 胶体电池高温1报警值.VRLA battery high temperature 1 alarm value 
+ */ 
+ @ApiModelProperty("胶体电池高温1报警值") 
+ private Double vrlaHighTemp1AlarmValue;
+/** 
+ * 胶体电池电压.VRLA battery voltage 
+ */ 
+ @ApiModelProperty("胶体电池电压") 
+ private Double vrlaVoltage;
+/** 
+ * 胶体电池中间电压.VRLA battery middle voltage 
+ */ 
+ @ApiModelProperty("胶体电池中间电压") 
+ private Double vrlaMiddleVoltage;
+/** 
+ * 胶体电池深放电时间.VRLA battery deep discharge time 
+ */ 
+ @ApiModelProperty("胶体电池深放电时间") 
+ private Double vrlaDeepDischargeTime;
+/** 
+ * 胶体电池组数量.VRLA battery number of groups 
+ */ 
+ @ApiModelProperty("胶体电池组数量") 
+ private Long vrlaNumOfGroups;
+/** 
+ * 胶体电池能量.VRLA battery discharge energy 
+ */ 
+ @ApiModelProperty("胶体电池能量") 
+ private Double vrlaDischargeEnergy;
+/** 
+ * 胶体电池放电时间.VRLA battery discharge time 
+ */ 
+ @ApiModelProperty("胶体电池放电时间") 
+ private Double vrlaDischargeTime;
+/** 
+ * 胶体电池深放电次数.VRLA battery deep discharge number 
+ */ 
+ @ApiModelProperty("胶体电池深放电次数") 
+ private Long vrlaDeepDischargeNum;
+/** 
+ * 胶体电池过放电次数.VRLA battery overdischarge number 
+ */ 
+ @ApiModelProperty("胶体电池过放电次数") 
+ private Long vrlaOverDischargeNum;
+/** 
+ * 胶体电池低温2报警值.VRLA low temperature 2 alarm value 
+ */ 
+ @ApiModelProperty("胶体电池低温2报警值") 
+ private Double vrlaLowTemp2AlarmValue;
+/** 
+ * 胶体电池低温1报警值.VRLA battery low temperature 1 alarm value 
+ */ 
+ @ApiModelProperty("胶体电池低温1报警值") 
+ private Double vrlaLowTemp1AlarmValue;
+/** 
+ * 胶体电池高温2报警值.VRLA battery high temperature 2 alarm value 
+ */ 
+ @ApiModelProperty("胶体电池高温2报警值") 
+ private Double vrlaHighTemp2AlarmValue;
+/** 
+ * 胶体电池浅放电次数.VRLA battery light discharge number 
+ */ 
+ @ApiModelProperty("胶体电池浅放电次数") 
+ private Long vrlaLightDischargeNum;
+/** 
+ * VRLA 电池状态.VRLA Battery state 
+ */ 
+ @ApiModelProperty("VRLA 电池状态") 
+ private Long vrlaBatteryState;
+/** 
+ * 胶体电池组电压.VRLA battery bank voltage 
+ */ 
+ @ApiModelProperty("胶体电池组电压") 
+ private Double vrlaBatteryBankVoltage;
+/** 
+ * 胶体电池组总电流.VRLA battery total current 
+ */ 
+ @ApiModelProperty("胶体电池组总电流") 
+ private Double vrlaBatteryTotalCurrent;
+/** 
+ * VRLA电池阳极保险丝告警状态1.VRLA Battery positive fuse alarm state 1 
+ */ 
+ @ApiModelProperty("VRLA电池阳极保险丝告警状态1") 
+ private Long vrlaBatteryPositiveFuseAlarmState1;
+/** 
+ * VRLA电池1断路器告警.VRLA Battery1 Break 
+ */ 
+ @ApiModelProperty("VRLA电池1断路器告警") 
+ private Long vrlaBattery1Break;
+/** 
+ * VRLA电池负极保险丝告警状态1.VRLA Battery negative fuse alarm state 1 
+ */ 
+ @ApiModelProperty("VRLA电池负极保险丝告警状态1") 
+ private Long vrlaBatteryNegativeFuseAlarmState1;
+/** 
+ * VRLA电池1负极断路器告警.VRLA Battery 1 Negative Break 
+ */ 
+ @ApiModelProperty("VRLA电池1负极断路器告警") 
+ private Long vrlaBattery1NegativeBreak;
+/** 
+ * VRLA电池告警状态1.VRLA Battery alarm state 1 
+ */ 
+ @ApiModelProperty("VRLA电池告警状态1") 
+ private Long vrlaBatteryAlarmState1;
+/** 
+ * VRLA电池充电过流.VRLA Battery charge over current 
+ */ 
+ @ApiModelProperty("VRLA电池充电过流") 
+ private Long vrlaBatteryChargeOverCurrent;
+/** 
+ * VRLA电池放电.VRLA Battery Discharge 
+ */ 
+ @ApiModelProperty("VRLA电池放电") 
+ private Long vrlaBatteryDischarge;
+/** 
+ * VRLA电池1中间失衡.VRLA Battery 1 Middle Imbalance 
+ */ 
+ @ApiModelProperty("VRLA电池1中间失衡") 
+ private Long vrlaBattery1MiddleImbalance;
+/** 
+ * VRLA电池1无法充电.VRLA Battery 1 cannot charge 
+ */ 
+ @ApiModelProperty("VRLA电池1无法充电") 
+ private Long vrlaBattery1CannotCharge;
+/** 
+ * VRLA电池温度告警状态1.VRLA Battery temperature alarm state 1 
+ */ 
+ @ApiModelProperty("VRLA电池温度告警状态1") 
+ private Long vrlaBatteryTempAlarmState1;
+/** 
+ * VRLA电池温度1高告警1.VRLA Battery temperature 1 high 1 
+ */ 
+ @ApiModelProperty("VRLA电池温度1高告警1") 
+ private Long vrlaBatteryTemp1High1;
+/** 
+ * VRLA电池温度2高告警1.VRLA Battery temperature 2 high 1 
+ */ 
+ @ApiModelProperty("VRLA电池温度2高告警1") 
+ private Long vrlaBatteryTemp2High1;
+/** 
+ * VRLA电池温度1高告警2.VRLA Battery temperature 1 high 2 
+ */ 
+ @ApiModelProperty("VRLA电池温度1高告警2") 
+ private Long vrlaBatteryTemp1High2;
+/** 
+ * VRLA电池温度2高告警2.VRLA Battery temperature 2 high 2 
+ */ 
+ @ApiModelProperty("VRLA电池温度2高告警2") 
+ private Long vrlaBatteryTemp2High2;
+/** 
+ * VRLA电池温度1低告警1.VRLA Battery temperature 1 low 1 
+ */ 
+ @ApiModelProperty("VRLA电池温度1低告警1") 
+ private Long vrlaBatteryTemp1Low1;
+/** 
+ * VRLA电池温度2低告警1.VRLA Battery temperature 2 low 1 
+ */ 
+ @ApiModelProperty("VRLA电池温度2低告警1") 
+ private Long vrlaBatteryTemp2Low1;
+/** 
+ * VRLA电池温度1低告警2.VRLA Battery temperature 1 low 2 
+ */ 
+ @ApiModelProperty("VRLA电池温度1低告警2") 
+ private Long vrlaBatteryTemp1Low2;
+/** 
+ * VRLA电池温度2低告警2.VRLA Battery temperature 2 low 2 
+ */ 
+ @ApiModelProperty("VRLA电池温度2低告警2") 
+ private Long vrlaBatteryTemp2Low2;
+/** 
+ * VRLA电池温度告警状态2.VRLA Battery temperature alarm state 2 
+ */ 
+ @ApiModelProperty("VRLA电池温度告警状态2") 
+ private Long vrlaBatteryTempAlarmState2;
+/** 
+ * VRLA BTRM 1.VRLA BTRM 1 
+ */ 
+ @ApiModelProperty("VRLA BTRM 1") 
+ private Long vrlaBatteryBtrm1;
+/** 
+ * VRLA BTRM 2.VRLA BTRM 2 
+ */ 
+ @ApiModelProperty("VRLA BTRM 2") 
+ private Long vrlaBatteryBtrm2;
+private static final long serialVersionUID = 1L;

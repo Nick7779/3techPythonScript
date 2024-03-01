@@ -1,0 +1,76 @@
+/** 
+ * 湿度低.Humidity Low 
+ */ 
+ @ApiModelProperty("湿度低") 
+ private Long tempHumitureHumidityLowAlarm;
+/** 
+ * 湿度高告警.Humidity High 
+ */ 
+ @ApiModelProperty("湿度高告警") 
+ private Long tempHumitureHumidityHighAlarm;
+/** 
+ * 湿度告警状态.Humidity Alarm State 
+ */ 
+ @ApiModelProperty("湿度告警状态") 
+ private Long tempHumitureHumidityAlarmState;
+/** 
+ * 环境 1 高温 1 报警.Ambient 1 high temp 1 alarm  
+ */ 
+ @ApiModelProperty("环境 1 高温 1 报警") 
+ private Long tempHumitureAmbient1HighTemp1Alarm;
+/** 
+ * 环境 2 高温 1 报警值.Ambient 2 high temp 1 alarm 
+ */ 
+ @ApiModelProperty("环境 2 高温 1 报警值") 
+ private Long tempHumitureAmbient2HighTemp1Alarm;
+/** 
+ * 环境 3 高温 1 报警值.Ambient 3 high temp 1 alarm  
+ */ 
+ @ApiModelProperty("环境 3 高温 1 报警值") 
+ private Long tempHumitureAmbient3HighTemp1Alarm;
+/** 
+ * 环境 1 高温 2 报警值.Ambient 1 high temp 2 alarm 
+ */ 
+ @ApiModelProperty("环境 1 高温 2 报警值") 
+ private Long tempHumitureAmbient1HighTemp2Alarm;
+/** 
+ * 环境 1 低温 2 报警.Ambient 1 low temp 2 alarm 
+ */ 
+ @ApiModelProperty("环境 1 低温 2 报警") 
+ private Long tempHumitureAmbient1LowTemp2Alarm;
+/** 
+ * 湿度.Humidity 
+ */ 
+ @ApiModelProperty("湿度") 
+ private Double tempHumitureHumidity;
+/** 
+ * 环境温度2.Ambient temp 2 
+ */ 
+ @ApiModelProperty("环境温度2") 
+ private Double tempHumitureTempAmbient2;
+/** 
+ * 环境温度1.Ambient temp 1 
+ */ 
+ @ApiModelProperty("环境温度1") 
+ private Double tempHumitureTempAmbient1;
+/** 
+ * 环境 1 低温 1 报警值.Ambient 1 low temp 1 alarm 
+ */ 
+ @ApiModelProperty("环境 1 低温 1 报警值") 
+ private Long tempHumitureAmbient1LowTemp1Alarm;
+/** 
+ * 环境温度告警状态.Ambient temperature alarm state 
+ */ 
+ @ApiModelProperty("环境温度告警状态") 
+ private Long tempHumitureAmbientTempAlarmState;
+/** 
+ * 环境湿度低.Low ambient humidity 
+ */ 
+ @ApiModelProperty("环境湿度低") 
+ private Double tempHumitureLowAmbientHumidity;
+/** 
+ * 环境湿度高.Low ambient humidity 
+ */ 
+ @ApiModelProperty("环境湿度高") 
+ private Long tempHumitureHighAmbientHumidity;
+private static final long serialVersionUID = 1L;

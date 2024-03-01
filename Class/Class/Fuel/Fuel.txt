@@ -1,0 +1,61 @@
+
+    /**
+     * 站点ID.
+     */
+    @Column(name = "site_id", tag = true)
+    private String siteId;
+    /**
+     * 资产ID.
+     */
+    @Column(name = "asset_id", tag = true)
+    private String assetId;
+    /**
+     * 时间.
+     */
+    @Column(name = "time", tag = true)
+    private Instant time;
+ /** 
+ * 油箱燃料累计损耗.Total fuel consumption 
+ */ 
+ @Column(name = "fuel_total_consumption") 
+ private Long fuelTotalConsumption;
+ /** 
+ * 油箱当前油位百分比.Current fuel level percentage 
+ */ 
+ @Column(name = "fuel_level_current_percentage") 
+ private Long fuelLevelCurrentPercentage;
+ /** 
+ * 油箱容量.Capacity 
+ */ 
+ @Column(name = "fuel_tank_capacity") 
+ private Long fuelTankCapacity;
+ /** 
+ * 油箱燃料升数.Fuel litres 
+ */ 
+ @Column(name = "fuel_litres") 
+ private Double fuelLitres;
+ /** 
+ * 康宇小数油箱油位.Fuel level decimal ky 
+ */ 
+ @Column(name = "fuel_level_decimal_ky") 
+ private Long fuelLevelDecimalKy;
+ /** 
+ * 孚创油箱每日耗油量.Daily fuel consumption FC 
+ */ 
+ @Column(name = "fuel_daily_consumption_fc") 
+ private Double fuelDailyConsumptionFc;
+ /** 
+ * 孚创油箱实时油耗.Realtime fuel consumption FC 
+ */ 
+ @Column(name = "fuel_realtime_consumption_fc") 
+ private Double fuelRealtimeConsumptionFc;
+ /** 
+ * 康宇油箱升数整数油位.Fuel Litre Int Ky 
+ */ 
+ @Column(name = "fuel_litre_int_ky") 
+ private Long fuelLitreIntKy;
+
+    public Date getTime() {
+        return Date.from(time);
+    }
+}

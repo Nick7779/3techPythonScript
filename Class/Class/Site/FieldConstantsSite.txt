@@ -1,0 +1,460 @@
+ /** 
+ * AC告警详情. 
+ */ 
+ String SITE_AC_ALARM_STATE = "site_ac_alarm_state";
+ /** 
+ * DC告警详情. 
+ */ 
+ String SITE_DC_ALARM_STATE = "site_dc_alarm_state";
+ /** 
+ * SC通信故障告警详情. 
+ */ 
+ String SITE_COMMUNICATION_ALARM_STATE1 = "site_communication_alarm_state1";
+ /** 
+ * 站点坐标. 
+ */ 
+ String SITE_GPS = "site_gps";
+ /** 
+ * bit 14:AC 2高频. 
+ */ 
+ String SITE_AC2_HIGH_FREQ_ALARM = "site_ac2_high_freq_alarm";
+ /** 
+ * bit 15:AC 2低频. 
+ */ 
+ String SITE_AC2_LOW_FREQ_ALARM = "site_ac2_low_freq_alarm";
+ /** 
+ * bit 13: AC 2市电故障. 
+ */ 
+ String SITE_AC2_MAINS_FAILURE = "site_ac2_mains_failure";
+ /** 
+ * bit 10:AC 2过电压. 
+ */ 
+ String SITE_AC2_OV_ALARM = "site_ac2_ov_alarm";
+ /** 
+ * bit 12:交流2相故障. 
+ */ 
+ String SITE_AC2_PHASE_FAILURE = "site_ac2_phase_failure";
+ /** 
+ * bit 9:AC 2严重过流. 
+ */ 
+ String SITE_AC2_SEVERE_OVER_CURRENT_ALARM = "site_ac2_severe_over_current_alarm";
+ /** 
+ * bit 8:AC 2轻微过流. 
+ */ 
+ String SITE_AC2_SLIGHT_OVER_CURRENT_ALARM = "site_ac2_slight_over_current_alarm";
+ /** 
+ * bit 11:AC 2欠压. 
+ */ 
+ String SITE_AC2_UV_ALARM = "site_ac2_uv_alarm";
+ /** 
+ * bit 20: AC 控制器 EEPROM 错误. 
+ */ 
+ String SITE_AC_CONTROLLER_EEPROM_FAULT = "site_ac_controller_eeprom_fault";
+ /** 
+ * bit 6:交流高频. 
+ */ 
+ String SITE_AC1_HIGH_FREQ_ALARM = "site_ac1_high_freq_alarm";
+ /** 
+ * bit 7:交流低频. 
+ */ 
+ String SITE_AC1_LOW_FREQ_ALARM = "site_ac1_low_freq_alarm";
+ /** 
+ * bit 5: AC市电故障. 
+ */ 
+ String SITE_AC1_MAINS_FAILURE = "site_ac1_mains_failure";
+ /** 
+ * bit 2:交流过电压. 
+ */ 
+ String SITE_AC1_OV_ALARM = "site_ac1_ov_alarm";
+ /** 
+ * bit 4:交流相故障. 
+ */ 
+ String SITE_AC1_PHASE_FAILURE = "site_ac1_phase_failure";
+ /** 
+ * bit 19: AC样板故障. 
+ */ 
+ String SITE_AC_SAMPLE_BOARD_FAULT = "site_ac_sample_board_fault";
+ /** 
+ * bit 1:交流严重过流. 
+ */ 
+ String SITE_AC1_SEVERE_OVER_CURRENT_ALARM = "site_ac1_severe_over_current_alarm";
+ /** 
+ * bit 0:交流轻微过流. 
+ */ 
+ String SITE_AC1_SLIGHT_OVER_CURRENT = "site_ac1_slight_over_current";
+ /** 
+ * bit 16:交流防雷器故障. 
+ */ 
+ String SITE_AC_SPD_FAULT = "site_ac_spd_fault";
+ /** 
+ * bit 17: AC防雷MCB Fault. 
+ */ 
+ String SITE_AC_SPD_MCB_FAULT = "site_ac_spd_mcb_fault";
+ /** 
+ * bit 18: AC Trip. 
+ */ 
+ String SITE_AC_TRIP_ALARM = "site_ac_trip_alarm";
+ /** 
+ * bit 3:交流电压不足. 
+ */ 
+ String SITE_ALARM_AC_UNDER_V = "site_alarm_ac_under_v";
+ /** 
+ * bit 7:总线安装故障. 
+ */ 
+ String SITE_BUS_INSULATION_FAULT = "site_bus_insulation_fault";
+ /** 
+ * bit 1:直流高压. 
+ */ 
+ String SITE_DC_HIGH_VOLTAGE_ALARM = "site_dc_high_voltage_alarm";
+ /** 
+ * bit 2:直流低电压. 
+ */ 
+ String SITE_DC_LOW_VOLTAGE_ALARM = "site_dc_low_voltage_alarm";
+ /** 
+ * bit 0:直流过电压. 
+ */ 
+ String SITE_DC_OV_ALARM = "site_dc_ov_alarm";
+ /** 
+ * bit 3:直流电压不足. 
+ */ 
+ String SITE_DC_UV_ALARM = "site_dc_uv_alarm";
+ /** 
+ * bit 6:ECO运行. 
+ */ 
+ String SITE_ECO_RUNNING_ALARM = "site_eco_running_alarm";
+ /** 
+ * SC200-1通信故障. 
+ */ 
+ String SITE_SC200_COMM1_FAULT = "site_sc200_comm1_fault";
+ /** 
+ * SC200-2通信故障. 
+ */ 
+ String SITE_SC200_COMM2_FAULT = "site_sc200_comm2_fault";
+ /** 
+ * SC200-3通信故障. 
+ */ 
+ String SITE_SC200_COMM3_FAULT = "site_sc200_comm3_fault";
+ /** 
+ * SC210-1通信故障. 
+ */ 
+ String SITE_SC210_COMM1_FAULT = "site_sc210_comm1_fault";
+ /** 
+ * SC210-2通信故障. 
+ */ 
+ String SITE_SC210_COMM2_FAULT = "site_sc210_comm2_fault";
+ /** 
+ * bit 6: SC310-1通信故障. 
+ */ 
+ String SITE_SC310_COMM1_FAULT = "site_sc310_comm1_fault";
+ /** 
+ * SC310-2通信故障. 
+ */ 
+ String SITE_SC310_COMM2_FAULT = "site_sc310_comm2_fault";
+ /** 
+ * SC310-3通信故障. 
+ */ 
+ String SITE_SC310_COMM3_FAULT = "site_sc310_comm3_fault";
+ /** 
+ * bit 17: SC320-1通信故障. 
+ */ 
+ String SITE_SC320_COMM1_FAULT = "site_sc320_comm1_fault";
+ /** 
+ * SC320-2通信故障. 
+ */ 
+ String SITE_SC320_COMM2_FAULT = "site_sc320_comm2_fault";
+ /** 
+ * SC320-3通信故障. 
+ */ 
+ String SITE_SC320_COMM3_FAULT = "site_sc320_comm3_fault";
+ /** 
+ * SC320-4通信故障. 
+ */ 
+ String SITE_SC320_COMM4_FAULT = "site_sc320_comm4_fault";
+ /** 
+ * SC320-5通信故障. 
+ */ 
+ String SITE_SC320_COMM5_FAULT = "site_sc320_comm5_fault";
+ /** 
+ * SC330-1通信故障. 
+ */ 
+ String SITE_SC330_COMM1_FAULT = "site_sc330_comm1_fault";
+ /** 
+ * SC330-2通信故障. 
+ */ 
+ String SITE_SC330_COMM2_FAULT = "site_sc330_comm2_fault";
+ /** 
+ * SC330-3通信故障. 
+ */ 
+ String SITE_SC330_COMM3_FAULT = "site_sc330_comm3_fault";
+ /** 
+ * SC330-4通信故障. 
+ */ 
+ String SITE_SC330_COMM4_FAULT = "site_sc330_comm4_fault";
+ /** 
+ * SC330-5通信故障. 
+ */ 
+ String SITE_SC330_COMM5_FAULT = "site_sc330_comm5_fault";
+ /** 
+ * bit 9: SC340-1通信故障. 
+ */ 
+ String SITE_SC340_COMM1_FAULT = "site_sc340_comm1_fault";
+ /** 
+ * SC340-2通信故障. 
+ */ 
+ String SITE_SC340_COMM2_FAULT = "site_sc340_comm2_fault";
+ /** 
+ * SC340-3通信故障. 
+ */ 
+ String SITE_SC340_COMM3_FAULT = "site_sc340_comm3_fault";
+ /** 
+ * bit 2: SC501-1通信故障. 
+ */ 
+ String SITE_SC501_COMM1_FAULT = "site_sc501_comm1_fault";
+ /** 
+ * SC501-2通信故障. 
+ */ 
+ String SITE_SC501_COMM2_FAULT = "site_sc501_comm2_fault";
+ /** 
+ * SC501-3通信故障. 
+ */ 
+ String SITE_SC501_COMM3_FAULT = "site_sc501_comm3_fault";
+ /** 
+ * SC501-4通信故障. 
+ */ 
+ String SITE_SC501_COMM4_FAULT = "site_sc501_comm4_fault";
+ /** 
+ * SC900-1通信故障. 
+ */ 
+ String SITE_SC900_COMM1_FAULT = "site_sc900_comm1_fault";
+ /** 
+ * SC900-2通信故障. 
+ */ 
+ String SITE_SC900_COMM2_FAULT = "site_sc900_comm2_fault";
+ /** 
+ * SC900-3通信故障. 
+ */ 
+ String SITE_SC900_COMM3_FAULT = "site_sc900_comm3_fault";
+ /** 
+ * bit 15: SC920-1通信故障. 
+ */ 
+ String SITE_SC920_COMM1_FAULT = "site_sc920_comm1_fault";
+ /** 
+ * bit 16: SC920-2通信故障. 
+ */ 
+ String SITE_SC920_COMM2_FAULT = "site_sc920_comm2_fault";
+ /** 
+ * SC930-1通信故障. 
+ */ 
+ String SITE_SC930_COMM1_FAULT = "site_sc930_comm1_fault";
+ /** 
+ * SC930-2通信故障. 
+ */ 
+ String SITE_SC930_COMM2_FAULT = "site_sc930_comm2_fault";
+ /** 
+ * bit 11:系统防雷故障. 
+ */ 
+ String SITE_SYSTEM_SPD_FAULT = "site_system_spd_fault";
+ /** 
+ * bit 12:系统总告警. 
+ */ 
+ String SITE_SYSTEM_TOTAL_ALARM = "site_system_total_alarm";
+ /** 
+ * 负载总功率. 
+ */ 
+ String SITE_LOAD_POWER_P = "site_load_power_p";
+ /** 
+ * 传感器状态. 
+ */ 
+ String SITE_DI_INPUT = "site_di_input";
+ /** 
+ * 交流电欠压告警. 
+ */ 
+ String SITE_AC1_UV_ALARM = "site_ac1_uv_alarm";
+ /** 
+ * 直流分支轻度过流告警状态1. 
+ */ 
+ String SITE_DC_BRANCH_SLIGHT_OC_ALARM_STATE1 = "site_dc_branch_slight_oc_alarm_state1";
+ /** 
+ * 直流分支1轻度过流. 
+ */ 
+ String SITE_DC_BRANCH1_SLIGHT_OVER_CURRENT = "site_dc_branch1_slight_over_current";
+ /** 
+ * 直流分支2轻度过流. 
+ */ 
+ String SITE_DC_BRANCH2_SLIGHT_OVER_CURRENT = "site_dc_branch2_slight_over_current";
+ /** 
+ * 直流分支严重过流告警状态1. 
+ */ 
+ String SITE_DC_BRANCH_SEVERE_OC_ALARM_STATE1 = "site_dc_branch_severe_oc_alarm_state1";
+ /** 
+ * 直流分支1严重过流告警. 
+ */ 
+ String SITE_DC_BRANCH1_SEVERE_OVER_CURRENT = "site_dc_branch1_severe_over_current";
+ /** 
+ * 直流分支2严重过流告警. 
+ */ 
+ String SITE_DC_BRANCH2_SEVERE_OVER_CURRENT = "site_dc_branch2_severe_over_current";
+ /** 
+ * 混合能源控制器手自动模式切换. 
+ */ 
+ String SITE_HYBRID_CONTROLLER_MODE_SWITCH = "site_hybrid_controller_mode_switch";
+ /** 
+ * 混合能源控制器切换电池到均充. 
+ */ 
+ String SITE_HYBRID_CONTROLLER_MANUAL_TO_BOOST = "site_hybrid_controller_manual_to_boost";
+ /** 
+ * 混合能源控制器切换电池到浮充. 
+ */ 
+ String SITE_HYBRID_CONTROLLER_MANUAL_TO_FLOAT = "site_hybrid_controller_manual_to_float";
+ /** 
+ * 混合能源控制器远程手动修改电池浮充电压. 
+ */ 
+ String SITE_MANUAL_MODIFY_FLOAT_CHARGE_VOLTAGE = "site_manual_modify_float_charge_voltage";
+ /** 
+ * 混合能源控制器远程手动修改电池均充电压. 
+ */ 
+ String SITE_MANUAL_MODIFY_BOOST_CHARGE_VOLTAGE = "site_manual_modify_boost_charge_voltage";
+ /** 
+ * 混合控制器电池电状态. 
+ */ 
+ String SITE_HYBRID_BATTERY_STATUS = "site_hybrid_battery_status";
+ /** 
+ * 电池电压. 
+ */ 
+ String SITE_BATTERY_BANK_VOLTAGE = "site_battery_bank_voltage";
+ /** 
+ * 电池电流. 
+ */ 
+ String SITE_BATTERY_BANK_CURRENT = "site_battery_bank_current";
+ /** 
+ * 电池SOC. 
+ */ 
+ String SITE_BATTERY_SOC = "site_battery_soc";
+ /** 
+ * 锂电池剩余容量. 
+ */ 
+ String SITE_BATTERY_REMAINING_CAPACITY = "site_battery_remaining_capacity";
+ /** 
+ * 锂电池总容量. 
+ */ 
+ String SITE_BATTERY_TOTAL_CAPACITY = "site_battery_total_capacity";
+ /** 
+ * 整流器输出总电流. 
+ */ 
+ String SITE_RECTIFIER_TOTAL_OUTPUT_CURRENT = "site_rectifier_total_output_current";
+ /** 
+ * 太阳能输出总电流. 
+ */ 
+ String SITE_SOLAR_TOTAL_OUTPUT_CURRENT = "site_solar_total_output_current";
+ /** 
+ * 太阳能输出电压. 
+ */ 
+ String SITE_SOLAR_TOTAL_OUTPUT_VOLTAGE = "site_solar_total_output_voltage";
+ /** 
+ * 太阳能总能量. 
+ */ 
+ String SITE_SOLAR_TOTAL_ENERGY = "site_solar_total_energy";
+ /** 
+ * 电池放电告警. 
+ */ 
+ String SITE_BATTERY_DISCHARGE = "site_battery_discharge";
+ /** 
+ * 电池告警状态1. 
+ */ 
+ String SITE_BATTERY_ALARM_STATE1 = "site_battery_alarm_state1";
+ /** 
+ * 电池组温度. 
+ */ 
+ String SITE_BATTERY_TEMP = "site_battery_temp";
+ /** 
+ * 浮充电压. 
+ */ 
+ String SITE_FLOAT_VOLT = "site_float_volt";
+ /** 
+ * 均充电压. 
+ */ 
+ String SITE_BOOST_VOLT = "site_boost_volt";
+ /** 
+ * PV过压点. 
+ */ 
+ String SITE_PV_OVER_VOLT_POINT = "site_pv_over_volt_point";
+ /** 
+ * PV欠压点. 
+ */ 
+ String SITE_PV_LOW_VOLT_POINT = "site_pv_low_volt_point";
+ /** 
+ * 手动模式. 
+ */ 
+ String SITE_MANUAL_MODE = "site_manual_mode";
+ /** 
+ * 2号电池组电流. 
+ */ 
+ String SITE_BATTERY_BANK2_CURRENT = "site_battery_bank2_current";
+ /** 
+ * 通信告警状态2. 
+ */ 
+ String SITE_COMMUNICATION_ALARM_STATE2 = "site_communication_alarm_state2";
+ /** 
+ * BMS1通讯失败. 
+ */ 
+ String SITE_BMS1_COMMUNICATION_FAULT = "site_bms1_communication_fault";
+ /** 
+ * BMS2通讯失败. 
+ */ 
+ String SITE_BMS2_COMMUNICATION_FAULT = "site_bms2_communication_fault";
+ /** 
+ * BMS3通讯失败. 
+ */ 
+ String SITE_BMS3_COMMUNICATION_FAULT = "site_bms3_communication_fault";
+ /** 
+ * BMS4通讯失败. 
+ */ 
+ String SITE_BMS4_COMMUNICATION_FAULT = "site_bms4_communication_fault";
+ /** 
+ * BMS5通讯失败. 
+ */ 
+ String SITE_BMS5_COMMUNICATION_FAULT = "site_bms5_communication_fault";
+ /** 
+ * BMS6通讯失败. 
+ */ 
+ String SITE_BMS6_COMMUNICATION_FAULT = "site_bms6_communication_fault";
+ /** 
+ * BMS7通讯失败. 
+ */ 
+ String SITE_BMS7_COMMUNICATION_FAULT = "site_bms7_communication_fault";
+ /** 
+ * BMS8通讯失败. 
+ */ 
+ String SITE_BMS8_COMMUNICATION_FAULT = "site_bms8_communication_fault";
+ /** 
+ * BMS9通讯失败. 
+ */ 
+ String SITE_BMS9_COMMUNICATION_FAULT = "site_bms9_communication_fault";
+ /** 
+ * BMS10通讯失败. 
+ */ 
+ String SITE_BMS10_COMMUNICATION_FAULT = "site_bms10_communication_fault";
+ /** 
+ * BMS11通讯失败. 
+ */ 
+ String SITE_BMS11_COMMUNICATION_FAULT = "site_bms11_communication_fault";
+ /** 
+ * BMS12通讯失败. 
+ */ 
+ String SITE_BMS12_COMMUNICATION_FAULT = "site_bms12_communication_fault";
+ /** 
+ * BMS13通讯失败. 
+ */ 
+ String SITE_BMS13_COMMUNICATION_FAULT = "site_bms13_communication_fault";
+ /** 
+ * BMS14通讯失败. 
+ */ 
+ String SITE_BMS14_COMMUNICATION_FAULT = "site_bms14_communication_fault";
+ /** 
+ * BMS15通讯失败. 
+ */ 
+ String SITE_BMS15_COMMUNICATION_FAULT = "site_bms15_communication_fault";
+ /** 
+ * BMS16通讯失败. 
+ */ 
+ String SITE_BMS16_COMMUNICATION_FAULT = "site_bms16_communication_fault";

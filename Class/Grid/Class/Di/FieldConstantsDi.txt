@@ -1,0 +1,192 @@
+ /** 
+ * DI. 
+ */ 
+ String DIDO_DI = "dido_di";
+ /** 
+ * DO0. 
+ */ 
+ String DIDO_DO0 = "dido_do0";
+ /** 
+ * DO1. 
+ */ 
+ String DIDO_DO1 = "dido_do1";
+ /** 
+ * DO2. 
+ */ 
+ String DIDO_DO2 = "dido_do2";
+ /** 
+ * DO3. 
+ */ 
+ String DIDO_DO3 = "dido_do3";
+ /** 
+ * DO4. 
+ */ 
+ String DIDO_DO4 = "dido_do4";
+ /** 
+ * DO5. 
+ */ 
+ String DIDO_DO5 = "dido_do5";
+ /** 
+ * DO6. 
+ */ 
+ String DIDO_DO6 = "dido_do6";
+ /** 
+ * DO7. 
+ */ 
+ String DIDO_DO7 = "dido_do7";
+ /** 
+ * SC501 DI state 1-16. 
+ */ 
+ String DIDO_DI_STATE_ALL = "dido_di_state_all";
+ /** 
+ * DI 1 Alarm. 
+ */ 
+ String DIDO_DI1_ALARM = "dido_di1_alarm";
+ /** 
+ * DI 2 Alarm. 
+ */ 
+ String DIDO_DI2_ALARM = "dido_di2_alarm";
+ /** 
+ * DI 3 Alarm. 
+ */ 
+ String DIDO_DI3_ALARM = "dido_di3_alarm";
+ /** 
+ * DI 4 Alarm. 
+ */ 
+ String DIDO_DI4_ALARM = "dido_di4_alarm";
+ /** 
+ * DI 5 Alarm. 
+ */ 
+ String DIDO_DI5_ALARM = "dido_di5_alarm";
+ /** 
+ * DI 6 Alarm. 
+ */ 
+ String DIDO_DI6_ALARM = "dido_di6_alarm";
+ /** 
+ * Ex1-DI1 Alarm. 
+ */ 
+ String DIDO_EX1_DI1_ALARM = "dido_ex1_di1_alarm";
+ /** 
+ * Ex1-DI2 Alarm. 
+ */ 
+ String DIDO_EX1_DI2_ALARM = "dido_ex1_di2_alarm";
+ /** 
+ * Ex1-DI3 Alarm. 
+ */ 
+ String DIDO_EX1_DI3_ALARM = "dido_ex1_di3_alarm";
+ /** 
+ * Ex1-DI4 Alarm. 
+ */ 
+ String DIDO_EX1_DI4_ALARM = "dido_ex1_di4_alarm";
+ /** 
+ * Ex1-DI5 Alarm. 
+ */ 
+ String DIDO_EX1_DI5_ALARM = "dido_ex1_di5_alarm";
+ /** 
+ * Ex1-DI6 Alarm. 
+ */ 
+ String DIDO_EX1_DI6_ALARM = "dido_ex1_di6_alarm";
+ /** 
+ * Ex1-DI7 Alarm. 
+ */ 
+ String DIDO_EX1_DI7_ALARM = "dido_ex1_di7_alarm";
+ /** 
+ * Ex1-DI8 Alarm. 
+ */ 
+ String DIDO_EX1_DI8_ALARM = "dido_ex1_di8_alarm";
+ /** 
+ * DI1. 
+ */ 
+ String DIDO_DI1 = "dido_di1";
+ /** 
+ * DI2. 
+ */ 
+ String DIDO_DI2 = "dido_di2";
+ /** 
+ * DI3. 
+ */ 
+ String DIDO_DI3 = "dido_di3";
+ /** 
+ * DI4. 
+ */ 
+ String DIDO_DI4 = "dido_di4";
+ /** 
+ * DI5. 
+ */ 
+ String DIDO_DI5 = "dido_di5";
+ /** 
+ * DI6. 
+ */ 
+ String DIDO_DI6 = "dido_di6";
+ /** 
+ * DI7. 
+ */ 
+ String DIDO_DI7 = "dido_di7";
+ /** 
+ * DI8. 
+ */ 
+ String DIDO_DI8 = "dido_di8";
+ /** 
+ * DI9. 
+ */ 
+ String DIDO_DI9 = "dido_di9";
+ /** 
+ * DI10. 
+ */ 
+ String DIDO_DI10 = "dido_di10";
+ /** 
+ * DI11. 
+ */ 
+ String DIDO_DI11 = "dido_di11";
+ /** 
+ * DI12. 
+ */ 
+ String DIDO_DI12 = "dido_di12";
+ /** 
+ * DI13. 
+ */ 
+ String DIDO_DI13 = "dido_di13";
+ /** 
+ * DI14. 
+ */ 
+ String DIDO_DI14 = "dido_di14";
+ /** 
+ * DI15. 
+ */ 
+ String DIDO_DI15 = "dido_di15";
+ /** 
+ * DI0. 
+ */ 
+ String DIDO_DI0 = "dido_di0";
+ /** 
+ * DI1 Alarm. 
+ */ 
+ String DIDO_DI1_ALARM_MC2600 = "dido_di1_alarm_mc2600";
+ /** 
+ * DI2 Alarm. 
+ */ 
+ String DIDO_DI2_ALARM_MC2600 = "dido_di2_alarm_mc2600";
+ /** 
+ * DI3 Alarm. 
+ */ 
+ String DIDO_DI3_ALARM_MC2600 = "dido_di3_alarm_mc2600";
+ /** 
+ * DI4 Alarm. 
+ */ 
+ String DIDO_DI4_ALARM_MC2600 = "dido_di4_alarm_mc2600";
+ /** 
+ * DI5 Alarm. 
+ */ 
+ String DIDO_DI5_ALARM_MC2600 = "dido_di5_alarm_mc2600";
+ /** 
+ * DI6 Alarm. 
+ */ 
+ String DIDO_DI6_ALARM_MC2600 = "dido_di6_alarm_mc2600";
+ /** 
+ * DI7 Alarm. 
+ */ 
+ String DIDO_DI7_ALARM_MC2600 = "dido_di7_alarm_mc2600";
+ /** 
+ * DI8 Alarm. 
+ */ 
+ String DIDO_DI8_ALARM_MC2600 = "dido_di8_alarm_mc2600";

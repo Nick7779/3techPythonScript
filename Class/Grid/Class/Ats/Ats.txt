@@ -1,0 +1,241 @@
+
+    /**
+     * 站点ID.
+     */
+    @Column(name = "site_id", tag = true)
+    private String siteId;
+    /**
+     * 资产ID.
+     */
+    @Column(name = "asset_id", tag = true)
+    private String assetId;
+    /**
+     * 时间.
+     */
+    @Column(name = "time", tag = true)
+    private Instant time;
+ /** 
+ * S2 C相电压.S2 C phase voltage 
+ */ 
+ @Column(name = "ats_s2_phase_voltage_c") 
+ private Double atsS2PhaseVoltageC;
+ /** 
+ * S2断路器闭合.S2 circuit breaker closed 
+ */ 
+ @Column(name = "ats_s2_circuit_breaker_closed") 
+ private Long atsS2CircuitBreakerClosed;
+ /** 
+ * S2 BC线电压.S2 BC line voltage 
+ */ 
+ @Column(name = "ats_s2_line_voltage_bc") 
+ private Double atsS2LineVoltageBc;
+ /** 
+ * S2 B相电压.S2 B phase voltage 
+ */ 
+ @Column(name = "ats_s2_phase_voltage_b") 
+ private Double atsS2PhaseVoltageB;
+ /** 
+ * S2 AC线电压.S2 AC line voltage 
+ */ 
+ @Column(name = "ats_s2_line_voltage_ac") 
+ private Double atsS2LineVoltageAc;
+ /** 
+ * S2 AB线电压.S2 AB line voltage 
+ */ 
+ @Column(name = "ats_s2_line_voltage_ab") 
+ private Double atsS2LineVoltageAb;
+ /** 
+ * S2 A相电压.S2 A phase voltage 
+ */ 
+ @Column(name = "ats_s2_phase_voltage_a") 
+ private Double atsS2PhaseVoltageA;
+ /** 
+ * S1/S2负荷C无功功率.S1S2 load C reactive power 
+ */ 
+ @Column(name = "ats_reactive_power_load_c") 
+ private Double atsReactivePowerLoadC;
+ /** 
+ * S1/S2负载C功率因数.S1S2 load C power factor 
+ */ 
+ @Column(name = "ats_power_factor_load_c") 
+ private Double atsPowerFactorLoadC;
+ /** 
+ * S1/S2负载C相电流.S1S2 load C phase current 
+ */ 
+ @Column(name = "ats_phase_current_load_c") 
+ private Double atsPhaseCurrentLoadC;
+ /** 
+ * S1/S2负载C视功率.S1S2 load  C apparent power 
+ */ 
+ @Column(name = "ats_apparent_power_load_c") 
+ private Double atsApparentPowerLoadC;
+ /** 
+ * S1/S2负载C有功功率.S1S2 Active power of load C 
+ */ 
+ @Column(name = "ats_active_power_load_c") 
+ private Double atsActivePowerLoadC;
+ /** 
+ * S1/S2负荷B无功功率.S1S2 load B Reactive power 
+ */ 
+ @Column(name = "ats_reactive_power_load_b") 
+ private Double atsReactivePowerLoadB;
+ /** 
+ * S1/S2负载B功率因数.S1S2 Load B power factor 
+ */ 
+ @Column(name = "ats_power_factor_load_b") 
+ private Double atsPowerFactorLoadB;
+ /** 
+ * S1/S2负载B相电流.S1S2 load B-phase current 
+ */ 
+ @Column(name = "ats_phase_current_load_b") 
+ private Double atsPhaseCurrentLoadB;
+ /** 
+ * S1/S2负载B视功率.S1S2 Load B apparent power 
+ */ 
+ @Column(name = "ats_apparent_power_load_b") 
+ private Double atsApparentPowerLoadB;
+ /** 
+ * S1/S2负载B有功功率.S1S2 Active power of load B 
+ */ 
+ @Column(name = "ats_active_power_load_b") 
+ private Double atsActivePowerLoadB;
+ /** 
+ * S1/S2负荷A无功功率.S1S2 load A reactive power 
+ */ 
+ @Column(name = "ats_reactive_power_load_a") 
+ private Double atsReactivePowerLoadA;
+ /** 
+ * S1/S2负载A功率因数.S1S2 loads A power factor 
+ */ 
+ @Column(name = "ats_power_factor_load_a") 
+ private Double atsPowerFactorLoadA;
+ /** 
+ * S1/S2负载A相电流.S1S2 loadA phase current 
+ */ 
+ @Column(name = "ats_phase_current_load_a") 
+ private Double atsPhaseCurrentLoadA;
+ /** 
+ * S1/S2负载A视功率.S1S2 Load A apparent power 
+ */ 
+ @Column(name = "ats_apparent_power_load_a") 
+ private Double atsApparentPowerLoadA;
+ /** 
+ * S1/S2负载A有功功率.S1S2 Active power of load A 
+ */ 
+ @Column(name = "ats_active_power_load_a") 
+ private Double atsActivePowerLoadA;
+ /** 
+ * S1正常.Normal S1 
+ */ 
+ @Column(name = "ats_normal_s1") 
+ private Long atsNormalS1;
+ /** 
+ * S2正常.Normal S2 
+ */ 
+ @Column(name = "ats_normal_s2") 
+ private Long atsNormalS2;
+ /** 
+ * S1能量.S1 energy 
+ */ 
+ @Column(name = "ats_s1_energy") 
+ private Double atsS1Energy;
+ /** 
+ * S1频率.S1 frequency 
+ */ 
+ @Column(name = "ats_s1_freq") 
+ private Double atsS1Freq;
+ /** 
+ * S1 C相电压.S1 C phase voltage 
+ */ 
+ @Column(name = "ats_s1_phase_voltage_c") 
+ private Double atsS1PhaseVoltageC;
+ /** 
+ * S1断路器闭合.S1 circuit breaker closed 
+ */ 
+ @Column(name = "ats_s1_circuit_breaker_closed") 
+ private Long atsS1CircuitBreakerClosed;
+ /** 
+ * S1 BC线电压.S1 BC line voltage 
+ */ 
+ @Column(name = "ats_s1_line_voltage_bc") 
+ private Double atsS1LineVoltageBc;
+ /** 
+ * S1 B相电压.S1 B phase voltage 
+ */ 
+ @Column(name = "ats_s1_phase_voltage_b") 
+ private Double atsS1PhaseVoltageB;
+ /** 
+ * S1 AC线电压.S1 AC line voltage 
+ */ 
+ @Column(name = "ats_s1_line_voltage_ac") 
+ private Double atsS1LineVoltageAc;
+ /** 
+ * S1 AB线电压.S1 AB line voltage 
+ */ 
+ @Column(name = "ats_s1_line_voltage_ab") 
+ private Double atsS1LineVoltageAb;
+ /** 
+ * S1 A相电压.S1 A phase voltage 
+ */ 
+ @Column(name = "ats_s1_phase_voltage_a") 
+ private Double atsS1PhaseVoltageA;
+ /** 
+ * 继电器.relay 
+ */ 
+ @Column(name = "ats_relay") 
+ private Long atsRelay;
+ /** 
+ * ATS故障灯.ATS fault lamp 
+ */ 
+ @Column(name = "ats_fault_lamp") 
+ private Long atsFaultLamp;
+ /** 
+ * 电池电压.Battery voltage 
+ */ 
+ @Column(name = "ats_battery_voltage") 
+ private Double atsBatteryVoltage;
+ /** 
+ * 自动灯.automatic lamp 
+ */ 
+ @Column(name = "ats_automatic_lamp") 
+ private Long atsAutomaticLamp;
+ /** 
+ * 停止灯.stop lamp 
+ */ 
+ @Column(name = "ats_stop_lamp") 
+ private Long atsStopLamp;
+ /** 
+ * 遥控模式.Remote control mode 
+ */ 
+ @Column(name = "ats_remote_control_mode") 
+ private Long atsRemoteControlMode;
+ /** 
+ * Alarms.ATS Alarms 
+ */ 
+ @Column(name = "ats_alarms") 
+ private Long atsAlarms;
+ /** 
+ * ATS 故障.Ats Fault 
+ */ 
+ @Column(name = "ats_fault") 
+ private Long atsFault;
+ /** 
+ * S2频率.S2 frequency 
+ */ 
+ @Column(name = "ats_s2_freq") 
+ private Double atsS2Freq;
+ /** 
+ * 开关值.switching value 
+ */ 
+ @Column(name = "ats_switching_value") 
+ private Long atsSwitchingValue;
+ /** 
+ * S2能量.S2 energy 
+ */ 
+ @Column(name = "ats_s2_energy") 
+ private Double atsS2Energy;
+
+    public Date getTime() {
+        return Date.from(time);
+    }
+}

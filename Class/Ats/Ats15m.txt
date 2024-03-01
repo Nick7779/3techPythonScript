@@ -1,0 +1,221 @@
+/** 
+ * S2 C相电压.S2 C phase voltage 
+ */ 
+ @ApiModelProperty("S2 C相电压") 
+ private Double atsS2PhaseVoltageC;
+/** 
+ * S2断路器闭合.S2 circuit breaker closed 
+ */ 
+ @ApiModelProperty("S2断路器闭合") 
+ private Long atsS2CircuitBreakerClosed;
+/** 
+ * S2 BC线电压.S2 BC line voltage 
+ */ 
+ @ApiModelProperty("S2 BC线电压") 
+ private Double atsS2LineVoltageBc;
+/** 
+ * S2 B相电压.S2 B phase voltage 
+ */ 
+ @ApiModelProperty("S2 B相电压") 
+ private Double atsS2PhaseVoltageB;
+/** 
+ * S2 AC线电压.S2 AC line voltage 
+ */ 
+ @ApiModelProperty("S2 AC线电压") 
+ private Double atsS2LineVoltageAc;
+/** 
+ * S2 AB线电压.S2 AB line voltage 
+ */ 
+ @ApiModelProperty("S2 AB线电压") 
+ private Double atsS2LineVoltageAb;
+/** 
+ * S2 A相电压.S2 A phase voltage 
+ */ 
+ @ApiModelProperty("S2 A相电压") 
+ private Double atsS2PhaseVoltageA;
+/** 
+ * S1/S2负荷C无功功率.S1S2 load C reactive power 
+ */ 
+ @ApiModelProperty("S1/S2负荷C无功功率") 
+ private Double atsReactivePowerLoadC;
+/** 
+ * S1/S2负载C功率因数.S1S2 load C power factor 
+ */ 
+ @ApiModelProperty("S1/S2负载C功率因数") 
+ private Double atsPowerFactorLoadC;
+/** 
+ * S1/S2负载C相电流.S1S2 load C phase current 
+ */ 
+ @ApiModelProperty("S1/S2负载C相电流") 
+ private Double atsPhaseCurrentLoadC;
+/** 
+ * S1/S2负载C视功率.S1S2 load  C apparent power 
+ */ 
+ @ApiModelProperty("S1/S2负载C视功率") 
+ private Double atsApparentPowerLoadC;
+/** 
+ * S1/S2负载C有功功率.S1S2 Active power of load C 
+ */ 
+ @ApiModelProperty("S1/S2负载C有功功率") 
+ private Double atsActivePowerLoadC;
+/** 
+ * S1/S2负荷B无功功率.S1S2 load B Reactive power 
+ */ 
+ @ApiModelProperty("S1/S2负荷B无功功率") 
+ private Double atsReactivePowerLoadB;
+/** 
+ * S1/S2负载B功率因数.S1S2 Load B power factor 
+ */ 
+ @ApiModelProperty("S1/S2负载B功率因数") 
+ private Double atsPowerFactorLoadB;
+/** 
+ * S1/S2负载B相电流.S1S2 load B-phase current 
+ */ 
+ @ApiModelProperty("S1/S2负载B相电流") 
+ private Double atsPhaseCurrentLoadB;
+/** 
+ * S1/S2负载B视功率.S1S2 Load B apparent power 
+ */ 
+ @ApiModelProperty("S1/S2负载B视功率") 
+ private Double atsApparentPowerLoadB;
+/** 
+ * S1/S2负载B有功功率.S1S2 Active power of load B 
+ */ 
+ @ApiModelProperty("S1/S2负载B有功功率") 
+ private Double atsActivePowerLoadB;
+/** 
+ * S1/S2负荷A无功功率.S1S2 load A reactive power 
+ */ 
+ @ApiModelProperty("S1/S2负荷A无功功率") 
+ private Double atsReactivePowerLoadA;
+/** 
+ * S1/S2负载A功率因数.S1S2 loads A power factor 
+ */ 
+ @ApiModelProperty("S1/S2负载A功率因数") 
+ private Double atsPowerFactorLoadA;
+/** 
+ * S1/S2负载A相电流.S1S2 loadA phase current 
+ */ 
+ @ApiModelProperty("S1/S2负载A相电流") 
+ private Double atsPhaseCurrentLoadA;
+/** 
+ * S1/S2负载A视功率.S1S2 Load A apparent power 
+ */ 
+ @ApiModelProperty("S1/S2负载A视功率") 
+ private Double atsApparentPowerLoadA;
+/** 
+ * S1/S2负载A有功功率.S1S2 Active power of load A 
+ */ 
+ @ApiModelProperty("S1/S2负载A有功功率") 
+ private Double atsActivePowerLoadA;
+/** 
+ * S1正常.Normal S1 
+ */ 
+ @ApiModelProperty("S1正常") 
+ private Long atsNormalS1;
+/** 
+ * S2正常.Normal S2 
+ */ 
+ @ApiModelProperty("S2正常") 
+ private Long atsNormalS2;
+/** 
+ * S1能量.S1 energy 
+ */ 
+ @ApiModelProperty("S1能量") 
+ private Double atsS1Energy;
+/** 
+ * S1频率.S1 frequency 
+ */ 
+ @ApiModelProperty("S1频率") 
+ private Double atsS1Freq;
+/** 
+ * S1 C相电压.S1 C phase voltage 
+ */ 
+ @ApiModelProperty("S1 C相电压") 
+ private Double atsS1PhaseVoltageC;
+/** 
+ * S1断路器闭合.S1 circuit breaker closed 
+ */ 
+ @ApiModelProperty("S1断路器闭合") 
+ private Long atsS1CircuitBreakerClosed;
+/** 
+ * S1 BC线电压.S1 BC line voltage 
+ */ 
+ @ApiModelProperty("S1 BC线电压") 
+ private Double atsS1LineVoltageBc;
+/** 
+ * S1 B相电压.S1 B phase voltage 
+ */ 
+ @ApiModelProperty("S1 B相电压") 
+ private Double atsS1PhaseVoltageB;
+/** 
+ * S1 AC线电压.S1 AC line voltage 
+ */ 
+ @ApiModelProperty("S1 AC线电压") 
+ private Double atsS1LineVoltageAc;
+/** 
+ * S1 AB线电压.S1 AB line voltage 
+ */ 
+ @ApiModelProperty("S1 AB线电压") 
+ private Double atsS1LineVoltageAb;
+/** 
+ * S1 A相电压.S1 A phase voltage 
+ */ 
+ @ApiModelProperty("S1 A相电压") 
+ private Double atsS1PhaseVoltageA;
+/** 
+ * 继电器.relay 
+ */ 
+ @ApiModelProperty("继电器") 
+ private Long atsRelay;
+/** 
+ * ATS故障灯.ATS fault lamp 
+ */ 
+ @ApiModelProperty("ATS故障灯") 
+ private Long atsFaultLamp;
+/** 
+ * 电池电压.Battery voltage 
+ */ 
+ @ApiModelProperty("电池电压") 
+ private Double atsBatteryVoltage;
+/** 
+ * 自动灯.automatic lamp 
+ */ 
+ @ApiModelProperty("自动灯") 
+ private Long atsAutomaticLamp;
+/** 
+ * 停止灯.stop lamp 
+ */ 
+ @ApiModelProperty("停止灯") 
+ private Long atsStopLamp;
+/** 
+ * 遥控模式.Remote control mode 
+ */ 
+ @ApiModelProperty("遥控模式") 
+ private Long atsRemoteControlMode;
+/** 
+ * Alarms.ATS Alarms 
+ */ 
+ @ApiModelProperty("Alarms") 
+ private Long atsAlarms;
+/** 
+ * ATS 故障.Ats Fault 
+ */ 
+ @ApiModelProperty("ATS 故障") 
+ private Long atsFault;
+/** 
+ * S2频率.S2 frequency 
+ */ 
+ @ApiModelProperty("S2频率") 
+ private Double atsS2Freq;
+/** 
+ * 开关值.switching value 
+ */ 
+ @ApiModelProperty("开关值") 
+ private Long atsSwitchingValue;
+/** 
+ * S2能量.S2 energy 
+ */ 
+ @ApiModelProperty("S2能量") 
+ private Double atsS2Energy;
+private static final long serialVersionUID = 1L;
